@@ -2,7 +2,7 @@
   "api/Global.HoverTip.html": {
     "href": "api/Global.HoverTip.html",
     "title": "Class HoverTip | Project documentation",
-    "keywords": "Class HoverTip Inheritance Object HoverTip Implements IPointerEnterHandler IPointerExitHandler Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HoverTip : MonoBehaviour Fields tipToShow Declaration public string tipToShow Field Value Type Description String Methods OnPointerEnter(PointerEventData) Declaration public void OnPointerEnter(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerExit(PointerEventData) Declaration public void OnPointerExit(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerEnterHandler IPointerExitHandler"
+    "keywords": "Class HoverTip Enables game objects to have text displayed providing useful information when hovered over. Inheritance Object HoverTip Implements IPointerEnterHandler IPointerExitHandler Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HoverTip : MonoBehaviour Remarks This custom component is given to user interface game object, and is given an associated text to be displayed when the object is hovered over. The IPointerEnterHandler and IPointerExitHandler are used to detect when the mouse enter and exits the gameobject associated with the HoverTip instance. Fields tipToShow The tip text to be displayed in the tip window for the associated object Declaration public string tipToShow Field Value Type Description String Methods OnPointerEnter(PointerEventData) Called when the associated gameobject is entered. Declaration public void OnPointerEnter(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Provides detailed information about the pointer enter event. OnPointerExit(PointerEventData) Called when the associated gameobject is exited. Declaration public void OnPointerExit(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Provides detailed information about the pointer exit event. Implements IPointerEnterHandler IPointerExitHandler"
   },
   "api/Global.HoverTipManager.html": {
     "href": "api/Global.HoverTipManager.html",
@@ -12,7 +12,7 @@
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Project documentation",
-    "keywords": "Namespace Global Classes HoverTip HoverTipManager This class is responsible for managing the functionality of the HoverTip . LevelCameraController LevelEditor LevelManager PlayerController Simple_Char_Move Simple_Door_Interaction UIManager"
+    "keywords": "Namespace Global Classes HoverTip Enables game objects to have text displayed providing useful information when hovered over. HoverTipManager This class is responsible for managing the functionality of the HoverTip . LevelCameraController LevelEditor LevelManager PlayerController Simple_Char_Move Simple_Door_Interaction UIManager"
   },
   "api/Global.LevelCameraController.html": {
     "href": "api/Global.LevelCameraController.html",

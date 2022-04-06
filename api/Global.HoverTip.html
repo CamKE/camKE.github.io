@@ -83,7 +83,8 @@
   
   <h1 id="Global_HoverTip" data-uid="Global.HoverTip" class="text-break">Class HoverTip
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Enables game objects to have text displayed providing useful information when hovered over.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -101,12 +102,23 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class HoverTip : MonoBehaviour</code></pre>
   </div>
+  <h5 id="Global_HoverTip_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+This custom component is given to user interface game object, and is given an associated text
+to be displayed when the object is hovered over.
+</p>
+<p>
+The <see cref="!:IPointerEnterHandler">IPointerEnterHandler</see> and <see cref="!:IPointerExitHandler">IPointerExitHandler</see>
+are used to detect when the mouse enter and exits the gameobject associated with the <code>HoverTip</code> instance.
+</p>
+</div>
   <h3 id="fields">Fields
   </h3>
   
   
   <h4 id="Global_HoverTip_tipToShow" data-uid="Global.HoverTip.tipToShow">tipToShow</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The tip text to be displayed in the tip window for the associated object</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -133,7 +145,8 @@
   
   <a id="Global_HoverTip_OnPointerEnter_" data-uid="Global.HoverTip.OnPointerEnter*"></a>
   <h4 id="Global_HoverTip_OnPointerEnter_PointerEventData_" data-uid="Global.HoverTip.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Called when the associated gameobject is entered.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -152,7 +165,8 @@
       <tr>
         <td><span class="xref">PointerEventData</span></td>
         <td><span class="parametername">eventData</span></td>
-        <td></td>
+        <td><p>Provides detailed information about the pointer enter event.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -160,7 +174,8 @@
   
   <a id="Global_HoverTip_OnPointerExit_" data-uid="Global.HoverTip.OnPointerExit*"></a>
   <h4 id="Global_HoverTip_OnPointerExit_PointerEventData_" data-uid="Global.HoverTip.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Called when the associated gameobject is exited.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -179,7 +194,8 @@
       <tr>
         <td><span class="xref">PointerEventData</span></td>
         <td><span class="parametername">eventData</span></td>
-        <td></td>
+        <td><p>Provides detailed information about the pointer exit event.</p>
+</td>
       </tr>
     </tbody>
   </table>
