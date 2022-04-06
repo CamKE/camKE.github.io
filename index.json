@@ -7,12 +7,12 @@
   "api/Global.HoverTipManager.html": {
     "href": "api/Global.HoverTipManager.html",
     "title": "Class HoverTipManager | Project documentation",
-    "keywords": "Class HoverTipManager success Inheritance Object HoverTipManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HoverTipManager : MonoBehaviour Fields onMouseHover Declaration public static Action<string, Vector2> onMouseHover Field Value Type Description Action < String , Vector2 > onMouseLoseFocus Declaration public static Action onMouseLoseFocus Field Value Type Description Action tipText Declaration public TextMeshProUGUI tipText Field Value Type Description TextMeshProUGUI tipWindow Declaration public RectTransform tipWindow Field Value Type Description RectTransform"
+    "keywords": "Class HoverTipManager This class is responsible for managing the functionality of the HoverTip . Inheritance Object HoverTipManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HoverTipManager : MonoBehaviour Fields onMouseHover Delegate for response to the mouse hover over a element. Declaration public static Action<string, Vector2> onMouseHover Field Value Type Description Action < String , Vector2 > onMouseLoseFocus Delegate for response to the mouse no longer hovering over a element. Declaration public static Action onMouseLoseFocus Field Value Type Description Action tipText The text to be displayed in the tip window. Declaration public TextMeshProUGUI tipText Field Value Type Description TextMeshProUGUI tipWindow The 'floating' window which holds the tip text. Declaration public RectTransform tipWindow Field Value Type Description RectTransform"
   },
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Project documentation",
-    "keywords": "Namespace Global Classes HoverTip HoverTipManager success LevelCameraController LevelEditor LevelManager PlayerController Simple_Char_Move Simple_Door_Interaction UIManager"
+    "keywords": "Namespace Global Classes HoverTip HoverTipManager This class is responsible for managing the functionality of the HoverTip . LevelCameraController LevelEditor LevelManager PlayerController Simple_Char_Move Simple_Door_Interaction UIManager"
   },
   "api/Global.LevelCameraController.html": {
     "href": "api/Global.LevelCameraController.html",
