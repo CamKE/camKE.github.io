@@ -2,11 +2,11 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://camke.github.io/2DIsoPCGUnity/",
+        "baseUrl": "https://camke.github.io/",
         "changefreq": "daily"
       }
     },
-    "baseUrl": "https://camke.github.io/2DIsoPCGUnity/",
+    "baseUrl": "https://camke.github.io/",
     "changefreq": "weekly"
   },
   "homepages": [],
@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HoverTip.html",
-          "hash": "Xmv+COv4g89vz91Kc5F3RSTU/So9EhbTRzWz7Mb5gT0="
+          "hash": "c9Lbplf++GFp61Nmk3M1Ixqk/aQdlR2AmSyN5BIbqBg="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HoverTipManager.html",
-          "hash": "OOwLZOGg8xOp73ls7TmmX4p7aru14Xi6IlyTKUX7x4k="
+          "hash": "KCxTzLDEJ32cghzGEez8Hw+e373oYhvNrHB/h2OhljI="
         }
       },
       "is_incremental": false,
@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LevelCameraController.html",
-          "hash": "la64Q/aIU7vTrc6QYmoEZtM7qlF02HdbHZo9UZ0Zwqo="
+          "hash": "RkY5MgYGY4IeceKqIpUwPZ03MecUfGY8fBUXZGFskmQ="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LevelEditor.html",
-          "hash": "ZVDdtthY528mPx0Hw/XkahDbQ9G5Nu4tt8zeX1xsah0="
+          "hash": "1G9kxUTQHqkS6dkEOC09TPOi0yMrftlBSlkCNDnz+Rg="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LevelManager.html",
-          "hash": "4+TTDH32+3pPU9nsHBdgqxoifYfe47YLeKXKk4uwrBE="
+          "hash": "f7BaLdC6C324lMRtN1Ub6eY3+5H0JiboqETeJ8c4tCg="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerController.html",
-          "hash": "xh5FtYCJ4EuoqtLqVmGr8DlVUMkHfyEh1vxn9SuiQG4="
+          "hash": "wvSUGIEPyDmFWiJO9SS+iX30DQuDi5jh8B3q55MzsLU="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Simple_Char_Move.html",
-          "hash": "QEumiFBeq3ZwpFH0OzBOeaXumYFrgBvBpKb2pM2rCu4="
+          "hash": "Ur0NDpwZmr+aJGs59NoVj5gMyQM/GvWYiEOshcxORZ8="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Simple_Door_Interaction.html",
-          "hash": "dJgTLLLByXxFz9otpaYAMLjjNCNNCSGCRsKXJdS4xVA="
+          "hash": "iV+uENXxKwp5bVmNf3I3G56Gt5l4G+wuXEp0g+kUh7U="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UIManager.html",
-          "hash": "d4wxt1dXvMeioSuTVearMDC4fbS3sYq/mwGnydWQgjA="
+          "hash": "wuniMIWrkARl2gFNzE1KAsQvHN2kAPH98cweD4u9oFo="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "RCl10aUoPoMvA2L3Gh++6sp2DTwU/gt8oBxDtPpr+L8="
+          "hash": "db5f8ooCFHt83J8fO16L7yZCXwWeI+M1o4IlX1FzgDo="
         }
       },
       "is_incremental": false,
@@ -160,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "hAUDESn9FwWA86oW6EUFT1IyOrnRrHapAUs2tZ9VXjs="
+          "hash": "3p8X6D4iHPtUhFLVBtfhsuwzyaEwvgmouJTCQKU/Y+Y="
         }
       },
       "is_incremental": false,
@@ -172,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/coniunctis.html",
-          "hash": "qdfxi/LA4ST0Yarg7WLtmbHf0Ql+8V2+ln+1aRCNFB4="
+          "hash": "X2LqZFTro3o1CjO6KpHUxuoCpgMD8ktzF4Kj//+iGEQ="
         }
       },
       "is_incremental": false,
@@ -184,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/etiam.html",
-          "hash": "Engat/6CIRqgnN861yTSFvGjJsDhxkv9PswJgCT0rOc="
+          "hash": "UmN3Wdb+FejxF7IYUNDd1quDGifqWLjMMmGjnZGnbeA="
         }
       },
       "is_incremental": false,
