@@ -83,7 +83,8 @@
   
   <h1 id="Global_PlayerController" data-uid="Global.PlayerController" class="text-break">Class PlayerController
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>This class is responsible for controlling the player character on the level.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -106,7 +107,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void MoveCharacter(int height)</code></pre>
+    <pre><code class="lang-csharp hljs">public void MoveCharacter(int newZValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,7 +121,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">height</span></td>
+        <td><span class="parametername">newZValue</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -129,11 +130,12 @@
   
   <a id="Global_PlayerController_setPosition_" data-uid="Global.PlayerController.setPosition*"></a>
   <h4 id="Global_PlayerController_setPosition_Vector3_" data-uid="Global.PlayerController.setPosition(Vector3)">setPosition(Vector3)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the position of the player on the level.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setPosition(Vector3 position)</code></pre>
+    <pre><code class="lang-csharp hljs">public void setPosition(Vector3 newPosition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,21 +149,12 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
+        <td><span class="parametername">newPosition</span></td>
+        <td><p>The new position of the player.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Global_PlayerController_setup_" data-uid="Global.PlayerController.setup*"></a>
-  <h4 id="Global_PlayerController_setup" data-uid="Global.PlayerController.setup">setup()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setup()</code></pre>
-  </div>
 </article>
           </div>
           

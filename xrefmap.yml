@@ -83,19 +83,19 @@ references:
   commentId: T:Global.LevelCameraController
   fullName: LevelCameraController
   nameWithType: LevelCameraController
-- uid: Global.LevelCameraController.IsPointerOverUIElement
-  name: IsPointerOverUIElement()
-  href: api/Global.LevelCameraController.html#Global_LevelCameraController_IsPointerOverUIElement
-  commentId: M:Global.LevelCameraController.IsPointerOverUIElement
-  fullName: LevelCameraController.IsPointerOverUIElement()
-  nameWithType: LevelCameraController.IsPointerOverUIElement()
-- uid: Global.LevelCameraController.IsPointerOverUIElement*
-  name: IsPointerOverUIElement
-  href: api/Global.LevelCameraController.html#Global_LevelCameraController_IsPointerOverUIElement_
-  commentId: Overload:Global.LevelCameraController.IsPointerOverUIElement
+- uid: Global.LevelCameraController.clickAndDrag
+  name: clickAndDrag()
+  href: api/Global.LevelCameraController.html#Global_LevelCameraController_clickAndDrag
+  commentId: M:Global.LevelCameraController.clickAndDrag
+  fullName: LevelCameraController.clickAndDrag()
+  nameWithType: LevelCameraController.clickAndDrag()
+- uid: Global.LevelCameraController.clickAndDrag*
+  name: clickAndDrag
+  href: api/Global.LevelCameraController.html#Global_LevelCameraController_clickAndDrag_
+  commentId: Overload:Global.LevelCameraController.clickAndDrag
   isSpec: "True"
-  fullName: LevelCameraController.IsPointerOverUIElement
-  nameWithType: LevelCameraController.IsPointerOverUIElement
+  fullName: LevelCameraController.clickAndDrag
+  nameWithType: LevelCameraController.clickAndDrag
 - uid: Global.LevelCameraController.recenterCamera
   name: recenterCamera()
   href: api/Global.LevelCameraController.html#Global_LevelCameraController_recenterCamera
@@ -109,12 +109,38 @@ references:
   isSpec: "True"
   fullName: LevelCameraController.recenterCamera
   nameWithType: LevelCameraController.recenterCamera
-- uid: Global.LevelCameraController.updateCamera(Vector3,Vector3,System.Single)
-  name: updateCamera(Vector3, Vector3, Single)
-  href: api/Global.LevelCameraController.html#Global_LevelCameraController_updateCamera_Vector3_Vector3_System_Single_
-  commentId: M:Global.LevelCameraController.updateCamera(Vector3,Vector3,System.Single)
-  fullName: LevelCameraController.updateCamera(Vector3, Vector3, System.Single)
-  nameWithType: LevelCameraController.updateCamera(Vector3, Vector3, Single)
+- uid: Global.LevelCameraController.scrollZoom
+  name: scrollZoom()
+  href: api/Global.LevelCameraController.html#Global_LevelCameraController_scrollZoom
+  commentId: M:Global.LevelCameraController.scrollZoom
+  fullName: LevelCameraController.scrollZoom()
+  nameWithType: LevelCameraController.scrollZoom()
+- uid: Global.LevelCameraController.scrollZoom*
+  name: scrollZoom
+  href: api/Global.LevelCameraController.html#Global_LevelCameraController_scrollZoom_
+  commentId: Overload:Global.LevelCameraController.scrollZoom
+  isSpec: "True"
+  fullName: LevelCameraController.scrollZoom
+  nameWithType: LevelCameraController.scrollZoom
+- uid: Global.LevelCameraController.setOriginalMouseDownPosition
+  name: setOriginalMouseDownPosition()
+  href: api/Global.LevelCameraController.html#Global_LevelCameraController_setOriginalMouseDownPosition
+  commentId: M:Global.LevelCameraController.setOriginalMouseDownPosition
+  fullName: LevelCameraController.setOriginalMouseDownPosition()
+  nameWithType: LevelCameraController.setOriginalMouseDownPosition()
+- uid: Global.LevelCameraController.setOriginalMouseDownPosition*
+  name: setOriginalMouseDownPosition
+  href: api/Global.LevelCameraController.html#Global_LevelCameraController_setOriginalMouseDownPosition_
+  commentId: Overload:Global.LevelCameraController.setOriginalMouseDownPosition
+  isSpec: "True"
+  fullName: LevelCameraController.setOriginalMouseDownPosition
+  nameWithType: LevelCameraController.setOriginalMouseDownPosition
+- uid: Global.LevelCameraController.updateCamera(Vector3,System.Single)
+  name: updateCamera(Vector3, Single)
+  href: api/Global.LevelCameraController.html#Global_LevelCameraController_updateCamera_Vector3_System_Single_
+  commentId: M:Global.LevelCameraController.updateCamera(Vector3,System.Single)
+  fullName: LevelCameraController.updateCamera(Vector3, System.Single)
+  nameWithType: LevelCameraController.updateCamera(Vector3, Single)
 - uid: Global.LevelCameraController.updateCamera*
   name: updateCamera
   href: api/Global.LevelCameraController.html#Global_LevelCameraController_updateCamera_
@@ -199,6 +225,19 @@ references:
   isSpec: "True"
   fullName: LevelManager.generate
   nameWithType: LevelManager.generate
+- uid: Global.LevelManager.levelisGenerated
+  name: levelisGenerated
+  href: api/Global.LevelManager.html#Global_LevelManager_levelisGenerated
+  commentId: P:Global.LevelManager.levelisGenerated
+  fullName: LevelManager.levelisGenerated
+  nameWithType: LevelManager.levelisGenerated
+- uid: Global.LevelManager.levelisGenerated*
+  name: levelisGenerated
+  href: api/Global.LevelManager.html#Global_LevelManager_levelisGenerated_
+  commentId: Overload:Global.LevelManager.levelisGenerated
+  isSpec: "True"
+  fullName: LevelManager.levelisGenerated
+  nameWithType: LevelManager.levelisGenerated
 - uid: Global.LevelManager.setupPlayer(Vector3)
   name: setupPlayer(Vector3)
   href: api/Global.LevelManager.html#Global_LevelManager_setupPlayer_Vector3_
@@ -244,19 +283,6 @@ references:
   isSpec: "True"
   fullName: PlayerController.setPosition
   nameWithType: PlayerController.setPosition
-- uid: Global.PlayerController.setup
-  name: setup()
-  href: api/Global.PlayerController.html#Global_PlayerController_setup
-  commentId: M:Global.PlayerController.setup
-  fullName: PlayerController.setup()
-  nameWithType: PlayerController.setup()
-- uid: Global.PlayerController.setup*
-  name: setup
-  href: api/Global.PlayerController.html#Global_PlayerController_setup_
-  commentId: Overload:Global.PlayerController.setup
-  isSpec: "True"
-  fullName: PlayerController.setup
-  nameWithType: PlayerController.setup
 - uid: Global.Simple_Char_Move
   name: Simple_Char_Move
   href: api/Global.Simple_Char_Move.html

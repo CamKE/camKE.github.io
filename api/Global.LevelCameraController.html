@@ -83,7 +83,8 @@
   
   <h1 id="Global_LevelCameraController" data-uid="Global.LevelCameraController" class="text-break">Class LevelCameraController
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Controls the level camera&apos;s functionality that is used in the user interface.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -100,34 +101,21 @@
   </h3>
   
   
-  <a id="Global_LevelCameraController_IsPointerOverUIElement_" data-uid="Global.LevelCameraController.IsPointerOverUIElement*"></a>
-  <h4 id="Global_LevelCameraController_IsPointerOverUIElement" data-uid="Global.LevelCameraController.IsPointerOverUIElement">IsPointerOverUIElement()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_LevelCameraController_clickAndDrag_" data-uid="Global.LevelCameraController.clickAndDrag*"></a>
+  <h4 id="Global_LevelCameraController_clickAndDrag" data-uid="Global.LevelCameraController.clickAndDrag">clickAndDrag()</h4>
+  <div class="markdown level1 summary"><p>Functionality that uses the mouse as input to click and drag the level camera into position.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsPointerOverUIElement()</code></pre>
+    <pre><code class="lang-csharp hljs">public void clickAndDrag()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Global_LevelCameraController_recenterCamera_" data-uid="Global.LevelCameraController.recenterCamera*"></a>
   <h4 id="Global_LevelCameraController_recenterCamera" data-uid="Global.LevelCameraController.recenterCamera">recenterCamera()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Recenter the camera around the level generated.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -135,13 +123,38 @@
   </div>
   
   
-  <a id="Global_LevelCameraController_updateCamera_" data-uid="Global.LevelCameraController.updateCamera*"></a>
-  <h4 id="Global_LevelCameraController_updateCamera_Vector3_Vector3_System_Single_" data-uid="Global.LevelCameraController.updateCamera(Vector3,Vector3,System.Single)">updateCamera(Vector3, Vector3, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_LevelCameraController_scrollZoom_" data-uid="Global.LevelCameraController.scrollZoom*"></a>
+  <h4 id="Global_LevelCameraController_scrollZoom" data-uid="Global.LevelCameraController.scrollZoom">scrollZoom()</h4>
+  <div class="markdown level1 summary"><p>functionality to zoom the level camera using a mouse scrollwheel. zoom out, and ortho size increases,
+zoom in and ortho size decreases</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void updateCamera(Vector3 levelCenter, Vector3 cameraOffset, float newOrthoSize)</code></pre>
+    <pre><code class="lang-csharp hljs">public void scrollZoom()</code></pre>
+  </div>
+  
+  
+  <a id="Global_LevelCameraController_setOriginalMouseDownPosition_" data-uid="Global.LevelCameraController.setOriginalMouseDownPosition*"></a>
+  <h4 id="Global_LevelCameraController_setOriginalMouseDownPosition" data-uid="Global.LevelCameraController.setOriginalMouseDownPosition">setOriginalMouseDownPosition()</h4>
+  <div class="markdown level1 summary"><p>Setter for the <span class="xref">LevelCameraController.originalMouseDownPosition</span>, used by the <span class="xref">UIManager</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setOriginalMouseDownPosition()</code></pre>
+  </div>
+  
+  
+  <a id="Global_LevelCameraController_updateCamera_" data-uid="Global.LevelCameraController.updateCamera*"></a>
+  <h4 id="Global_LevelCameraController_updateCamera_Vector3_System_Single_" data-uid="Global.LevelCameraController.updateCamera(Vector3,System.Single)">updateCamera(Vector3, Single)</h4>
+  <div class="markdown level1 summary"><p>Updates the values important for the camera to be position correctly relative to the
+level generated. Called after a level is generated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateCamera(Vector3 newlevelCenter, float newOrthoSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,18 +168,15 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">levelCenter</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">cameraOffset</span></td>
-        <td></td>
+        <td><span class="parametername">newlevelCenter</span></td>
+        <td><p>The center of the new level generated.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">newOrthoSize</span></td>
-        <td></td>
+        <td><p>The new size of the orthographic camera window</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -174,7 +184,8 @@
   
   <a id="Global_LevelCameraController_zoomIn_" data-uid="Global.LevelCameraController.zoomIn*"></a>
   <h4 id="Global_LevelCameraController_zoomIn" data-uid="Global.LevelCameraController.zoomIn">zoomIn()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Zoom into the level generated</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -184,7 +195,8 @@
   
   <a id="Global_LevelCameraController_zoomOut_" data-uid="Global.LevelCameraController.zoomOut*"></a>
   <h4 id="Global_LevelCameraController_zoomOut" data-uid="Global.LevelCameraController.zoomOut">zoomOut()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Zoom out of the level generated</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
