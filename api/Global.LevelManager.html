@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class LevelManager
    | Project documentation ">
-    <meta name="generator" content="docfx 2.59.1.0">
+    <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -131,7 +131,7 @@
   
   <a id="Global_LevelManager_clearLevel_" data-uid="Global.LevelManager.clearLevel*"></a>
   <h4 id="Global_LevelManager_clearLevel" data-uid="Global.LevelManager.clearLevel">clearLevel()</h4>
-  <div class="markdown level1 summary"><p>Clear the tiles in all tilemaps in the level.</p>
+  <div class="markdown level1 summary"><p>Clear the tiles in all terrainTilemaps in the level.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -141,24 +141,13 @@
   
   
   <a id="Global_LevelManager_generate_" data-uid="Global.LevelManager.generate*"></a>
-  <h4 id="Global_LevelManager_generate" data-uid="Global.LevelManager.generate">generate()</h4>
+  <h4 id="Global_LevelManager_generate_TerrainGenerator_TerrainUserSettings_RiverGenerator_RiverUserSettings_LakeGenerator_LakeUserSettings_" data-uid="Global.LevelManager.generate(TerrainGenerator.TerrainUserSettings,RiverGenerator.RiverUserSettings,LakeGenerator.LakeUserSettings)">generate(TerrainGenerator.TerrainUserSettings, RiverGenerator.RiverUserSettings, LakeGenerator.LakeUserSettings)</h4>
   <div class="markdown level1 summary"><p>Generate the level. temporary setup.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void generate()</code></pre>
-  </div>
-  
-  
-  <a id="Global_LevelManager_setupPlayer_" data-uid="Global.LevelManager.setupPlayer*"></a>
-  <h4 id="Global_LevelManager_setupPlayer_Vector3_" data-uid="Global.LevelManager.setupPlayer(Vector3)">setupPlayer(Vector3)</h4>
-  <div class="markdown level1 summary"><p>Create the player and put them into the level at the given position.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setupPlayer(Vector3 position)</code></pre>
+    <pre><code class="lang-csharp hljs">public void generate(TerrainGenerator.TerrainUserSettings terrainUserSettings, RiverGenerator.RiverUserSettings riverUserSettings, LakeGenerator.LakeUserSettings lakeUserSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -171,13 +160,93 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">position</span></td>
-        <td><p>Where the player should be placed on the level</p>
+        <td><a class="xref" href="Global.TerrainGenerator.TerrainUserSettings.html">TerrainGenerator.TerrainUserSettings</a></td>
+        <td><span class="parametername">terrainUserSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.RiverGenerator.RiverUserSettings.html">RiverGenerator.RiverUserSettings</a></td>
+        <td><span class="parametername">riverUserSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.LakeGenerator.LakeUserSettings.html">LakeGenerator.LakeUserSettings</a></td>
+        <td><span class="parametername">lakeUserSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LevelManager_setLevelCameraActive_" data-uid="Global.LevelManager.setLevelCameraActive*"></a>
+  <h4 id="Global_LevelManager_setLevelCameraActive_System_Boolean_" data-uid="Global.LevelManager.setLevelCameraActive(System.Boolean)">setLevelCameraActive(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Used by the UI manager to update the level camera&apos;s active status when swapping between
+level generation and demo user interfaces</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setLevelCameraActive(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The boolean value to set the level camera&apos;s active status to.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Global_LevelManager_setPlayerActive_" data-uid="Global.LevelManager.setPlayerActive*"></a>
+  <h4 id="Global_LevelManager_setPlayerActive_System_Boolean_" data-uid="Global.LevelManager.setPlayerActive(System.Boolean)">setPlayerActive(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Used by the UI manager to update the player&apos;s active status when swapping between
+level generation and demo user interfaces</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setPlayerActive(bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The boolean value to set the player&apos;s active status to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LevelManager_setupPlayer_" data-uid="Global.LevelManager.setupPlayer*"></a>
+  <h4 id="Global_LevelManager_setupPlayer" data-uid="Global.LevelManager.setupPlayer">setupPlayer()</h4>
+  <div class="markdown level1 summary"><p>Create the player and put them into the level at the given position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setupPlayer()</code></pre>
+  </div>
 </article>
           </div>
           

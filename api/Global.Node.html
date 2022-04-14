@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class HoverTip
+    <title>Class Node
    | Project documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class HoverTip
+    <meta name="title" content="Class Node
    | Project documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,51 +78,68 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.HoverTip">
+            <article class="content wrap" id="_content" data-uid="Global.Node">
   
   
-  <h1 id="Global_HoverTip" data-uid="Global.HoverTip" class="text-break">Class HoverTip
+  <h1 id="Global_Node" data-uid="Global.Node" class="text-break">Class Node
   </h1>
-  <div class="markdown level0 summary"><p>Enables game objects to have text displayed providing useful information when hovered over.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">HoverTip</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IPointerEnterHandler</span></div>
-    <div><span class="xref">IPointerExitHandler</span></div>
+    <div class="level1"><span class="xref">Node</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_HoverTip_syntax">Syntax</h5>
+  <h5 id="Global_Node_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class HoverTip : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class Node</code></pre>
   </div>
-  <h5 id="Global_HoverTip_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>
-This custom component is given to user interface game object, and is given an associated text
-to be displayed when the object is hovered over.
-</p>
-<p>
-The <see cref="!:IPointerEnterHandler">IPointerEnterHandler</see> and <see cref="!:IPointerExitHandler">IPointerExitHandler</see>
-are used to detect when the mouse enter and exits the gameobject associated with the <code>HoverTip</code> instance.
-</p>
-</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Global_Node__ctor_" data-uid="Global.Node.#ctor*"></a>
+  <h4 id="Global_Node__ctor_Vector3Int_System_Boolean_" data-uid="Global.Node.#ctor(Vector3Int,System.Boolean)">Node(Vector3Int, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node(Vector3Int position, bool isTraversable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3Int</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">isTraversable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_HoverTip_tipToShow" data-uid="Global.HoverTip.tipToShow">tipToShow</h4>
-  <div class="markdown level1 summary"><p>The tip text to be displayed in the tip window for the associated object</p>
-</div>
+  <h4 id="Global_Node_gCost" data-uid="Global.Node.gCost">gCost</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string tipToShow</code></pre>
+    <pre><code class="lang-csharp hljs">public int gCost</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,7 +151,103 @@ are used to detect when the mouse enter and exits the gameobject associated with
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Node_hCost" data-uid="Global.Node.hCost">hCost</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int hCost</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Node_isTraversable" data-uid="Global.Node.isTraversable">isTraversable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isTraversable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Node_parent" data-uid="Global.Node.parent">parent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node parent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Node.html">Node</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Node_position" data-uid="Global.Node.position">position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3Int position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3Int</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -143,69 +256,29 @@ are used to detect when the mouse enter and exits the gameobject associated with
   </h3>
   
   
-  <a id="Global_HoverTip_OnPointerEnter_" data-uid="Global.HoverTip.OnPointerEnter*"></a>
-  <h4 id="Global_HoverTip_OnPointerEnter_PointerEventData_" data-uid="Global.HoverTip.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
-  <div class="markdown level1 summary"><p>Called when the associated gameobject is entered.</p>
-</div>
+  <a id="Global_Node_fCost_" data-uid="Global.Node.fCost*"></a>
+  <h4 id="Global_Node_fCost" data-uid="Global.Node.fCost">fCost()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
+    <pre><code class="lang-csharp hljs">public int fCost()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td><p>Provides detailed information about the pointer enter event.</p>
-</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Global_HoverTip_OnPointerExit_" data-uid="Global.HoverTip.OnPointerExit*"></a>
-  <h4 id="Global_HoverTip_OnPointerExit_PointerEventData_" data-uid="Global.HoverTip.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
-  <div class="markdown level1 summary"><p>Called when the associated gameobject is exited.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td><p>Provides detailed information about the pointer exit event.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IPointerEnterHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerExitHandler</span>
-  </div>
 </article>
           </div>
           
