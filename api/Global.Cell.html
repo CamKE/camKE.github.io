@@ -108,7 +108,8 @@
   
   <a id="Global_Cell__ctor_" data-uid="Global.Cell.#ctor*"></a>
   <h4 id="Global_Cell__ctor_Vector3Int_Cell_CellStatus_" data-uid="Global.Cell.#ctor(Vector3Int,Cell.CellStatus)">Cell(Vector3Int, Cell.CellStatus)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Constructor for Cell. Must set an initial postions and status.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -127,12 +128,14 @@
       <tr>
         <td><span class="xref">Vector3Int</span></td>
         <td><span class="parametername">position</span></td>
-        <td></td>
+        <td><p>The position of the cell on the Map, including its depth (z).</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
         <td><span class="parametername">status</span></td>
-        <td></td>
+        <td><p>Denotes the cells current state.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -141,7 +144,8 @@
   
   
   <h4 id="Global_Cell_gCost" data-uid="Global.Cell.gCost">gCost</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The cost of traversal between the start cell and the cell.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -165,7 +169,8 @@
   
   
   <h4 id="Global_Cell_hCost" data-uid="Global.Cell.hCost">hCost</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The estimated cost of traversal from the cell to the end goal cell.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -189,7 +194,8 @@
   
   
   <h4 id="Global_Cell_isTraversable" data-uid="Global.Cell.isTraversable">isTraversable</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Denotes whether the cell is able to be travelled across.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -213,7 +219,8 @@
   
   
   <h4 id="Global_Cell_isWaterBound" data-uid="Global.Cell.isWaterBound">isWaterBound</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Denotes whether the cell is a water boundary; that is , if the cell is adjacent to water.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -237,7 +244,8 @@
   
   
   <h4 id="Global_Cell_onBoundary" data-uid="Global.Cell.onBoundary">onBoundary</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Denotes whether the cell is on the boundary; that is, if the cell neighours an invalid cell or is at the end of the map.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -286,7 +294,7 @@
   
   
   <h4 id="Global_Cell_position" data-uid="Global.Cell.position">position</h4>
-  <div class="markdown level1 summary"><p>The position of the cell on the map, including its depth (z).</p>
+  <div class="markdown level1 summary"><p>The position of the cell on the Map, including its depth (z).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -311,7 +319,8 @@
   
   
   <h4 id="Global_Cell_status" data-uid="Global.Cell.status">status</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Denotes the cells current state.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -338,7 +347,8 @@
   
   <a id="Global_Cell_HeapIndex_" data-uid="Global.Cell.HeapIndex*"></a>
   <h4 id="Global_Cell_HeapIndex" data-uid="Global.Cell.HeapIndex">HeapIndex</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Getter and setter for the heap index.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -407,7 +417,8 @@
   
   <a id="Global_Cell_fCost_" data-uid="Global.Cell.fCost*"></a>
   <h4 id="Global_Cell_fCost" data-uid="Global.Cell.fCost">fCost()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Calculates the f cost, which is a sum of the g cost and h cost.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -424,7 +435,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
+        <td><p>The f cost.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -432,7 +444,8 @@
   
   <a id="Global_Cell_setCellStatus_" data-uid="Global.Cell.setCellStatus*"></a>
   <h4 id="Global_Cell_setCellStatus_Cell_CellStatus_System_Boolean_" data-uid="Global.Cell.setCellStatus(Cell.CellStatus,System.Boolean)">setCellStatus(Cell.CellStatus, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Sets the cell&apos;s status to a new status.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -451,12 +464,14 @@
       <tr>
         <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
         <td><span class="parametername">newStatus</span></td>
-        <td></td>
+        <td><p>The new status to set the cell to.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">intersectionsEnabled</span></td>
-        <td></td>
+        <td><p>Whether intersections are enabled. For path generation. Optional parameter.</p>
+</td>
       </tr>
     </tbody>
   </table>
