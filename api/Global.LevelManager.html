@@ -97,57 +97,18 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class LevelManager : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Global_LevelManager_levelisGenerated_" data-uid="Global.LevelManager.levelisGenerated*"></a>
-  <h4 id="Global_LevelManager_levelisGenerated" data-uid="Global.LevelManager.levelisGenerated">levelisGenerated</h4>
-  <div class="markdown level1 summary"><p>whether or not a level is generated</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool levelisGenerated { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_LevelManager_clearLevel_" data-uid="Global.LevelManager.clearLevel*"></a>
-  <h4 id="Global_LevelManager_clearLevel" data-uid="Global.LevelManager.clearLevel">clearLevel()</h4>
-  <div class="markdown level1 summary"><p>Clear the tiles in all terrainTilemaps in the level.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void clearLevel()</code></pre>
-  </div>
-  
-  
   <a id="Global_LevelManager_generate_" data-uid="Global.LevelManager.generate*"></a>
-  <h4 id="Global_LevelManager_generate_TerrainGenerator_TerrainUserSettings_RiverGenerator_RiverUserSettings_LakeGenerator_LakeUserSettings_" data-uid="Global.LevelManager.generate(TerrainGenerator.TerrainUserSettings,RiverGenerator.RiverUserSettings,LakeGenerator.LakeUserSettings)">generate(TerrainGenerator.TerrainUserSettings, RiverGenerator.RiverUserSettings, LakeGenerator.LakeUserSettings)</h4>
+  <h4 id="Global_LevelManager_generate_TerrainSettings_RiverSettings_LakeSettings_WalkpathSettings_" data-uid="Global.LevelManager.generate(TerrainSettings,RiverSettings,LakeSettings,WalkpathSettings)">generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)</h4>
   <div class="markdown level1 summary"><p>Generate the level. temporary setup.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void generate(TerrainGenerator.TerrainUserSettings terrainUserSettings, RiverGenerator.RiverUserSettings riverUserSettings, LakeGenerator.LakeUserSettings lakeUserSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">public void generate(TerrainSettings terrainSettings, RiverSettings riverSettings, LakeSettings lakeSettings, WalkpathSettings walkpathSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -160,18 +121,90 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.TerrainUserSettings.html">TerrainGenerator.TerrainUserSettings</a></td>
-        <td><span class="parametername">terrainUserSettings</span></td>
+        <td><a class="xref" href="Global.TerrainSettings.html">TerrainSettings</a></td>
+        <td><span class="parametername">terrainSettings</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Global.RiverGenerator.RiverUserSettings.html">RiverGenerator.RiverUserSettings</a></td>
-        <td><span class="parametername">riverUserSettings</span></td>
+        <td><a class="xref" href="Global.RiverSettings.html">RiverSettings</a></td>
+        <td><span class="parametername">riverSettings</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Global.LakeGenerator.LakeUserSettings.html">LakeGenerator.LakeUserSettings</a></td>
-        <td><span class="parametername">lakeUserSettings</span></td>
+        <td><a class="xref" href="Global.LakeSettings.html">LakeSettings</a></td>
+        <td><span class="parametername">lakeSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.WalkpathSettings.html">WalkpathSettings</a></td>
+        <td><span class="parametername">walkpathSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LevelManager_getCellZPosition_" data-uid="Global.LevelManager.getCellZPosition*"></a>
+  <h4 id="Global_LevelManager_getCellZPosition_Vector2_" data-uid="Global.LevelManager.getCellZPosition(Vector2)">getCellZPosition(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int getCellZPosition(Vector2 worldPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">worldPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LevelManager_getGenerationInfo_" data-uid="Global.LevelManager.getGenerationInfo*"></a>
+  <h4 id="Global_LevelManager_getGenerationInfo" data-uid="Global.LevelManager.getGenerationInfo">getGenerationInfo()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; getGenerationInfo()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -236,6 +269,16 @@ level generation and demo user interfaces</p>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Global_LevelManager_setupLevelFromInspector_" data-uid="Global.LevelManager.setupLevelFromInspector*"></a>
+  <h4 id="Global_LevelManager_setupLevelFromInspector" data-uid="Global.LevelManager.setupLevelFromInspector">setupLevelFromInspector()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setupLevelFromInspector()</code></pre>
+  </div>
   
   
   <a id="Global_LevelManager_setupPlayer_" data-uid="Global.LevelManager.setupPlayer*"></a>

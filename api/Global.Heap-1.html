@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RiverGenerator
+    <title>Class Heap&lt;T&gt;
    | Project documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RiverGenerator
+    <meta name="title" content="Class Heap&lt;T&gt;
    | Project documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,48 +78,51 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.RiverGenerator">
+            <article class="content wrap" id="_content" data-uid="Global.Heap`1">
   
   
-  <h1 id="Global_RiverGenerator" data-uid="Global.RiverGenerator" class="text-break">Class RiverGenerator
+  <h1 id="Global_Heap_1" data-uid="Global.Heap`1" class="text-break">Class Heap&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Global.PathGenerator.html">PathGenerator</a></div>
-    <div class="level2"><span class="xref">RiverGenerator</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_statusToCheck">PathGenerator.statusToCheck</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_getReachableCells_Map_List_Vector2Int__Heap_CellPair__System_Boolean_">PathGenerator.getReachableCells(Map, List&lt;Vector2Int&gt;, Heap&lt;CellPair&gt;, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_findAStarPath_Map_Cell_Cell_Cell_CellStatus_System_Boolean_">PathGenerator.findAStarPath(Map, Cell, Cell, Cell.CellStatus, Boolean)</a>
-    </div>
+    <div class="level1"><span class="xref">Heap&lt;T&gt;</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_RiverGenerator_syntax">Syntax</h5>
+  <h5 id="Global_Heap_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RiverGenerator : PathGenerator</code></pre>
+    <pre><code class="lang-csharp hljs">public class Heap&lt;T&gt;
+    where T : IHeapItem&lt;T&gt;</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Global_RiverGenerator__ctor_" data-uid="Global.RiverGenerator.#ctor*"></a>
-  <h4 id="Global_RiverGenerator__ctor_SpriteAtlas_List_System_String__" data-uid="Global.RiverGenerator.#ctor(SpriteAtlas,List{System.String})">RiverGenerator(SpriteAtlas, List&lt;String&gt;)</h4>
+  <a id="Global_Heap_1__ctor_" data-uid="Global.Heap`1.#ctor*"></a>
+  <h4 id="Global_Heap_1__ctor_System_Int32_" data-uid="Global.Heap`1.#ctor(System.Int32)">Heap(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RiverGenerator(SpriteAtlas atlas, List&lt;string&gt; generationInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public Heap(int maxHeapSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -132,29 +135,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SpriteAtlas</span></td>
-        <td><span class="parametername">atlas</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td><span class="parametername">generationInfo</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxHeapSize</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="Global_RiverGenerator_numberOfRiversCount" data-uid="Global.RiverGenerator.numberOfRiversCount">numberOfRiversCount</h4>
+  <a id="Global_Heap_1_Count_" data-uid="Global.Heap`1.Count*"></a>
+  <h4 id="Global_Heap_1_Count" data-uid="Global.Heap`1.Count">Count</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int numberOfRiversCount</code></pre>
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -173,13 +172,124 @@
   </h3>
   
   
-  <a id="Global_RiverGenerator_getTile_" data-uid="Global.RiverGenerator.getTile*"></a>
-  <h4 id="Global_RiverGenerator_getTile" data-uid="Global.RiverGenerator.getTile">getTile()</h4>
+  <a id="Global_Heap_1_Add_" data-uid="Global.Heap`1.Add*"></a>
+  <h4 id="Global_Heap_1_Add__0_" data-uid="Global.Heap`1.Add(`0)">Add(T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tile getTile()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Add(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Heap_1_Contains_" data-uid="Global.Heap`1.Contains*"></a>
+  <h4 id="Global_Heap_1_Contains__0_" data-uid="Global.Heap`1.Contains(`0)">Contains(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(T item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Heap_1_getItem_" data-uid="Global.Heap`1.getItem*"></a>
+  <h4 id="Global_Heap_1_getItem_System_Int32_" data-uid="Global.Heap`1.getItem(System.Int32)">getItem(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T getItem(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Heap_1_RemoveFirst_" data-uid="Global.Heap`1.RemoveFirst*"></a>
+  <h4 id="Global_Heap_1_RemoveFirst" data-uid="Global.Heap`1.RemoveFirst">RemoveFirst()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T RemoveFirst()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,20 +301,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Tile</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_RiverGenerator_populateCells_" data-uid="Global.RiverGenerator.populateCells*"></a>
-  <h4 id="Global_RiverGenerator_populateCells_Map_" data-uid="Global.RiverGenerator.populateCells(Map)">populateCells(Map)</h4>
+  <a id="Global_Heap_1_UpdateItem_" data-uid="Global.Heap`1.UpdateItem*"></a>
+  <h4 id="Global_Heap_1_UpdateItem__0_" data-uid="Global.Heap`1.UpdateItem(`0)">UpdateItem(T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void populateCells(Map map)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateItem(T item)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,35 +327,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Map.html">Map</a></td>
-        <td><span class="parametername">map</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_RiverGenerator_setRiverSettings_" data-uid="Global.RiverGenerator.setRiverSettings*"></a>
-  <h4 id="Global_RiverGenerator_setRiverSettings_RiverSettings_" data-uid="Global.RiverGenerator.setRiverSettings(RiverSettings)">setRiverSettings(RiverSettings)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setRiverSettings(RiverSettings riverSettings)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.RiverSettings.html">RiverSettings</a></td>
-        <td><span class="parametername">riverSettings</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">item</span></td>
         <td></td>
       </tr>
     </tbody>

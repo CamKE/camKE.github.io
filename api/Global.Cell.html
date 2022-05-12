@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct TerrainGenerator.TerrainUserSettings
+    <title>Class Cell
    | Project documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct TerrainGenerator.TerrainUserSettings
+    <meta name="title" content="Class Cell
    | Project documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,30 +78,41 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.TerrainGenerator.TerrainUserSettings">
+            <article class="content wrap" id="_content" data-uid="Global.Cell">
   
   
-  <h1 id="Global_TerrainGenerator_TerrainUserSettings" data-uid="Global.TerrainGenerator.TerrainUserSettings" class="text-break">Struct TerrainGenerator.TerrainUserSettings
+  <h1 id="Global_Cell" data-uid="Global.Cell" class="text-break">Class Cell
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents a single space on the map for a tile to be potentially placed.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Cell</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Global.IHeapItem-1.html">IHeapItem</a>&lt;<a class="xref" href="Global.Cell.html">Cell</a>&gt;</div>
+    <div><span class="xref">IComparable</span>&lt;<a class="xref" href="Global.Cell.html">Cell</a>&gt;</div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_TerrainGenerator_TerrainUserSettings_syntax">Syntax</h5>
+  <h5 id="Global_Cell_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct TerrainUserSettings</code></pre>
+    <pre><code class="lang-csharp hljs">public class Cell : IHeapItem&lt;Cell&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Global_TerrainGenerator_TerrainUserSettings__ctor_" data-uid="Global.TerrainGenerator.TerrainUserSettings.#ctor*"></a>
-  <h4 id="Global_TerrainGenerator_TerrainUserSettings__ctor_System_Int32_TerrainGenerator_terrainType_System_Int32_System_Int32_TerrainGenerator_terrainShape_" data-uid="Global.TerrainGenerator.TerrainUserSettings.#ctor(System.Int32,TerrainGenerator.terrainType,System.Int32,System.Int32,TerrainGenerator.terrainShape)">TerrainUserSettings(Int32, TerrainGenerator.terrainType, Int32, Int32, TerrainGenerator.terrainShape)</h4>
+  <a id="Global_Cell__ctor_" data-uid="Global.Cell.#ctor*"></a>
+  <h4 id="Global_Cell__ctor_Vector3Int_Cell_CellStatus_" data-uid="Global.Cell.#ctor(Vector3Int,Cell.CellStatus)">Cell(Vector3Int, Cell.CellStatus)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TerrainUserSettings(int tSize, TerrainGenerator.terrainType tType, int tMinHeight, int tMaxHeight, TerrainGenerator.terrainShape tShape)</code></pre>
+    <pre><code class="lang-csharp hljs">public Cell(Vector3Int position, Cell.CellStatus status = Cell.CellStatus.ValidCell)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,70 +125,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">tSize</span></td>
+        <td><span class="xref">Vector3Int</span></td>
+        <td><span class="parametername">position</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.terrainType.html">TerrainGenerator.terrainType</a></td>
-        <td><span class="parametername">tType</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">tMinHeight</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">tMaxHeight</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.terrainShape.html">TerrainGenerator.terrainShape</a></td>
-        <td><span class="parametername">tShape</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_TerrainGenerator_TerrainUserSettings__ctor_" data-uid="Global.TerrainGenerator.TerrainUserSettings.#ctor*"></a>
-  <h4 id="Global_TerrainGenerator_TerrainUserSettings__ctor_System_Int32_TerrainGenerator_terrainType_System_Int32_TerrainGenerator_terrainShape_" data-uid="Global.TerrainGenerator.TerrainUserSettings.#ctor(System.Int32,TerrainGenerator.terrainType,System.Int32,TerrainGenerator.terrainShape)">TerrainUserSettings(Int32, TerrainGenerator.terrainType, Int32, TerrainGenerator.terrainShape)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TerrainUserSettings(int tSize, TerrainGenerator.terrainType tType, int tExactHeight, TerrainGenerator.terrainShape tShape)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">tSize</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.terrainType.html">TerrainGenerator.terrainType</a></td>
-        <td><span class="parametername">tType</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">tExactHeight</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.terrainShape.html">TerrainGenerator.terrainShape</a></td>
-        <td><span class="parametername">tShape</span></td>
+        <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
+        <td><span class="parametername">status</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -186,12 +140,12 @@
   </h3>
   
   
-  <h4 id="Global_TerrainGenerator_TerrainUserSettings_tExactHeight" data-uid="Global.TerrainGenerator.TerrainUserSettings.tExactHeight">tExactHeight</h4>
+  <h4 id="Global_Cell_gCost" data-uid="Global.Cell.gCost">gCost</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int tExactHeight</code></pre>
+    <pre><code class="lang-csharp hljs">public int gCost</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -210,12 +164,12 @@
   </table>
   
   
-  <h4 id="Global_TerrainGenerator_TerrainUserSettings_tMaxHeight" data-uid="Global.TerrainGenerator.TerrainUserSettings.tMaxHeight">tMaxHeight</h4>
+  <h4 id="Global_Cell_hCost" data-uid="Global.Cell.hCost">hCost</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int tMaxHeight</code></pre>
+    <pre><code class="lang-csharp hljs">public int hCost</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,14 +188,207 @@
   </table>
   
   
-  <h4 id="Global_TerrainGenerator_TerrainUserSettings_tMinHeight" data-uid="Global.TerrainGenerator.TerrainUserSettings.tMinHeight">tMinHeight</h4>
+  <h4 id="Global_Cell_isTraversable" data-uid="Global.Cell.isTraversable">isTraversable</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int tMinHeight</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isTraversable</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Cell_isWaterBound" data-uid="Global.Cell.isWaterBound">isWaterBound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isWaterBound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Cell_onBoundary" data-uid="Global.Cell.onBoundary">onBoundary</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool onBoundary</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Cell_parent" data-uid="Global.Cell.parent">parent</h4>
+  <div class="markdown level1 summary"><p>The parent of the current cell. Used for path generation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Cell parent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Cell.html">Cell</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Cell_position" data-uid="Global.Cell.position">position</h4>
+  <div class="markdown level1 summary"><p>The position of the cell on the map, including its depth (z).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3Int position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3Int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Cell_status" data-uid="Global.Cell.status">status</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Cell.CellStatus status</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Global_Cell_HeapIndex_" data-uid="Global.Cell.HeapIndex*"></a>
+  <h4 id="Global_Cell_HeapIndex" data-uid="Global.Cell.HeapIndex">HeapIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int HeapIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_Cell_CompareTo_" data-uid="Global.Cell.CompareTo*"></a>
+  <h4 id="Global_Cell_CompareTo_Cell_" data-uid="Global.Cell.CompareTo(Cell)">CompareTo(Cell)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(Cell otherCell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Cell.html">Cell</a></td>
+        <td><span class="parametername">otherCell</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -258,38 +405,15 @@
   </table>
   
   
-  <h4 id="Global_TerrainGenerator_TerrainUserSettings_tShape" data-uid="Global.TerrainGenerator.TerrainUserSettings.tShape">tShape</h4>
+  <a id="Global_Cell_fCost_" data-uid="Global.Cell.fCost*"></a>
+  <h4 id="Global_Cell_fCost" data-uid="Global.Cell.fCost">fCost()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly TerrainGenerator.terrainShape tShape</code></pre>
+    <pre><code class="lang-csharp hljs">public int fCost()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.terrainShape.html">TerrainGenerator.terrainShape</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_TerrainGenerator_TerrainUserSettings_tSize" data-uid="Global.TerrainGenerator.TerrainUserSettings.tSize">tSize</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int tSize</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -306,28 +430,43 @@
   </table>
   
   
-  <h4 id="Global_TerrainGenerator_TerrainUserSettings_tType" data-uid="Global.TerrainGenerator.TerrainUserSettings.tType">tType</h4>
+  <a id="Global_Cell_setCellStatus_" data-uid="Global.Cell.setCellStatus*"></a>
+  <h4 id="Global_Cell_setCellStatus_Cell_CellStatus_System_Boolean_" data-uid="Global.Cell.setCellStatus(Cell.CellStatus,System.Boolean)">setCellStatus(Cell.CellStatus, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly TerrainGenerator.terrainType tType</code></pre>
+    <pre><code class="lang-csharp hljs">public void setCellStatus(Cell.CellStatus newStatus, bool intersectionsEnabled = false)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.terrainType.html">TerrainGenerator.terrainType</a></td>
+        <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
+        <td><span class="parametername">newStatus</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">intersectionsEnabled</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Global.IHeapItem-1.html">IHeapItem&lt;T&gt;</a>
+  </div>
+  <div>
+      <span class="xref">IComparable&lt;&gt;</span>
+  </div>
 </article>
           </div>
           

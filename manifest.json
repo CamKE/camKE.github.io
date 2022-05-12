@@ -24,6 +24,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.Cell.CellStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Cell.CellStatus.html",
+          "hash": "j9OhXi1XT2fmtFaFZKzd7goCiVVjg7dv+PMBJP8BFp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Cell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Cell.html",
+          "hash": "RZ78Jpy9DTcI9+Yvxfff7ptC1eYWqO9ojMhTYKY+fpc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CellPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CellPair.html",
+          "hash": "CVvO4CKyD6KhzDWWTbSRHJfI1LnDCUKKLbKePOeo7ww="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Heap-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Heap-1.html",
+          "hash": "mY3UA1c9xQBjMu8NnoPCqTNuKDJt4LEU8/AZG4JCsYQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.HoverTip.yml",
       "output": {
         ".html": {
@@ -40,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HoverTipManager.html",
-          "hash": "w1kgJEuoG24PekK3VlVWQGfP39uo8m12hsZ7CnnKdFM="
+          "hash": "k+N0uTotyebtDv8ZXDqYIypUKSC4OPmJsVZyjF6uV/8="
         }
       },
       "is_incremental": false,
@@ -48,11 +96,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.LakeGenerator.LakeUserSettings.yml",
+      "source_relative_path": "api/Global.IHeapItem-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.LakeGenerator.LakeUserSettings.html",
-          "hash": "gdJk9lnCXpjKixyjtOPiqaTw+tXKjC4Nui6C26iXNN8="
+          "relative_path": "api/Global.IHeapItem-1.html",
+          "hash": "QrYdZ2lBlhOSq+BprnwUB8Lr4Dz1OuL9nfWjvj/Gg/0="
         }
       },
       "is_incremental": false,
@@ -60,11 +108,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.LakeGenerator.maxLakeSize.yml",
+      "source_relative_path": "api/Global.LakeGenerator.MaxLakeSize.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.LakeGenerator.maxLakeSize.html",
-          "hash": "Tsp2Sa2TYqyVDmZhpBOFqODnXYdERQXrJcDTvZnfNq0="
+          "relative_path": "api/Global.LakeGenerator.MaxLakeSize.html",
+          "hash": "f5H+UdF60KLXEUdm0D0MReMOFS0gpd6w5FutQwPEecE="
         }
       },
       "is_incremental": false,
@@ -72,11 +120,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.LakeGenerator.numLakes.yml",
+      "source_relative_path": "api/Global.LakeGenerator.NumberOfLakes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.LakeGenerator.numLakes.html",
-          "hash": "yveQPTW7WuIWt0+kkwG+fe51+Sl0ukwFGY20jFloeEI="
+          "relative_path": "api/Global.LakeGenerator.NumberOfLakes.html",
+          "hash": "YGFI23X5iPkyDlcLullpqPPAWZVL5vaKukd9bnXqhDo="
         }
       },
       "is_incremental": false,
@@ -88,7 +136,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LakeGenerator.html",
-          "hash": "Oisnb4OVAnSx+8Qx/p9kW/7VGztAiVcaK9nhAar/J2A="
+          "hash": "HpT8HS1mo08IktnyRs5cxgMU9j7rk+ErURxrw+eMjo0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LakeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LakeOptions.html",
+          "hash": "lf9fjb2CRz2dYBp3lKytWveTJtWAyMpQEUuiyRS09qQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LakeSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LakeSettings.html",
+          "hash": "Hl1BzX9eb9vm5AroLNMT4VtyEx/i+AtMlmadgn2cx5I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Level.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Level.html",
+          "hash": "d58sdGiYhpkhfxWz+eKJBRwomFIX8vse8N2G8vENcX0="
         }
       },
       "is_incremental": false,
@@ -112,19 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LevelEditor.html",
-          "hash": "GIL5bkOVKbvnTTIOfpVc2tmU7CVwVYZ56kZdlLeVIsM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.LevelManager.levelCellStatus.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.LevelManager.levelCellStatus.html",
-          "hash": "U8iaPmVQlXzm668qM9CDLOPcQfa2MFVedsQ1jt3j81I="
+          "hash": "ZFLsgkcp0OUF6qmiiKBjzvrHcs9qTRHQwSf7PiT5tnQ="
         }
       },
       "is_incremental": false,
@@ -136,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LevelManager.html",
-          "hash": "36bMSQlAMr8v2v4BMqdqdunkRwA0vGxiDGtvfzKyIYw="
+          "hash": "+wMBuLotKIQnkQl5vNg+1IR4aaIfnv4HFH0aZWgQ0aE="
         }
       },
       "is_incremental": false,
@@ -144,11 +216,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Node.yml",
+      "source_relative_path": "api/Global.Map.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Node.html",
-          "hash": "cEfAKaSMfmsiahylSa+EaYAkuEq6HTbTykmNs2kuJiw="
+          "relative_path": "api/Global.Map.html",
+          "hash": "P1BiLb6ak0vgpBIaljm6g3toUo9Of52FfRSwfr2ANoc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Options.html",
+          "hash": "ayEbcFG/BSg03JwBOtKZ0oCewLwo8D8H2cFOICYNTYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PathGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PathGenerator.html",
+          "hash": "dRUlEvkV7vsy5JVCnPreeiAoIWs3ZPE4YDRO1g3+yJo="
         }
       },
       "is_incremental": false,
@@ -160,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerController.html",
-          "hash": "i6Kx4W7O41fasnXE1TrVR7T8Xu/oyzTnOjJazmUdGd4="
+          "hash": "3/DglJYIcQ55mct6W3CfWFWvPHaRkjEmkJuBRym0aKo="
         }
       },
       "is_incremental": false,
@@ -180,23 +276,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.RiverGenerator.RiverUserSettings.yml",
+      "source_relative_path": "api/Global.RiverGenerator.NumberOfRivers.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.RiverGenerator.RiverUserSettings.html",
-          "hash": "YrPJaRGSstAELsie1xvgt1ElYlwzT7EfvUnMkX57VEE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.RiverGenerator.numRivers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.RiverGenerator.numRivers.html",
-          "hash": "0JvpuhkYjCthADUBnp6P8hsuEWxW7NVZZM0fW7C08zU="
+          "relative_path": "api/Global.RiverGenerator.NumberOfRivers.html",
+          "hash": "rRPPTqHWgr5qynac9nzKjCo2I+xW77KPccOPtDHfBkk="
         }
       },
       "is_incremental": false,
@@ -208,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.RiverGenerator.html",
-          "hash": "lUY8jrTDg2Em+aDGjYeW0Px9j+H0JTGxjefk/y/io0k="
+          "hash": "3LUZeOxWeteY/RSE8unjRChvl8+Y1qsY8Dta5QvOVGI="
         }
       },
       "is_incremental": false,
@@ -216,11 +300,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Simple_Char_Move.yml",
+      "source_relative_path": "api/Global.RiverOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Simple_Char_Move.html",
-          "hash": "KK52/MUg30Vw0ekPw4mjCj6oEaUKpgkTrzjSFEoOh7U="
+          "relative_path": "api/Global.RiverOptions.html",
+          "hash": "tFBx6slPYzoJRxTaSz75bep8iFspNlaxGGLAXGXZRrw="
         }
       },
       "is_incremental": false,
@@ -228,11 +312,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Simple_Door_Interaction.yml",
+      "source_relative_path": "api/Global.RiverSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Simple_Door_Interaction.html",
-          "hash": "XMXjGiQaM/noGjhmi7f76//2IFX3BfDw9GG15E6ALS4="
+          "relative_path": "api/Global.RiverSettings.html",
+          "hash": "PBAGt5OPD+yBH+nSNjnB7G/3N+klOajoiPXEhqOtxDw="
         }
       },
       "is_incremental": false,
@@ -240,11 +324,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.TerrainGenerator.TerrainUserSettings.yml",
+      "source_relative_path": "api/Global.TerrainGenerator.TerrainShape.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.TerrainGenerator.TerrainUserSettings.html",
-          "hash": "53jEazJp7nrxLCp4reDz2MPWMLJZwQ6Z6cs/8oc6TC0="
+          "relative_path": "api/Global.TerrainGenerator.TerrainShape.html",
+          "hash": "NmZAJLLZdjXR/+XZU2WAfBEogs0oxJE7+FBJUQ2szLs="
         }
       },
       "is_incremental": false,
@@ -252,23 +336,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.TerrainGenerator.terrainShape.yml",
+      "source_relative_path": "api/Global.TerrainGenerator.TerrainType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.TerrainGenerator.terrainShape.html",
-          "hash": "J8v1f8y85N/TrCRBBGgYHgwy3eC+dHKs5hnWxwQymdQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.TerrainGenerator.terrainType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.TerrainGenerator.terrainType.html",
-          "hash": "Z1D/g5QyjGNUiaN/4DEzV1cy7TW4aiA5A7kfpKQrIkI="
+          "relative_path": "api/Global.TerrainGenerator.TerrainType.html",
+          "hash": "90FeskXGuSXL4hEsPdFRz2zWsY2tqDcag42dIsmTnPg="
         }
       },
       "is_incremental": false,
@@ -280,7 +352,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.TerrainGenerator.html",
-          "hash": "GzR6aLyF7Zy6tQYYHIYAMQ2nd/x32XqFVer5LzGN3r4="
+          "hash": "d6IoJ6MB48D3MaOV57tk/6GpxYbmw2N0bm7xpxlEOHM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TerrainOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TerrainOptions.html",
+          "hash": "teNZTzEaAnqX4uJ6Jxm3lB2GxDYjJQ6WD7ngX5j2Si8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TerrainSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TerrainSettings.html",
+          "hash": "DZns5unQH3N51i8S2FbLNlKOy0Bm1IbRNnTkaj1rm3U="
         }
       },
       "is_incremental": false,
@@ -292,7 +388,55 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UIManager.html",
-          "hash": "bf0O/yAl1r3qXhd3NzM62wJc48WP/KfAbsPRi8GVq1I="
+          "hash": "qjR4xUFAg1ZudK9U5dUN0iGIEHbtB/l7weCZs5lIxRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WalkpathGenerator.NumberOfWalkpaths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WalkpathGenerator.NumberOfWalkpaths.html",
+          "hash": "3og8rvki9vBmMaSw0J2Gl4oQOT3gnmX+p3b/f3oPVtg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WalkpathGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WalkpathGenerator.html",
+          "hash": "RfcTMQt2reKD0WF9xuij0pV6sBl16KnqQBZgCLLqzU0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WalkpathPathOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WalkpathPathOptions.html",
+          "hash": "AhBgCmCsRKbueS8+0w/Y8o7dvTHhtJ6quoo9rnvxuPo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WalkpathSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WalkpathSettings.html",
+          "hash": "JPxB98jFoZzPy6SnYC0qlVcDjWgYhpGCNXe1Uu4pesc="
         }
       },
       "is_incremental": false,
@@ -304,7 +448,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "e7hBbTaA1T2P3uWtKroY86gbZJ8TWt+fxOcwj3L1l3k="
+          "hash": "cW94bovvQyaTV/O2yDvtM65ZwPnOKDaOddGrq4UwKYA="
         }
       },
       "is_incremental": false,
@@ -316,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "jISoka11C9e26l9NT4BdA4ikOmrblhcV6zs0AWN3u+U="
+          "hash": "LXApCD0f3fkDC4qidACG+MHMvCALyc+WWczrlH+un/M="
         }
       },
       "is_incremental": false,
@@ -425,7 +569,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 24,
+          "total_file_count": 36,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

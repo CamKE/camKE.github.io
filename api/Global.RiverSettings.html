@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Node
+    <title>Struct RiverSettings
    | Project documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Node
+    <meta name="title" content="Struct RiverSettings
    | Project documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,35 +78,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.Node">
+            <article class="content wrap" id="_content" data-uid="Global.RiverSettings">
   
   
-  <h1 id="Global_Node" data-uid="Global.Node" class="text-break">Class Node
+  <h1 id="Global_RiverSettings" data-uid="Global.RiverSettings" class="text-break">Struct RiverSettings
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Node</span></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_Node_syntax">Syntax</h5>
+  <h5 id="Global_RiverSettings_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Node</code></pre>
+    <pre><code class="lang-csharp hljs">public struct RiverSettings</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Global_Node__ctor_" data-uid="Global.Node.#ctor*"></a>
-  <h4 id="Global_Node__ctor_Vector3Int_System_Boolean_" data-uid="Global.Node.#ctor(Vector3Int,System.Boolean)">Node(Vector3Int, Boolean)</h4>
+  <a id="Global_RiverSettings__ctor_" data-uid="Global.RiverSettings.#ctor*"></a>
+  <h4 id="Global_RiverSettings__ctor_TerrainGenerator_TerrainType_" data-uid="Global.RiverSettings.#ctor(TerrainGenerator.TerrainType)">RiverSettings(TerrainGenerator.TerrainType)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Node(Vector3Int position, bool isTraversable)</code></pre>
+    <pre><code class="lang-csharp hljs">public RiverSettings(TerrainGenerator.TerrainType tType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,13 +114,50 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3Int</span></td>
-        <td><span class="parametername">position</span></td>
+        <td><a class="xref" href="Global.TerrainGenerator.TerrainType.html">TerrainGenerator.TerrainType</a></td>
+        <td><span class="parametername">tType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_RiverSettings__ctor_" data-uid="Global.RiverSettings.#ctor*"></a>
+  <h4 id="Global_RiverSettings__ctor_TerrainGenerator_TerrainType_System_Boolean_RiverGenerator_NumberOfRivers_System_Boolean_" data-uid="Global.RiverSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,RiverGenerator.NumberOfRivers,System.Boolean)">RiverSettings(TerrainGenerator.TerrainType, Boolean, RiverGenerator.NumberOfRivers, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RiverSettings(TerrainGenerator.TerrainType tType, bool rGenerationEnabled, RiverGenerator.NumberOfRivers rNum, bool intersectionsEnabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.TerrainGenerator.TerrainType.html">TerrainGenerator.TerrainType</a></td>
+        <td><span class="parametername">tType</span></td>
         <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">isTraversable</span></td>
+        <td><span class="parametername">rGenerationEnabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.RiverGenerator.NumberOfRivers.html">RiverGenerator.NumberOfRivers</a></td>
+        <td><span class="parametername">rNum</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">intersectionsEnabled</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -134,60 +166,12 @@
   </h3>
   
   
-  <h4 id="Global_Node_gCost" data-uid="Global.Node.gCost">gCost</h4>
+  <h4 id="Global_RiverSettings_intersectionsEnabled" data-uid="Global.RiverSettings.intersectionsEnabled">intersectionsEnabled</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int gCost</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_Node_hCost" data-uid="Global.Node.hCost">hCost</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int hCost</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_Node_isTraversable" data-uid="Global.Node.isTraversable">isTraversable</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isTraversable</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool intersectionsEnabled</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,12 +190,12 @@
   </table>
   
   
-  <h4 id="Global_Node_parent" data-uid="Global.Node.parent">parent</h4>
+  <h4 id="Global_RiverSettings_rGenerationEnabled" data-uid="Global.RiverSettings.rGenerationEnabled">rGenerationEnabled</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Node parent</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool rGenerationEnabled</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -223,19 +207,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Node.html">Node</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_Node_position" data-uid="Global.Node.position">position</h4>
+  <h4 id="Global_RiverSettings_rNum" data-uid="Global.RiverSettings.rNum">rNum</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3Int position</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly RiverGenerator.NumberOfRivers rNum</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -247,24 +231,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Vector3Int</span></td>
+        <td><a class="xref" href="Global.RiverGenerator.NumberOfRivers.html">RiverGenerator.NumberOfRivers</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Global_Node_fCost_" data-uid="Global.Node.fCost*"></a>
-  <h4 id="Global_Node_fCost" data-uid="Global.Node.fCost">fCost()</h4>
+  <h4 id="Global_RiverSettings_tType" data-uid="Global.RiverSettings.tType">tType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int fCost()</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly TerrainGenerator.TerrainType tType</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -274,7 +255,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="Global.TerrainGenerator.TerrainType.html">TerrainGenerator.TerrainType</a></td>
         <td></td>
       </tr>
     </tbody>

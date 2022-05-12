@@ -9,6 +9,358 @@ references:
   fullName.vb: ''
   nameWithType: Global
   nameWithType.vb: ''
+- uid: Global.Cell
+  name: Cell
+  href: api/Global.Cell.html
+  commentId: T:Global.Cell
+  fullName: Cell
+  nameWithType: Cell
+- uid: Global.Cell.#ctor(Vector3Int,Cell.CellStatus)
+  name: Cell(Vector3Int, Cell.CellStatus)
+  href: api/Global.Cell.html#Global_Cell__ctor_Vector3Int_Cell_CellStatus_
+  commentId: M:Global.Cell.#ctor(Vector3Int,Cell.CellStatus)
+  fullName: Cell.Cell(Vector3Int, Cell.CellStatus)
+  nameWithType: Cell.Cell(Vector3Int, Cell.CellStatus)
+- uid: Global.Cell.#ctor*
+  name: Cell
+  href: api/Global.Cell.html#Global_Cell__ctor_
+  commentId: Overload:Global.Cell.#ctor
+  isSpec: "True"
+  fullName: Cell.Cell
+  nameWithType: Cell.Cell
+- uid: Global.Cell.CellStatus
+  name: Cell.CellStatus
+  href: api/Global.Cell.CellStatus.html
+  commentId: T:Global.Cell.CellStatus
+  fullName: Cell.CellStatus
+  nameWithType: Cell.CellStatus
+- uid: Global.Cell.CellStatus.InvalidCell
+  name: InvalidCell
+  href: api/Global.Cell.CellStatus.html#Global_Cell_CellStatus_InvalidCell
+  commentId: F:Global.Cell.CellStatus.InvalidCell
+  fullName: Cell.CellStatus.InvalidCell
+  nameWithType: Cell.CellStatus.InvalidCell
+- uid: Global.Cell.CellStatus.LakeCell
+  name: LakeCell
+  href: api/Global.Cell.CellStatus.html#Global_Cell_CellStatus_LakeCell
+  commentId: F:Global.Cell.CellStatus.LakeCell
+  fullName: Cell.CellStatus.LakeCell
+  nameWithType: Cell.CellStatus.LakeCell
+- uid: Global.Cell.CellStatus.RiverCell
+  name: RiverCell
+  href: api/Global.Cell.CellStatus.html#Global_Cell_CellStatus_RiverCell
+  commentId: F:Global.Cell.CellStatus.RiverCell
+  fullName: Cell.CellStatus.RiverCell
+  nameWithType: Cell.CellStatus.RiverCell
+- uid: Global.Cell.CellStatus.TerrainCell
+  name: TerrainCell
+  href: api/Global.Cell.CellStatus.html#Global_Cell_CellStatus_TerrainCell
+  commentId: F:Global.Cell.CellStatus.TerrainCell
+  fullName: Cell.CellStatus.TerrainCell
+  nameWithType: Cell.CellStatus.TerrainCell
+- uid: Global.Cell.CellStatus.ValidCell
+  name: ValidCell
+  href: api/Global.Cell.CellStatus.html#Global_Cell_CellStatus_ValidCell
+  commentId: F:Global.Cell.CellStatus.ValidCell
+  fullName: Cell.CellStatus.ValidCell
+  nameWithType: Cell.CellStatus.ValidCell
+- uid: Global.Cell.CellStatus.WalkpathCell
+  name: WalkpathCell
+  href: api/Global.Cell.CellStatus.html#Global_Cell_CellStatus_WalkpathCell
+  commentId: F:Global.Cell.CellStatus.WalkpathCell
+  fullName: Cell.CellStatus.WalkpathCell
+  nameWithType: Cell.CellStatus.WalkpathCell
+- uid: Global.Cell.CompareTo(Cell)
+  name: CompareTo(Cell)
+  href: api/Global.Cell.html#Global_Cell_CompareTo_Cell_
+  commentId: M:Global.Cell.CompareTo(Cell)
+  fullName: Cell.CompareTo(Cell)
+  nameWithType: Cell.CompareTo(Cell)
+- uid: Global.Cell.CompareTo*
+  name: CompareTo
+  href: api/Global.Cell.html#Global_Cell_CompareTo_
+  commentId: Overload:Global.Cell.CompareTo
+  isSpec: "True"
+  fullName: Cell.CompareTo
+  nameWithType: Cell.CompareTo
+- uid: Global.Cell.fCost
+  name: fCost()
+  href: api/Global.Cell.html#Global_Cell_fCost
+  commentId: M:Global.Cell.fCost
+  fullName: Cell.fCost()
+  nameWithType: Cell.fCost()
+- uid: Global.Cell.fCost*
+  name: fCost
+  href: api/Global.Cell.html#Global_Cell_fCost_
+  commentId: Overload:Global.Cell.fCost
+  isSpec: "True"
+  fullName: Cell.fCost
+  nameWithType: Cell.fCost
+- uid: Global.Cell.gCost
+  name: gCost
+  href: api/Global.Cell.html#Global_Cell_gCost
+  commentId: F:Global.Cell.gCost
+  fullName: Cell.gCost
+  nameWithType: Cell.gCost
+- uid: Global.Cell.hCost
+  name: hCost
+  href: api/Global.Cell.html#Global_Cell_hCost
+  commentId: F:Global.Cell.hCost
+  fullName: Cell.hCost
+  nameWithType: Cell.hCost
+- uid: Global.Cell.HeapIndex
+  name: HeapIndex
+  href: api/Global.Cell.html#Global_Cell_HeapIndex
+  commentId: P:Global.Cell.HeapIndex
+  fullName: Cell.HeapIndex
+  nameWithType: Cell.HeapIndex
+- uid: Global.Cell.HeapIndex*
+  name: HeapIndex
+  href: api/Global.Cell.html#Global_Cell_HeapIndex_
+  commentId: Overload:Global.Cell.HeapIndex
+  isSpec: "True"
+  fullName: Cell.HeapIndex
+  nameWithType: Cell.HeapIndex
+- uid: Global.Cell.isTraversable
+  name: isTraversable
+  href: api/Global.Cell.html#Global_Cell_isTraversable
+  commentId: F:Global.Cell.isTraversable
+  fullName: Cell.isTraversable
+  nameWithType: Cell.isTraversable
+- uid: Global.Cell.isWaterBound
+  name: isWaterBound
+  href: api/Global.Cell.html#Global_Cell_isWaterBound
+  commentId: F:Global.Cell.isWaterBound
+  fullName: Cell.isWaterBound
+  nameWithType: Cell.isWaterBound
+- uid: Global.Cell.onBoundary
+  name: onBoundary
+  href: api/Global.Cell.html#Global_Cell_onBoundary
+  commentId: F:Global.Cell.onBoundary
+  fullName: Cell.onBoundary
+  nameWithType: Cell.onBoundary
+- uid: Global.Cell.parent
+  name: parent
+  href: api/Global.Cell.html#Global_Cell_parent
+  commentId: F:Global.Cell.parent
+  fullName: Cell.parent
+  nameWithType: Cell.parent
+- uid: Global.Cell.position
+  name: position
+  href: api/Global.Cell.html#Global_Cell_position
+  commentId: F:Global.Cell.position
+  fullName: Cell.position
+  nameWithType: Cell.position
+- uid: Global.Cell.setCellStatus(Cell.CellStatus,System.Boolean)
+  name: setCellStatus(Cell.CellStatus, Boolean)
+  href: api/Global.Cell.html#Global_Cell_setCellStatus_Cell_CellStatus_System_Boolean_
+  commentId: M:Global.Cell.setCellStatus(Cell.CellStatus,System.Boolean)
+  fullName: Cell.setCellStatus(Cell.CellStatus, System.Boolean)
+  nameWithType: Cell.setCellStatus(Cell.CellStatus, Boolean)
+- uid: Global.Cell.setCellStatus*
+  name: setCellStatus
+  href: api/Global.Cell.html#Global_Cell_setCellStatus_
+  commentId: Overload:Global.Cell.setCellStatus
+  isSpec: "True"
+  fullName: Cell.setCellStatus
+  nameWithType: Cell.setCellStatus
+- uid: Global.Cell.status
+  name: status
+  href: api/Global.Cell.html#Global_Cell_status
+  commentId: F:Global.Cell.status
+  fullName: Cell.status
+  nameWithType: Cell.status
+- uid: Global.CellPair
+  name: CellPair
+  href: api/Global.CellPair.html
+  commentId: T:Global.CellPair
+  fullName: CellPair
+  nameWithType: CellPair
+- uid: Global.CellPair.#ctor(Cell,Cell)
+  name: CellPair(Cell, Cell)
+  href: api/Global.CellPair.html#Global_CellPair__ctor_Cell_Cell_
+  commentId: M:Global.CellPair.#ctor(Cell,Cell)
+  fullName: CellPair.CellPair(Cell, Cell)
+  nameWithType: CellPair.CellPair(Cell, Cell)
+- uid: Global.CellPair.#ctor(Cell,Cell,System.Int32)
+  name: CellPair(Cell, Cell, Int32)
+  href: api/Global.CellPair.html#Global_CellPair__ctor_Cell_Cell_System_Int32_
+  commentId: M:Global.CellPair.#ctor(Cell,Cell,System.Int32)
+  fullName: CellPair.CellPair(Cell, Cell, System.Int32)
+  nameWithType: CellPair.CellPair(Cell, Cell, Int32)
+- uid: Global.CellPair.#ctor*
+  name: CellPair
+  href: api/Global.CellPair.html#Global_CellPair__ctor_
+  commentId: Overload:Global.CellPair.#ctor
+  isSpec: "True"
+  fullName: CellPair.CellPair
+  nameWithType: CellPair.CellPair
+- uid: Global.CellPair.CompareTo(CellPair)
+  name: CompareTo(CellPair)
+  href: api/Global.CellPair.html#Global_CellPair_CompareTo_CellPair_
+  commentId: M:Global.CellPair.CompareTo(CellPair)
+  fullName: CellPair.CompareTo(CellPair)
+  nameWithType: CellPair.CompareTo(CellPair)
+- uid: Global.CellPair.CompareTo*
+  name: CompareTo
+  href: api/Global.CellPair.html#Global_CellPair_CompareTo_
+  commentId: Overload:Global.CellPair.CompareTo
+  isSpec: "True"
+  fullName: CellPair.CompareTo
+  nameWithType: CellPair.CompareTo
+- uid: Global.CellPair.endCell
+  name: endCell
+  href: api/Global.CellPair.html#Global_CellPair_endCell
+  commentId: F:Global.CellPair.endCell
+  fullName: CellPair.endCell
+  nameWithType: CellPair.endCell
+- uid: Global.CellPair.HeapIndex
+  name: HeapIndex
+  href: api/Global.CellPair.html#Global_CellPair_HeapIndex
+  commentId: P:Global.CellPair.HeapIndex
+  fullName: CellPair.HeapIndex
+  nameWithType: CellPair.HeapIndex
+- uid: Global.CellPair.HeapIndex*
+  name: HeapIndex
+  href: api/Global.CellPair.html#Global_CellPair_HeapIndex_
+  commentId: Overload:Global.CellPair.HeapIndex
+  isSpec: "True"
+  fullName: CellPair.HeapIndex
+  nameWithType: CellPair.HeapIndex
+- uid: Global.CellPair.startCell
+  name: startCell
+  href: api/Global.CellPair.html#Global_CellPair_startCell
+  commentId: F:Global.CellPair.startCell
+  fullName: CellPair.startCell
+  nameWithType: CellPair.startCell
+- uid: Global.Heap`1
+  name: Heap<T>
+  href: api/Global.Heap-1.html
+  commentId: T:Global.Heap`1
+  name.vb: Heap(Of T)
+  fullName: Heap<T>
+  fullName.vb: Heap(Of T)
+  nameWithType: Heap<T>
+  nameWithType.vb: Heap(Of T)
+- uid: Global.Heap`1.#ctor(System.Int32)
+  name: Heap(Int32)
+  href: api/Global.Heap-1.html#Global_Heap_1__ctor_System_Int32_
+  commentId: M:Global.Heap`1.#ctor(System.Int32)
+  fullName: Heap<T>.Heap(System.Int32)
+  fullName.vb: Heap(Of T).Heap(System.Int32)
+  nameWithType: Heap<T>.Heap(Int32)
+  nameWithType.vb: Heap(Of T).Heap(Int32)
+- uid: Global.Heap`1.#ctor*
+  name: Heap
+  href: api/Global.Heap-1.html#Global_Heap_1__ctor_
+  commentId: Overload:Global.Heap`1.#ctor
+  isSpec: "True"
+  fullName: Heap<T>.Heap
+  fullName.vb: Heap(Of T).Heap
+  nameWithType: Heap<T>.Heap
+  nameWithType.vb: Heap(Of T).Heap
+- uid: Global.Heap`1.Add(`0)
+  name: Add(T)
+  href: api/Global.Heap-1.html#Global_Heap_1_Add__0_
+  commentId: M:Global.Heap`1.Add(`0)
+  fullName: Heap<T>.Add(T)
+  fullName.vb: Heap(Of T).Add(T)
+  nameWithType: Heap<T>.Add(T)
+  nameWithType.vb: Heap(Of T).Add(T)
+- uid: Global.Heap`1.Add*
+  name: Add
+  href: api/Global.Heap-1.html#Global_Heap_1_Add_
+  commentId: Overload:Global.Heap`1.Add
+  isSpec: "True"
+  fullName: Heap<T>.Add
+  fullName.vb: Heap(Of T).Add
+  nameWithType: Heap<T>.Add
+  nameWithType.vb: Heap(Of T).Add
+- uid: Global.Heap`1.Contains(`0)
+  name: Contains(T)
+  href: api/Global.Heap-1.html#Global_Heap_1_Contains__0_
+  commentId: M:Global.Heap`1.Contains(`0)
+  fullName: Heap<T>.Contains(T)
+  fullName.vb: Heap(Of T).Contains(T)
+  nameWithType: Heap<T>.Contains(T)
+  nameWithType.vb: Heap(Of T).Contains(T)
+- uid: Global.Heap`1.Contains*
+  name: Contains
+  href: api/Global.Heap-1.html#Global_Heap_1_Contains_
+  commentId: Overload:Global.Heap`1.Contains
+  isSpec: "True"
+  fullName: Heap<T>.Contains
+  fullName.vb: Heap(Of T).Contains
+  nameWithType: Heap<T>.Contains
+  nameWithType.vb: Heap(Of T).Contains
+- uid: Global.Heap`1.Count
+  name: Count
+  href: api/Global.Heap-1.html#Global_Heap_1_Count
+  commentId: P:Global.Heap`1.Count
+  fullName: Heap<T>.Count
+  fullName.vb: Heap(Of T).Count
+  nameWithType: Heap<T>.Count
+  nameWithType.vb: Heap(Of T).Count
+- uid: Global.Heap`1.Count*
+  name: Count
+  href: api/Global.Heap-1.html#Global_Heap_1_Count_
+  commentId: Overload:Global.Heap`1.Count
+  isSpec: "True"
+  fullName: Heap<T>.Count
+  fullName.vb: Heap(Of T).Count
+  nameWithType: Heap<T>.Count
+  nameWithType.vb: Heap(Of T).Count
+- uid: Global.Heap`1.getItem(System.Int32)
+  name: getItem(Int32)
+  href: api/Global.Heap-1.html#Global_Heap_1_getItem_System_Int32_
+  commentId: M:Global.Heap`1.getItem(System.Int32)
+  fullName: Heap<T>.getItem(System.Int32)
+  fullName.vb: Heap(Of T).getItem(System.Int32)
+  nameWithType: Heap<T>.getItem(Int32)
+  nameWithType.vb: Heap(Of T).getItem(Int32)
+- uid: Global.Heap`1.getItem*
+  name: getItem
+  href: api/Global.Heap-1.html#Global_Heap_1_getItem_
+  commentId: Overload:Global.Heap`1.getItem
+  isSpec: "True"
+  fullName: Heap<T>.getItem
+  fullName.vb: Heap(Of T).getItem
+  nameWithType: Heap<T>.getItem
+  nameWithType.vb: Heap(Of T).getItem
+- uid: Global.Heap`1.RemoveFirst
+  name: RemoveFirst()
+  href: api/Global.Heap-1.html#Global_Heap_1_RemoveFirst
+  commentId: M:Global.Heap`1.RemoveFirst
+  fullName: Heap<T>.RemoveFirst()
+  fullName.vb: Heap(Of T).RemoveFirst()
+  nameWithType: Heap<T>.RemoveFirst()
+  nameWithType.vb: Heap(Of T).RemoveFirst()
+- uid: Global.Heap`1.RemoveFirst*
+  name: RemoveFirst
+  href: api/Global.Heap-1.html#Global_Heap_1_RemoveFirst_
+  commentId: Overload:Global.Heap`1.RemoveFirst
+  isSpec: "True"
+  fullName: Heap<T>.RemoveFirst
+  fullName.vb: Heap(Of T).RemoveFirst
+  nameWithType: Heap<T>.RemoveFirst
+  nameWithType.vb: Heap(Of T).RemoveFirst
+- uid: Global.Heap`1.UpdateItem(`0)
+  name: UpdateItem(T)
+  href: api/Global.Heap-1.html#Global_Heap_1_UpdateItem__0_
+  commentId: M:Global.Heap`1.UpdateItem(`0)
+  fullName: Heap<T>.UpdateItem(T)
+  fullName.vb: Heap(Of T).UpdateItem(T)
+  nameWithType: Heap<T>.UpdateItem(T)
+  nameWithType.vb: Heap(Of T).UpdateItem(T)
+- uid: Global.Heap`1.UpdateItem*
+  name: UpdateItem
+  href: api/Global.Heap-1.html#Global_Heap_1_UpdateItem_
+  commentId: Overload:Global.Heap`1.UpdateItem
+  isSpec: "True"
+  fullName: Heap<T>.UpdateItem
+  fullName.vb: Heap(Of T).UpdateItem
+  nameWithType: Heap<T>.UpdateItem
+  nameWithType.vb: Heap(Of T).UpdateItem
 - uid: Global.HoverTip
   name: HoverTip
   href: api/Global.HoverTip.html
@@ -65,30 +417,47 @@ references:
   commentId: F:Global.HoverTipManager.onMouseLoseFocus
   fullName: HoverTipManager.onMouseLoseFocus
   nameWithType: HoverTipManager.onMouseLoseFocus
-- uid: Global.HoverTipManager.tipText
-  name: tipText
-  href: api/Global.HoverTipManager.html#Global_HoverTipManager_tipText
-  commentId: F:Global.HoverTipManager.tipText
-  fullName: HoverTipManager.tipText
-  nameWithType: HoverTipManager.tipText
-- uid: Global.HoverTipManager.tipWindow
-  name: tipWindow
-  href: api/Global.HoverTipManager.html#Global_HoverTipManager_tipWindow
-  commentId: F:Global.HoverTipManager.tipWindow
-  fullName: HoverTipManager.tipWindow
-  nameWithType: HoverTipManager.tipWindow
+- uid: Global.IHeapItem`1
+  name: IHeapItem<T>
+  href: api/Global.IHeapItem-1.html
+  commentId: T:Global.IHeapItem`1
+  name.vb: IHeapItem(Of T)
+  fullName: IHeapItem<T>
+  fullName.vb: IHeapItem(Of T)
+  nameWithType: IHeapItem<T>
+  nameWithType.vb: IHeapItem(Of T)
+- uid: Global.IHeapItem`1.HeapIndex
+  name: HeapIndex
+  href: api/Global.IHeapItem-1.html#Global_IHeapItem_1_HeapIndex
+  commentId: P:Global.IHeapItem`1.HeapIndex
+  fullName: IHeapItem<T>.HeapIndex
+  fullName.vb: IHeapItem(Of T).HeapIndex
+  nameWithType: IHeapItem<T>.HeapIndex
+  nameWithType.vb: IHeapItem(Of T).HeapIndex
+- uid: Global.IHeapItem`1.HeapIndex*
+  name: HeapIndex
+  href: api/Global.IHeapItem-1.html#Global_IHeapItem_1_HeapIndex_
+  commentId: Overload:Global.IHeapItem`1.HeapIndex
+  isSpec: "True"
+  fullName: IHeapItem<T>.HeapIndex
+  fullName.vb: IHeapItem(Of T).HeapIndex
+  nameWithType: IHeapItem<T>.HeapIndex
+  nameWithType.vb: IHeapItem(Of T).HeapIndex
 - uid: Global.LakeGenerator
   name: LakeGenerator
   href: api/Global.LakeGenerator.html
   commentId: T:Global.LakeGenerator
   fullName: LakeGenerator
   nameWithType: LakeGenerator
-- uid: Global.LakeGenerator.#ctor
-  name: LakeGenerator()
-  href: api/Global.LakeGenerator.html#Global_LakeGenerator__ctor
-  commentId: M:Global.LakeGenerator.#ctor
-  fullName: LakeGenerator.LakeGenerator()
-  nameWithType: LakeGenerator.LakeGenerator()
+- uid: Global.LakeGenerator.#ctor(SpriteAtlas,List{System.String})
+  name: LakeGenerator(SpriteAtlas, List<String>)
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator__ctor_SpriteAtlas_List_System_String__
+  commentId: M:Global.LakeGenerator.#ctor(SpriteAtlas,List{System.String})
+  name.vb: LakeGenerator(SpriteAtlas, List(Of String))
+  fullName: LakeGenerator.LakeGenerator(SpriteAtlas, List<System.String>)
+  fullName.vb: LakeGenerator.LakeGenerator(SpriteAtlas, List(Of System.String))
+  nameWithType: LakeGenerator.LakeGenerator(SpriteAtlas, List<String>)
+  nameWithType.vb: LakeGenerator.LakeGenerator(SpriteAtlas, List(Of String))
 - uid: Global.LakeGenerator.#ctor*
   name: LakeGenerator
   href: api/Global.LakeGenerator.html#Global_LakeGenerator__ctor_
@@ -96,116 +465,98 @@ references:
   isSpec: "True"
   fullName: LakeGenerator.LakeGenerator
   nameWithType: LakeGenerator.LakeGenerator
-- uid: Global.LakeGenerator.generate(LevelManager.levelCellStatus[0:,0:,0:])
-  name: generate(LevelManager.levelCellStatus[,,])
-  href: api/Global.LakeGenerator.html#Global_LakeGenerator_generate_LevelManager_levelCellStatus_0__0__0___
-  commentId: M:Global.LakeGenerator.generate(LevelManager.levelCellStatus[0:,0:,0:])
-  name.vb: generate(LevelManager.levelCellStatus(,,))
-  fullName: LakeGenerator.generate(LevelManager.levelCellStatus[,,])
-  fullName.vb: LakeGenerator.generate(LevelManager.levelCellStatus(,,))
-  nameWithType: LakeGenerator.generate(LevelManager.levelCellStatus[,,])
-  nameWithType.vb: LakeGenerator.generate(LevelManager.levelCellStatus(,,))
-- uid: Global.LakeGenerator.generate*
-  name: generate
-  href: api/Global.LakeGenerator.html#Global_LakeGenerator_generate_
-  commentId: Overload:Global.LakeGenerator.generate
+- uid: Global.LakeGenerator.getTile
+  name: getTile()
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_getTile
+  commentId: M:Global.LakeGenerator.getTile
+  fullName: LakeGenerator.getTile()
+  nameWithType: LakeGenerator.getTile()
+- uid: Global.LakeGenerator.getTile*
+  name: getTile
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_getTile_
+  commentId: Overload:Global.LakeGenerator.getTile
   isSpec: "True"
-  fullName: LakeGenerator.generate
-  nameWithType: LakeGenerator.generate
-- uid: Global.LakeGenerator.LakeUserSettings
-  name: LakeGenerator.LakeUserSettings
-  href: api/Global.LakeGenerator.LakeUserSettings.html
-  commentId: T:Global.LakeGenerator.LakeUserSettings
-  fullName: LakeGenerator.LakeUserSettings
-  nameWithType: LakeGenerator.LakeUserSettings
-- uid: Global.LakeGenerator.LakeUserSettings.#ctor(System.Boolean,LakeGenerator.numLakes,LakeGenerator.maxLakeSize)
-  name: LakeUserSettings(Boolean, LakeGenerator.numLakes, LakeGenerator.maxLakeSize)
-  href: api/Global.LakeGenerator.LakeUserSettings.html#Global_LakeGenerator_LakeUserSettings__ctor_System_Boolean_LakeGenerator_numLakes_LakeGenerator_maxLakeSize_
-  commentId: M:Global.LakeGenerator.LakeUserSettings.#ctor(System.Boolean,LakeGenerator.numLakes,LakeGenerator.maxLakeSize)
-  fullName: LakeGenerator.LakeUserSettings.LakeUserSettings(System.Boolean, LakeGenerator.numLakes, LakeGenerator.maxLakeSize)
-  nameWithType: LakeGenerator.LakeUserSettings.LakeUserSettings(Boolean, LakeGenerator.numLakes, LakeGenerator.maxLakeSize)
-- uid: Global.LakeGenerator.LakeUserSettings.#ctor*
-  name: LakeUserSettings
-  href: api/Global.LakeGenerator.LakeUserSettings.html#Global_LakeGenerator_LakeUserSettings__ctor_
-  commentId: Overload:Global.LakeGenerator.LakeUserSettings.#ctor
+  fullName: LakeGenerator.getTile
+  nameWithType: LakeGenerator.getTile
+- uid: Global.LakeGenerator.isTouchingSide(System.Single,Rect)
+  name: isTouchingSide(Single, Rect)
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_isTouchingSide_System_Single_Rect_
+  commentId: M:Global.LakeGenerator.isTouchingSide(System.Single,Rect)
+  fullName: LakeGenerator.isTouchingSide(System.Single, Rect)
+  nameWithType: LakeGenerator.isTouchingSide(Single, Rect)
+- uid: Global.LakeGenerator.isTouchingSide*
+  name: isTouchingSide
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_isTouchingSide_
+  commentId: Overload:Global.LakeGenerator.isTouchingSide
   isSpec: "True"
-  fullName: LakeGenerator.LakeUserSettings.LakeUserSettings
-  nameWithType: LakeGenerator.LakeUserSettings.LakeUserSettings
-- uid: Global.LakeGenerator.LakeUserSettings.generationEnabled
-  name: generationEnabled
-  href: api/Global.LakeGenerator.LakeUserSettings.html#Global_LakeGenerator_LakeUserSettings_generationEnabled
-  commentId: F:Global.LakeGenerator.LakeUserSettings.generationEnabled
-  fullName: LakeGenerator.LakeUserSettings.generationEnabled
-  nameWithType: LakeGenerator.LakeUserSettings.generationEnabled
-- uid: Global.LakeGenerator.LakeUserSettings.lMaxSize
-  name: lMaxSize
-  href: api/Global.LakeGenerator.LakeUserSettings.html#Global_LakeGenerator_LakeUserSettings_lMaxSize
-  commentId: F:Global.LakeGenerator.LakeUserSettings.lMaxSize
-  fullName: LakeGenerator.LakeUserSettings.lMaxSize
-  nameWithType: LakeGenerator.LakeUserSettings.lMaxSize
-- uid: Global.LakeGenerator.LakeUserSettings.lNum
-  name: lNum
-  href: api/Global.LakeGenerator.LakeUserSettings.html#Global_LakeGenerator_LakeUserSettings_lNum
-  commentId: F:Global.LakeGenerator.LakeUserSettings.lNum
-  fullName: LakeGenerator.LakeUserSettings.lNum
-  nameWithType: LakeGenerator.LakeUserSettings.lNum
-- uid: Global.LakeGenerator.maxLakeSize
-  name: LakeGenerator.maxLakeSize
-  href: api/Global.LakeGenerator.maxLakeSize.html
-  commentId: T:Global.LakeGenerator.maxLakeSize
-  fullName: LakeGenerator.maxLakeSize
-  nameWithType: LakeGenerator.maxLakeSize
-- uid: Global.LakeGenerator.maxLakeSize.Large
+  fullName: LakeGenerator.isTouchingSide
+  nameWithType: LakeGenerator.isTouchingSide
+- uid: Global.LakeGenerator.MaxLakeSize
+  name: LakeGenerator.MaxLakeSize
+  href: api/Global.LakeGenerator.MaxLakeSize.html
+  commentId: T:Global.LakeGenerator.MaxLakeSize
+  fullName: LakeGenerator.MaxLakeSize
+  nameWithType: LakeGenerator.MaxLakeSize
+- uid: Global.LakeGenerator.MaxLakeSize.Large
   name: Large
-  href: api/Global.LakeGenerator.maxLakeSize.html#Global_LakeGenerator_maxLakeSize_Large
-  commentId: F:Global.LakeGenerator.maxLakeSize.Large
-  fullName: LakeGenerator.maxLakeSize.Large
-  nameWithType: LakeGenerator.maxLakeSize.Large
-- uid: Global.LakeGenerator.maxLakeSize.Medium
+  href: api/Global.LakeGenerator.MaxLakeSize.html#Global_LakeGenerator_MaxLakeSize_Large
+  commentId: F:Global.LakeGenerator.MaxLakeSize.Large
+  fullName: LakeGenerator.MaxLakeSize.Large
+  nameWithType: LakeGenerator.MaxLakeSize.Large
+- uid: Global.LakeGenerator.MaxLakeSize.Medium
   name: Medium
-  href: api/Global.LakeGenerator.maxLakeSize.html#Global_LakeGenerator_maxLakeSize_Medium
-  commentId: F:Global.LakeGenerator.maxLakeSize.Medium
-  fullName: LakeGenerator.maxLakeSize.Medium
-  nameWithType: LakeGenerator.maxLakeSize.Medium
-- uid: Global.LakeGenerator.maxLakeSize.Small
+  href: api/Global.LakeGenerator.MaxLakeSize.html#Global_LakeGenerator_MaxLakeSize_Medium
+  commentId: F:Global.LakeGenerator.MaxLakeSize.Medium
+  fullName: LakeGenerator.MaxLakeSize.Medium
+  nameWithType: LakeGenerator.MaxLakeSize.Medium
+- uid: Global.LakeGenerator.MaxLakeSize.Small
   name: Small
-  href: api/Global.LakeGenerator.maxLakeSize.html#Global_LakeGenerator_maxLakeSize_Small
-  commentId: F:Global.LakeGenerator.maxLakeSize.Small
-  fullName: LakeGenerator.maxLakeSize.Small
-  nameWithType: LakeGenerator.maxLakeSize.Small
-- uid: Global.LakeGenerator.numLakes
-  name: LakeGenerator.numLakes
-  href: api/Global.LakeGenerator.numLakes.html
-  commentId: T:Global.LakeGenerator.numLakes
-  fullName: LakeGenerator.numLakes
-  nameWithType: LakeGenerator.numLakes
-- uid: Global.LakeGenerator.numLakes.High
+  href: api/Global.LakeGenerator.MaxLakeSize.html#Global_LakeGenerator_MaxLakeSize_Small
+  commentId: F:Global.LakeGenerator.MaxLakeSize.Small
+  fullName: LakeGenerator.MaxLakeSize.Small
+  nameWithType: LakeGenerator.MaxLakeSize.Small
+- uid: Global.LakeGenerator.maxLakeSizeCount
+  name: maxLakeSizeCount
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_maxLakeSizeCount
+  commentId: F:Global.LakeGenerator.maxLakeSizeCount
+  fullName: LakeGenerator.maxLakeSizeCount
+  nameWithType: LakeGenerator.maxLakeSizeCount
+- uid: Global.LakeGenerator.NumberOfLakes
+  name: LakeGenerator.NumberOfLakes
+  href: api/Global.LakeGenerator.NumberOfLakes.html
+  commentId: T:Global.LakeGenerator.NumberOfLakes
+  fullName: LakeGenerator.NumberOfLakes
+  nameWithType: LakeGenerator.NumberOfLakes
+- uid: Global.LakeGenerator.NumberOfLakes.High
   name: High
-  href: api/Global.LakeGenerator.numLakes.html#Global_LakeGenerator_numLakes_High
-  commentId: F:Global.LakeGenerator.numLakes.High
-  fullName: LakeGenerator.numLakes.High
-  nameWithType: LakeGenerator.numLakes.High
-- uid: Global.LakeGenerator.numLakes.Low
+  href: api/Global.LakeGenerator.NumberOfLakes.html#Global_LakeGenerator_NumberOfLakes_High
+  commentId: F:Global.LakeGenerator.NumberOfLakes.High
+  fullName: LakeGenerator.NumberOfLakes.High
+  nameWithType: LakeGenerator.NumberOfLakes.High
+- uid: Global.LakeGenerator.NumberOfLakes.Low
   name: Low
-  href: api/Global.LakeGenerator.numLakes.html#Global_LakeGenerator_numLakes_Low
-  commentId: F:Global.LakeGenerator.numLakes.Low
-  fullName: LakeGenerator.numLakes.Low
-  nameWithType: LakeGenerator.numLakes.Low
-- uid: Global.LakeGenerator.numLakes.Medium
+  href: api/Global.LakeGenerator.NumberOfLakes.html#Global_LakeGenerator_NumberOfLakes_Low
+  commentId: F:Global.LakeGenerator.NumberOfLakes.Low
+  fullName: LakeGenerator.NumberOfLakes.Low
+  nameWithType: LakeGenerator.NumberOfLakes.Low
+- uid: Global.LakeGenerator.NumberOfLakes.Medium
   name: Medium
-  href: api/Global.LakeGenerator.numLakes.html#Global_LakeGenerator_numLakes_Medium
-  commentId: F:Global.LakeGenerator.numLakes.Medium
-  fullName: LakeGenerator.numLakes.Medium
-  nameWithType: LakeGenerator.numLakes.Medium
-- uid: Global.LakeGenerator.populateCells(LakeGenerator.LakeUserSettings,LevelManager.levelCellStatus[0:,0:,0:])
-  name: populateCells(LakeGenerator.LakeUserSettings, LevelManager.levelCellStatus[,,])
-  href: api/Global.LakeGenerator.html#Global_LakeGenerator_populateCells_LakeGenerator_LakeUserSettings_LevelManager_levelCellStatus_0__0__0___
-  commentId: M:Global.LakeGenerator.populateCells(LakeGenerator.LakeUserSettings,LevelManager.levelCellStatus[0:,0:,0:])
-  name.vb: populateCells(LakeGenerator.LakeUserSettings, LevelManager.levelCellStatus(,,))
-  fullName: LakeGenerator.populateCells(LakeGenerator.LakeUserSettings, LevelManager.levelCellStatus[,,])
-  fullName.vb: LakeGenerator.populateCells(LakeGenerator.LakeUserSettings, LevelManager.levelCellStatus(,,))
-  nameWithType: LakeGenerator.populateCells(LakeGenerator.LakeUserSettings, LevelManager.levelCellStatus[,,])
-  nameWithType.vb: LakeGenerator.populateCells(LakeGenerator.LakeUserSettings, LevelManager.levelCellStatus(,,))
+  href: api/Global.LakeGenerator.NumberOfLakes.html#Global_LakeGenerator_NumberOfLakes_Medium
+  commentId: F:Global.LakeGenerator.NumberOfLakes.Medium
+  fullName: LakeGenerator.NumberOfLakes.Medium
+  nameWithType: LakeGenerator.NumberOfLakes.Medium
+- uid: Global.LakeGenerator.numberOfLakesCount
+  name: numberOfLakesCount
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_numberOfLakesCount
+  commentId: F:Global.LakeGenerator.numberOfLakesCount
+  fullName: LakeGenerator.numberOfLakesCount
+  nameWithType: LakeGenerator.numberOfLakesCount
+- uid: Global.LakeGenerator.populateCells(Map)
+  name: populateCells(Map)
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_populateCells_Map_
+  commentId: M:Global.LakeGenerator.populateCells(Map)
+  fullName: LakeGenerator.populateCells(Map)
+  nameWithType: LakeGenerator.populateCells(Map)
 - uid: Global.LakeGenerator.populateCells*
   name: populateCells
   href: api/Global.LakeGenerator.html#Global_LakeGenerator_populateCells_
@@ -213,19 +564,223 @@ references:
   isSpec: "True"
   fullName: LakeGenerator.populateCells
   nameWithType: LakeGenerator.populateCells
-- uid: Global.LakeGenerator.randomlyGenerate
-  name: randomlyGenerate()
-  href: api/Global.LakeGenerator.html#Global_LakeGenerator_randomlyGenerate
-  commentId: M:Global.LakeGenerator.randomlyGenerate
-  fullName: LakeGenerator.randomlyGenerate()
-  nameWithType: LakeGenerator.randomlyGenerate()
-- uid: Global.LakeGenerator.randomlyGenerate*
-  name: randomlyGenerate
-  href: api/Global.LakeGenerator.html#Global_LakeGenerator_randomlyGenerate_
-  commentId: Overload:Global.LakeGenerator.randomlyGenerate
+- uid: Global.LakeGenerator.setLakeSettings(LakeSettings)
+  name: setLakeSettings(LakeSettings)
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_setLakeSettings_LakeSettings_
+  commentId: M:Global.LakeGenerator.setLakeSettings(LakeSettings)
+  fullName: LakeGenerator.setLakeSettings(LakeSettings)
+  nameWithType: LakeGenerator.setLakeSettings(LakeSettings)
+- uid: Global.LakeGenerator.setLakeSettings*
+  name: setLakeSettings
+  href: api/Global.LakeGenerator.html#Global_LakeGenerator_setLakeSettings_
+  commentId: Overload:Global.LakeGenerator.setLakeSettings
   isSpec: "True"
-  fullName: LakeGenerator.randomlyGenerate
-  nameWithType: LakeGenerator.randomlyGenerate
+  fullName: LakeGenerator.setLakeSettings
+  nameWithType: LakeGenerator.setLakeSettings
+- uid: Global.LakeOptions
+  name: LakeOptions
+  href: api/Global.LakeOptions.html
+  commentId: T:Global.LakeOptions
+  fullName: LakeOptions
+  nameWithType: LakeOptions
+- uid: Global.LakeOptions.createUserSettingsFromOptions
+  name: createUserSettingsFromOptions()
+  href: api/Global.LakeOptions.html#Global_LakeOptions_createUserSettingsFromOptions
+  commentId: M:Global.LakeOptions.createUserSettingsFromOptions
+  fullName: LakeOptions.createUserSettingsFromOptions()
+  nameWithType: LakeOptions.createUserSettingsFromOptions()
+- uid: Global.LakeOptions.createUserSettingsFromOptions*
+  name: createUserSettingsFromOptions
+  href: api/Global.LakeOptions.html#Global_LakeOptions_createUserSettingsFromOptions_
+  commentId: Overload:Global.LakeOptions.createUserSettingsFromOptions
+  isSpec: "True"
+  fullName: LakeOptions.createUserSettingsFromOptions
+  nameWithType: LakeOptions.createUserSettingsFromOptions
+- uid: Global.LakeOptions.setupUIElements
+  name: setupUIElements()
+  href: api/Global.LakeOptions.html#Global_LakeOptions_setupUIElements
+  commentId: M:Global.LakeOptions.setupUIElements
+  fullName: LakeOptions.setupUIElements()
+  nameWithType: LakeOptions.setupUIElements()
+- uid: Global.LakeOptions.setupUIElements*
+  name: setupUIElements
+  href: api/Global.LakeOptions.html#Global_LakeOptions_setupUIElements_
+  commentId: Overload:Global.LakeOptions.setupUIElements
+  isSpec: "True"
+  fullName: LakeOptions.setupUIElements
+  nameWithType: LakeOptions.setupUIElements
+- uid: Global.LakeOptions.updateFields(LakeSettings)
+  name: updateFields(LakeSettings)
+  href: api/Global.LakeOptions.html#Global_LakeOptions_updateFields_LakeSettings_
+  commentId: M:Global.LakeOptions.updateFields(LakeSettings)
+  fullName: LakeOptions.updateFields(LakeSettings)
+  nameWithType: LakeOptions.updateFields(LakeSettings)
+- uid: Global.LakeOptions.updateFields*
+  name: updateFields
+  href: api/Global.LakeOptions.html#Global_LakeOptions_updateFields_
+  commentId: Overload:Global.LakeOptions.updateFields
+  isSpec: "True"
+  fullName: LakeOptions.updateFields
+  nameWithType: LakeOptions.updateFields
+- uid: Global.LakeSettings
+  name: LakeSettings
+  href: api/Global.LakeSettings.html
+  commentId: T:Global.LakeSettings
+  fullName: LakeSettings
+  nameWithType: LakeSettings
+- uid: Global.LakeSettings.#ctor(TerrainGenerator.TerrainType)
+  name: LakeSettings(TerrainGenerator.TerrainType)
+  href: api/Global.LakeSettings.html#Global_LakeSettings__ctor_TerrainGenerator_TerrainType_
+  commentId: M:Global.LakeSettings.#ctor(TerrainGenerator.TerrainType)
+  fullName: LakeSettings.LakeSettings(TerrainGenerator.TerrainType)
+  nameWithType: LakeSettings.LakeSettings(TerrainGenerator.TerrainType)
+- uid: Global.LakeSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,LakeGenerator.NumberOfLakes,LakeGenerator.MaxLakeSize)
+  name: LakeSettings(TerrainGenerator.TerrainType, Boolean, LakeGenerator.NumberOfLakes, LakeGenerator.MaxLakeSize)
+  href: api/Global.LakeSettings.html#Global_LakeSettings__ctor_TerrainGenerator_TerrainType_System_Boolean_LakeGenerator_NumberOfLakes_LakeGenerator_MaxLakeSize_
+  commentId: M:Global.LakeSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,LakeGenerator.NumberOfLakes,LakeGenerator.MaxLakeSize)
+  fullName: LakeSettings.LakeSettings(TerrainGenerator.TerrainType, System.Boolean, LakeGenerator.NumberOfLakes, LakeGenerator.MaxLakeSize)
+  nameWithType: LakeSettings.LakeSettings(TerrainGenerator.TerrainType, Boolean, LakeGenerator.NumberOfLakes, LakeGenerator.MaxLakeSize)
+- uid: Global.LakeSettings.#ctor*
+  name: LakeSettings
+  href: api/Global.LakeSettings.html#Global_LakeSettings__ctor_
+  commentId: Overload:Global.LakeSettings.#ctor
+  isSpec: "True"
+  fullName: LakeSettings.LakeSettings
+  nameWithType: LakeSettings.LakeSettings
+- uid: Global.LakeSettings.lGenerationEnabled
+  name: lGenerationEnabled
+  href: api/Global.LakeSettings.html#Global_LakeSettings_lGenerationEnabled
+  commentId: F:Global.LakeSettings.lGenerationEnabled
+  fullName: LakeSettings.lGenerationEnabled
+  nameWithType: LakeSettings.lGenerationEnabled
+- uid: Global.LakeSettings.lMaxSize
+  name: lMaxSize
+  href: api/Global.LakeSettings.html#Global_LakeSettings_lMaxSize
+  commentId: F:Global.LakeSettings.lMaxSize
+  fullName: LakeSettings.lMaxSize
+  nameWithType: LakeSettings.lMaxSize
+- uid: Global.LakeSettings.lNum
+  name: lNum
+  href: api/Global.LakeSettings.html#Global_LakeSettings_lNum
+  commentId: F:Global.LakeSettings.lNum
+  fullName: LakeSettings.lNum
+  nameWithType: LakeSettings.lNum
+- uid: Global.LakeSettings.tType
+  name: tType
+  href: api/Global.LakeSettings.html#Global_LakeSettings_tType
+  commentId: F:Global.LakeSettings.tType
+  fullName: LakeSettings.tType
+  nameWithType: LakeSettings.tType
+- uid: Global.Level
+  name: Level
+  href: api/Global.Level.html
+  commentId: T:Global.Level
+  fullName: Level
+  nameWithType: Level
+- uid: Global.Level.generate(TerrainSettings,RiverSettings,LakeSettings,WalkpathSettings)
+  name: generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)
+  href: api/Global.Level.html#Global_Level_generate_TerrainSettings_RiverSettings_LakeSettings_WalkpathSettings_
+  commentId: M:Global.Level.generate(TerrainSettings,RiverSettings,LakeSettings,WalkpathSettings)
+  fullName: Level.generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)
+  nameWithType: Level.generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)
+- uid: Global.Level.generate*
+  name: generate
+  href: api/Global.Level.html#Global_Level_generate_
+  commentId: Overload:Global.Level.generate
+  isSpec: "True"
+  fullName: Level.generate
+  nameWithType: Level.generate
+- uid: Global.Level.getCellZPosition(Vector2)
+  name: getCellZPosition(Vector2)
+  href: api/Global.Level.html#Global_Level_getCellZPosition_Vector2_
+  commentId: M:Global.Level.getCellZPosition(Vector2)
+  fullName: Level.getCellZPosition(Vector2)
+  nameWithType: Level.getCellZPosition(Vector2)
+- uid: Global.Level.getCellZPosition*
+  name: getCellZPosition
+  href: api/Global.Level.html#Global_Level_getCellZPosition_
+  commentId: Overload:Global.Level.getCellZPosition
+  isSpec: "True"
+  fullName: Level.getCellZPosition
+  nameWithType: Level.getCellZPosition
+- uid: Global.Level.getGenerationInfo
+  name: getGenerationInfo()
+  href: api/Global.Level.html#Global_Level_getGenerationInfo
+  commentId: M:Global.Level.getGenerationInfo
+  fullName: Level.getGenerationInfo()
+  nameWithType: Level.getGenerationInfo()
+- uid: Global.Level.getGenerationInfo*
+  name: getGenerationInfo
+  href: api/Global.Level.html#Global_Level_getGenerationInfo_
+  commentId: Overload:Global.Level.getGenerationInfo
+  isSpec: "True"
+  fullName: Level.getGenerationInfo
+  nameWithType: Level.getGenerationInfo
+- uid: Global.Level.getGridPosition(Vector2Int)
+  name: getGridPosition(Vector2Int)
+  href: api/Global.Level.html#Global_Level_getGridPosition_Vector2Int_
+  commentId: M:Global.Level.getGridPosition(Vector2Int)
+  fullName: Level.getGridPosition(Vector2Int)
+  nameWithType: Level.getGridPosition(Vector2Int)
+- uid: Global.Level.getGridPosition*
+  name: getGridPosition
+  href: api/Global.Level.html#Global_Level_getGridPosition_
+  commentId: Overload:Global.Level.getGridPosition
+  isSpec: "True"
+  fullName: Level.getGridPosition
+  nameWithType: Level.getGridPosition
+- uid: Global.Level.getRandomCell
+  name: getRandomCell()
+  href: api/Global.Level.html#Global_Level_getRandomCell
+  commentId: M:Global.Level.getRandomCell
+  fullName: Level.getRandomCell()
+  nameWithType: Level.getRandomCell()
+- uid: Global.Level.getRandomCell*
+  name: getRandomCell
+  href: api/Global.Level.html#Global_Level_getRandomCell_
+  commentId: Overload:Global.Level.getRandomCell
+  isSpec: "True"
+  fullName: Level.getRandomCell
+  nameWithType: Level.getRandomCell
+- uid: Global.Level.isGenerated
+  name: isGenerated
+  href: api/Global.Level.html#Global_Level_isGenerated
+  commentId: P:Global.Level.isGenerated
+  fullName: Level.isGenerated
+  nameWithType: Level.isGenerated
+- uid: Global.Level.isGenerated*
+  name: isGenerated
+  href: api/Global.Level.html#Global_Level_isGenerated_
+  commentId: Overload:Global.Level.isGenerated
+  isSpec: "True"
+  fullName: Level.isGenerated
+  nameWithType: Level.isGenerated
+- uid: Global.Level.setCameraActive(System.Boolean)
+  name: setCameraActive(Boolean)
+  href: api/Global.Level.html#Global_Level_setCameraActive_System_Boolean_
+  commentId: M:Global.Level.setCameraActive(System.Boolean)
+  fullName: Level.setCameraActive(System.Boolean)
+  nameWithType: Level.setCameraActive(Boolean)
+- uid: Global.Level.setCameraActive*
+  name: setCameraActive
+  href: api/Global.Level.html#Global_Level_setCameraActive_
+  commentId: Overload:Global.Level.setCameraActive
+  isSpec: "True"
+  fullName: Level.setCameraActive
+  nameWithType: Level.setCameraActive
+- uid: Global.Level.setup(System.Boolean)
+  name: setup(Boolean)
+  href: api/Global.Level.html#Global_Level_setup_System_Boolean_
+  commentId: M:Global.Level.setup(System.Boolean)
+  fullName: Level.setup(System.Boolean)
+  nameWithType: Level.setup(Boolean)
+- uid: Global.Level.setup*
+  name: setup
+  href: api/Global.Level.html#Global_Level_setup_
+  commentId: Overload:Global.Level.setup
+  isSpec: "True"
+  fullName: Level.setup
+  nameWithType: Level.setup
 - uid: Global.LevelCameraController
   name: LevelCameraController
   href: api/Global.LevelCameraController.html
@@ -348,25 +903,12 @@ references:
   commentId: T:Global.LevelManager
   fullName: LevelManager
   nameWithType: LevelManager
-- uid: Global.LevelManager.clearLevel
-  name: clearLevel()
-  href: api/Global.LevelManager.html#Global_LevelManager_clearLevel
-  commentId: M:Global.LevelManager.clearLevel
-  fullName: LevelManager.clearLevel()
-  nameWithType: LevelManager.clearLevel()
-- uid: Global.LevelManager.clearLevel*
-  name: clearLevel
-  href: api/Global.LevelManager.html#Global_LevelManager_clearLevel_
-  commentId: Overload:Global.LevelManager.clearLevel
-  isSpec: "True"
-  fullName: LevelManager.clearLevel
-  nameWithType: LevelManager.clearLevel
-- uid: Global.LevelManager.generate(TerrainGenerator.TerrainUserSettings,RiverGenerator.RiverUserSettings,LakeGenerator.LakeUserSettings)
-  name: generate(TerrainGenerator.TerrainUserSettings, RiverGenerator.RiverUserSettings, LakeGenerator.LakeUserSettings)
-  href: api/Global.LevelManager.html#Global_LevelManager_generate_TerrainGenerator_TerrainUserSettings_RiverGenerator_RiverUserSettings_LakeGenerator_LakeUserSettings_
-  commentId: M:Global.LevelManager.generate(TerrainGenerator.TerrainUserSettings,RiverGenerator.RiverUserSettings,LakeGenerator.LakeUserSettings)
-  fullName: LevelManager.generate(TerrainGenerator.TerrainUserSettings, RiverGenerator.RiverUserSettings, LakeGenerator.LakeUserSettings)
-  nameWithType: LevelManager.generate(TerrainGenerator.TerrainUserSettings, RiverGenerator.RiverUserSettings, LakeGenerator.LakeUserSettings)
+- uid: Global.LevelManager.generate(TerrainSettings,RiverSettings,LakeSettings,WalkpathSettings)
+  name: generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)
+  href: api/Global.LevelManager.html#Global_LevelManager_generate_TerrainSettings_RiverSettings_LakeSettings_WalkpathSettings_
+  commentId: M:Global.LevelManager.generate(TerrainSettings,RiverSettings,LakeSettings,WalkpathSettings)
+  fullName: LevelManager.generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)
+  nameWithType: LevelManager.generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)
 - uid: Global.LevelManager.generate*
   name: generate
   href: api/Global.LevelManager.html#Global_LevelManager_generate_
@@ -374,61 +916,32 @@ references:
   isSpec: "True"
   fullName: LevelManager.generate
   nameWithType: LevelManager.generate
-- uid: Global.LevelManager.levelCellStatus
-  name: LevelManager.levelCellStatus
-  href: api/Global.LevelManager.levelCellStatus.html
-  commentId: T:Global.LevelManager.levelCellStatus
-  fullName: LevelManager.levelCellStatus
-  nameWithType: LevelManager.levelCellStatus
-- uid: Global.LevelManager.levelCellStatus.invalidCell
-  name: invalidCell
-  href: api/Global.LevelManager.levelCellStatus.html#Global_LevelManager_levelCellStatus_invalidCell
-  commentId: F:Global.LevelManager.levelCellStatus.invalidCell
-  fullName: LevelManager.levelCellStatus.invalidCell
-  nameWithType: LevelManager.levelCellStatus.invalidCell
-- uid: Global.LevelManager.levelCellStatus.lakeCell
-  name: lakeCell
-  href: api/Global.LevelManager.levelCellStatus.html#Global_LevelManager_levelCellStatus_lakeCell
-  commentId: F:Global.LevelManager.levelCellStatus.lakeCell
-  fullName: LevelManager.levelCellStatus.lakeCell
-  nameWithType: LevelManager.levelCellStatus.lakeCell
-- uid: Global.LevelManager.levelCellStatus.outOfBounds
-  name: outOfBounds
-  href: api/Global.LevelManager.levelCellStatus.html#Global_LevelManager_levelCellStatus_outOfBounds
-  commentId: F:Global.LevelManager.levelCellStatus.outOfBounds
-  fullName: LevelManager.levelCellStatus.outOfBounds
-  nameWithType: LevelManager.levelCellStatus.outOfBounds
-- uid: Global.LevelManager.levelCellStatus.riverCell
-  name: riverCell
-  href: api/Global.LevelManager.levelCellStatus.html#Global_LevelManager_levelCellStatus_riverCell
-  commentId: F:Global.LevelManager.levelCellStatus.riverCell
-  fullName: LevelManager.levelCellStatus.riverCell
-  nameWithType: LevelManager.levelCellStatus.riverCell
-- uid: Global.LevelManager.levelCellStatus.terrainCell
-  name: terrainCell
-  href: api/Global.LevelManager.levelCellStatus.html#Global_LevelManager_levelCellStatus_terrainCell
-  commentId: F:Global.LevelManager.levelCellStatus.terrainCell
-  fullName: LevelManager.levelCellStatus.terrainCell
-  nameWithType: LevelManager.levelCellStatus.terrainCell
-- uid: Global.LevelManager.levelCellStatus.validCell
-  name: validCell
-  href: api/Global.LevelManager.levelCellStatus.html#Global_LevelManager_levelCellStatus_validCell
-  commentId: F:Global.LevelManager.levelCellStatus.validCell
-  fullName: LevelManager.levelCellStatus.validCell
-  nameWithType: LevelManager.levelCellStatus.validCell
-- uid: Global.LevelManager.levelisGenerated
-  name: levelisGenerated
-  href: api/Global.LevelManager.html#Global_LevelManager_levelisGenerated
-  commentId: P:Global.LevelManager.levelisGenerated
-  fullName: LevelManager.levelisGenerated
-  nameWithType: LevelManager.levelisGenerated
-- uid: Global.LevelManager.levelisGenerated*
-  name: levelisGenerated
-  href: api/Global.LevelManager.html#Global_LevelManager_levelisGenerated_
-  commentId: Overload:Global.LevelManager.levelisGenerated
+- uid: Global.LevelManager.getCellZPosition(Vector2)
+  name: getCellZPosition(Vector2)
+  href: api/Global.LevelManager.html#Global_LevelManager_getCellZPosition_Vector2_
+  commentId: M:Global.LevelManager.getCellZPosition(Vector2)
+  fullName: LevelManager.getCellZPosition(Vector2)
+  nameWithType: LevelManager.getCellZPosition(Vector2)
+- uid: Global.LevelManager.getCellZPosition*
+  name: getCellZPosition
+  href: api/Global.LevelManager.html#Global_LevelManager_getCellZPosition_
+  commentId: Overload:Global.LevelManager.getCellZPosition
   isSpec: "True"
-  fullName: LevelManager.levelisGenerated
-  nameWithType: LevelManager.levelisGenerated
+  fullName: LevelManager.getCellZPosition
+  nameWithType: LevelManager.getCellZPosition
+- uid: Global.LevelManager.getGenerationInfo
+  name: getGenerationInfo()
+  href: api/Global.LevelManager.html#Global_LevelManager_getGenerationInfo
+  commentId: M:Global.LevelManager.getGenerationInfo
+  fullName: LevelManager.getGenerationInfo()
+  nameWithType: LevelManager.getGenerationInfo()
+- uid: Global.LevelManager.getGenerationInfo*
+  name: getGenerationInfo
+  href: api/Global.LevelManager.html#Global_LevelManager_getGenerationInfo_
+  commentId: Overload:Global.LevelManager.getGenerationInfo
+  isSpec: "True"
+  fullName: LevelManager.getGenerationInfo
+  nameWithType: LevelManager.getGenerationInfo
 - uid: Global.LevelManager.setLevelCameraActive(System.Boolean)
   name: setLevelCameraActive(Boolean)
   href: api/Global.LevelManager.html#Global_LevelManager_setLevelCameraActive_System_Boolean_
@@ -455,6 +968,19 @@ references:
   isSpec: "True"
   fullName: LevelManager.setPlayerActive
   nameWithType: LevelManager.setPlayerActive
+- uid: Global.LevelManager.setupLevelFromInspector
+  name: setupLevelFromInspector()
+  href: api/Global.LevelManager.html#Global_LevelManager_setupLevelFromInspector
+  commentId: M:Global.LevelManager.setupLevelFromInspector
+  fullName: LevelManager.setupLevelFromInspector()
+  nameWithType: LevelManager.setupLevelFromInspector()
+- uid: Global.LevelManager.setupLevelFromInspector*
+  name: setupLevelFromInspector
+  href: api/Global.LevelManager.html#Global_LevelManager_setupLevelFromInspector_
+  commentId: Overload:Global.LevelManager.setupLevelFromInspector
+  isSpec: "True"
+  fullName: LevelManager.setupLevelFromInspector
+  nameWithType: LevelManager.setupLevelFromInspector
 - uid: Global.LevelManager.setupPlayer
   name: setupPlayer()
   href: api/Global.LevelManager.html#Global_LevelManager_setupPlayer
@@ -468,138 +994,472 @@ references:
   isSpec: "True"
   fullName: LevelManager.setupPlayer
   nameWithType: LevelManager.setupPlayer
-- uid: Global.Node
-  name: Node
-  href: api/Global.Node.html
-  commentId: T:Global.Node
-  fullName: Node
-  nameWithType: Node
-- uid: Global.Node.#ctor(Vector3Int,System.Boolean)
-  name: Node(Vector3Int, Boolean)
-  href: api/Global.Node.html#Global_Node__ctor_Vector3Int_System_Boolean_
-  commentId: M:Global.Node.#ctor(Vector3Int,System.Boolean)
-  fullName: Node.Node(Vector3Int, System.Boolean)
-  nameWithType: Node.Node(Vector3Int, Boolean)
-- uid: Global.Node.#ctor*
-  name: Node
-  href: api/Global.Node.html#Global_Node__ctor_
-  commentId: Overload:Global.Node.#ctor
+- uid: Global.Map
+  name: Map
+  href: api/Global.Map.html
+  commentId: T:Global.Map
+  fullName: Map
+  nameWithType: Map
+- uid: Global.Map.#ctor(System.Int32,System.Int32,TerrainGenerator.TerrainShape,Cell.CellStatus)
+  name: Map(Int32, Int32, TerrainGenerator.TerrainShape, Cell.CellStatus)
+  href: api/Global.Map.html#Global_Map__ctor_System_Int32_System_Int32_TerrainGenerator_TerrainShape_Cell_CellStatus_
+  commentId: M:Global.Map.#ctor(System.Int32,System.Int32,TerrainGenerator.TerrainShape,Cell.CellStatus)
+  fullName: Map.Map(System.Int32, System.Int32, TerrainGenerator.TerrainShape, Cell.CellStatus)
+  nameWithType: Map.Map(Int32, Int32, TerrainGenerator.TerrainShape, Cell.CellStatus)
+- uid: Global.Map.#ctor*
+  name: Map
+  href: api/Global.Map.html#Global_Map__ctor_
+  commentId: Overload:Global.Map.#ctor
   isSpec: "True"
-  fullName: Node.Node
-  nameWithType: Node.Node
-- uid: Global.Node.fCost
-  name: fCost()
-  href: api/Global.Node.html#Global_Node_fCost
-  commentId: M:Global.Node.fCost
-  fullName: Node.fCost()
-  nameWithType: Node.fCost()
-- uid: Global.Node.fCost*
-  name: fCost
-  href: api/Global.Node.html#Global_Node_fCost_
-  commentId: Overload:Global.Node.fCost
+  fullName: Map.Map
+  nameWithType: Map.Map
+- uid: Global.Map.addBoundaryCellPosition(Vector2Int)
+  name: addBoundaryCellPosition(Vector2Int)
+  href: api/Global.Map.html#Global_Map_addBoundaryCellPosition_Vector2Int_
+  commentId: M:Global.Map.addBoundaryCellPosition(Vector2Int)
+  fullName: Map.addBoundaryCellPosition(Vector2Int)
+  nameWithType: Map.addBoundaryCellPosition(Vector2Int)
+- uid: Global.Map.addBoundaryCellPosition*
+  name: addBoundaryCellPosition
+  href: api/Global.Map.html#Global_Map_addBoundaryCellPosition_
+  commentId: Overload:Global.Map.addBoundaryCellPosition
   isSpec: "True"
-  fullName: Node.fCost
-  nameWithType: Node.fCost
-- uid: Global.Node.gCost
-  name: gCost
-  href: api/Global.Node.html#Global_Node_gCost
-  commentId: F:Global.Node.gCost
-  fullName: Node.gCost
-  nameWithType: Node.gCost
-- uid: Global.Node.hCost
-  name: hCost
-  href: api/Global.Node.html#Global_Node_hCost
-  commentId: F:Global.Node.hCost
-  fullName: Node.hCost
-  nameWithType: Node.hCost
-- uid: Global.Node.isTraversable
-  name: isTraversable
-  href: api/Global.Node.html#Global_Node_isTraversable
-  commentId: F:Global.Node.isTraversable
-  fullName: Node.isTraversable
-  nameWithType: Node.isTraversable
-- uid: Global.Node.parent
-  name: parent
-  href: api/Global.Node.html#Global_Node_parent
-  commentId: F:Global.Node.parent
-  fullName: Node.parent
-  nameWithType: Node.parent
-- uid: Global.Node.position
-  name: position
-  href: api/Global.Node.html#Global_Node_position
-  commentId: F:Global.Node.position
-  fullName: Node.position
-  nameWithType: Node.position
+  fullName: Map.addBoundaryCellPosition
+  nameWithType: Map.addBoundaryCellPosition
+- uid: Global.Map.area
+  name: area
+  href: api/Global.Map.html#Global_Map_area
+  commentId: F:Global.Map.area
+  fullName: Map.area
+  nameWithType: Map.area
+- uid: Global.Map.checkForBoundaryCell(Cell)
+  name: checkForBoundaryCell(Cell)
+  href: api/Global.Map.html#Global_Map_checkForBoundaryCell_Cell_
+  commentId: M:Global.Map.checkForBoundaryCell(Cell)
+  fullName: Map.checkForBoundaryCell(Cell)
+  nameWithType: Map.checkForBoundaryCell(Cell)
+- uid: Global.Map.checkForBoundaryCell*
+  name: checkForBoundaryCell
+  href: api/Global.Map.html#Global_Map_checkForBoundaryCell_
+  commentId: Overload:Global.Map.checkForBoundaryCell
+  isSpec: "True"
+  fullName: Map.checkForBoundaryCell
+  nameWithType: Map.checkForBoundaryCell
+- uid: Global.Map.checkForBoundaryCellRandom(Cell)
+  name: checkForBoundaryCellRandom(Cell)
+  href: api/Global.Map.html#Global_Map_checkForBoundaryCellRandom_Cell_
+  commentId: M:Global.Map.checkForBoundaryCellRandom(Cell)
+  fullName: Map.checkForBoundaryCellRandom(Cell)
+  nameWithType: Map.checkForBoundaryCellRandom(Cell)
+- uid: Global.Map.checkForBoundaryCellRandom*
+  name: checkForBoundaryCellRandom
+  href: api/Global.Map.html#Global_Map_checkForBoundaryCellRandom_
+  commentId: Overload:Global.Map.checkForBoundaryCellRandom
+  isSpec: "True"
+  fullName: Map.checkForBoundaryCellRandom
+  nameWithType: Map.checkForBoundaryCellRandom
+- uid: Global.Map.getAll
+  name: getAll()
+  href: api/Global.Map.html#Global_Map_getAll
+  commentId: M:Global.Map.getAll
+  fullName: Map.getAll()
+  nameWithType: Map.getAll()
+- uid: Global.Map.getAll*
+  name: getAll
+  href: api/Global.Map.html#Global_Map_getAll_
+  commentId: Overload:Global.Map.getAll
+  isSpec: "True"
+  fullName: Map.getAll
+  nameWithType: Map.getAll
+- uid: Global.Map.getBoundaryCellPositions
+  name: getBoundaryCellPositions()
+  href: api/Global.Map.html#Global_Map_getBoundaryCellPositions
+  commentId: M:Global.Map.getBoundaryCellPositions
+  fullName: Map.getBoundaryCellPositions()
+  nameWithType: Map.getBoundaryCellPositions()
+- uid: Global.Map.getBoundaryCellPositions*
+  name: getBoundaryCellPositions
+  href: api/Global.Map.html#Global_Map_getBoundaryCellPositions_
+  commentId: Overload:Global.Map.getBoundaryCellPositions
+  isSpec: "True"
+  fullName: Map.getBoundaryCellPositions
+  nameWithType: Map.getBoundaryCellPositions
+- uid: Global.Map.getCell(System.Int32,System.Int32)
+  name: getCell(Int32, Int32)
+  href: api/Global.Map.html#Global_Map_getCell_System_Int32_System_Int32_
+  commentId: M:Global.Map.getCell(System.Int32,System.Int32)
+  fullName: Map.getCell(System.Int32, System.Int32)
+  nameWithType: Map.getCell(Int32, Int32)
+- uid: Global.Map.getCell(Vector2Int)
+  name: getCell(Vector2Int)
+  href: api/Global.Map.html#Global_Map_getCell_Vector2Int_
+  commentId: M:Global.Map.getCell(Vector2Int)
+  fullName: Map.getCell(Vector2Int)
+  nameWithType: Map.getCell(Vector2Int)
+- uid: Global.Map.getCell*
+  name: getCell
+  href: api/Global.Map.html#Global_Map_getCell_
+  commentId: Overload:Global.Map.getCell
+  isSpec: "True"
+  fullName: Map.getCell
+  nameWithType: Map.getCell
+- uid: Global.Map.getMinDepth(Cell)
+  name: getMinDepth(Cell)
+  href: api/Global.Map.html#Global_Map_getMinDepth_Cell_
+  commentId: M:Global.Map.getMinDepth(Cell)
+  fullName: Map.getMinDepth(Cell)
+  nameWithType: Map.getMinDepth(Cell)
+- uid: Global.Map.getMinDepth*
+  name: getMinDepth
+  href: api/Global.Map.html#Global_Map_getMinDepth_
+  commentId: Overload:Global.Map.getMinDepth
+  isSpec: "True"
+  fullName: Map.getMinDepth
+  nameWithType: Map.getMinDepth
+- uid: Global.Map.getNeighbours(Cell)
+  name: getNeighbours(Cell)
+  href: api/Global.Map.html#Global_Map_getNeighbours_Cell_
+  commentId: M:Global.Map.getNeighbours(Cell)
+  fullName: Map.getNeighbours(Cell)
+  nameWithType: Map.getNeighbours(Cell)
+- uid: Global.Map.getNeighbours*
+  name: getNeighbours
+  href: api/Global.Map.html#Global_Map_getNeighbours_
+  commentId: Overload:Global.Map.getNeighbours
+  isSpec: "True"
+  fullName: Map.getNeighbours
+  nameWithType: Map.getNeighbours
+- uid: Global.Map.getRandomCell
+  name: getRandomCell()
+  href: api/Global.Map.html#Global_Map_getRandomCell
+  commentId: M:Global.Map.getRandomCell
+  fullName: Map.getRandomCell()
+  nameWithType: Map.getRandomCell()
+- uid: Global.Map.getRandomCell*
+  name: getRandomCell
+  href: api/Global.Map.html#Global_Map_getRandomCell_
+  commentId: Overload:Global.Map.getRandomCell
+  isSpec: "True"
+  fullName: Map.getRandomCell
+  nameWithType: Map.getRandomCell
+- uid: Global.Map.getTerrainMinDepth(Cell)
+  name: getTerrainMinDepth(Cell)
+  href: api/Global.Map.html#Global_Map_getTerrainMinDepth_Cell_
+  commentId: M:Global.Map.getTerrainMinDepth(Cell)
+  fullName: Map.getTerrainMinDepth(Cell)
+  nameWithType: Map.getTerrainMinDepth(Cell)
+- uid: Global.Map.getTerrainMinDepth*
+  name: getTerrainMinDepth
+  href: api/Global.Map.html#Global_Map_getTerrainMinDepth_
+  commentId: Overload:Global.Map.getTerrainMinDepth
+  isSpec: "True"
+  fullName: Map.getTerrainMinDepth
+  nameWithType: Map.getTerrainMinDepth
+- uid: Global.Map.height
+  name: height
+  href: api/Global.Map.html#Global_Map_height
+  commentId: F:Global.Map.height
+  fullName: Map.height
+  nameWithType: Map.height
+- uid: Global.Map.isBoundaryCell(Cell)
+  name: isBoundaryCell(Cell)
+  href: api/Global.Map.html#Global_Map_isBoundaryCell_Cell_
+  commentId: M:Global.Map.isBoundaryCell(Cell)
+  fullName: Map.isBoundaryCell(Cell)
+  nameWithType: Map.isBoundaryCell(Cell)
+- uid: Global.Map.isBoundaryCell*
+  name: isBoundaryCell
+  href: api/Global.Map.html#Global_Map_isBoundaryCell_
+  commentId: Overload:Global.Map.isBoundaryCell
+  isSpec: "True"
+  fullName: Map.isBoundaryCell
+  nameWithType: Map.isBoundaryCell
+- uid: Global.Map.isValidCell(Vector2Int)
+  name: isValidCell(Vector2Int)
+  href: api/Global.Map.html#Global_Map_isValidCell_Vector2Int_
+  commentId: M:Global.Map.isValidCell(Vector2Int)
+  fullName: Map.isValidCell(Vector2Int)
+  nameWithType: Map.isValidCell(Vector2Int)
+- uid: Global.Map.isValidCell*
+  name: isValidCell
+  href: api/Global.Map.html#Global_Map_isValidCell_
+  commentId: Overload:Global.Map.isValidCell
+  isSpec: "True"
+  fullName: Map.isValidCell
+  nameWithType: Map.isValidCell
+- uid: Global.Map.shape
+  name: shape
+  href: api/Global.Map.html#Global_Map_shape
+  commentId: F:Global.Map.shape
+  fullName: Map.shape
+  nameWithType: Map.shape
+- uid: Global.Map.terrainCellCount
+  name: terrainCellCount
+  href: api/Global.Map.html#Global_Map_terrainCellCount
+  commentId: P:Global.Map.terrainCellCount
+  fullName: Map.terrainCellCount
+  nameWithType: Map.terrainCellCount
+- uid: Global.Map.terrainCellCount*
+  name: terrainCellCount
+  href: api/Global.Map.html#Global_Map_terrainCellCount_
+  commentId: Overload:Global.Map.terrainCellCount
+  isSpec: "True"
+  fullName: Map.terrainCellCount
+  nameWithType: Map.terrainCellCount
+- uid: Global.Map.updateCellStatus(Cell,Cell.CellStatus,System.Boolean)
+  name: updateCellStatus(Cell, Cell.CellStatus, Boolean)
+  href: api/Global.Map.html#Global_Map_updateCellStatus_Cell_Cell_CellStatus_System_Boolean_
+  commentId: M:Global.Map.updateCellStatus(Cell,Cell.CellStatus,System.Boolean)
+  fullName: Map.updateCellStatus(Cell, Cell.CellStatus, System.Boolean)
+  nameWithType: Map.updateCellStatus(Cell, Cell.CellStatus, Boolean)
+- uid: Global.Map.updateCellStatus*
+  name: updateCellStatus
+  href: api/Global.Map.html#Global_Map_updateCellStatus_
+  commentId: Overload:Global.Map.updateCellStatus
+  isSpec: "True"
+  fullName: Map.updateCellStatus
+  nameWithType: Map.updateCellStatus
+- uid: Global.Map.width
+  name: width
+  href: api/Global.Map.html#Global_Map_width
+  commentId: F:Global.Map.width
+  fullName: Map.width
+  nameWithType: Map.width
+- uid: Global.Options
+  name: Options
+  href: api/Global.Options.html
+  commentId: T:Global.Options
+  fullName: Options
+  nameWithType: Options
+- uid: Global.Options.dropdowns
+  name: dropdowns
+  href: api/Global.Options.html#Global_Options_dropdowns
+  commentId: F:Global.Options.dropdowns
+  fullName: Options.dropdowns
+  nameWithType: Options.dropdowns
+- uid: Global.Options.inputFields
+  name: inputFields
+  href: api/Global.Options.html#Global_Options_inputFields
+  commentId: F:Global.Options.inputFields
+  fullName: Options.inputFields
+  nameWithType: Options.inputFields
+- uid: Global.Options.setupDropdown(Dropdown,List{System.String})
+  name: setupDropdown(Dropdown, List<String>)
+  href: api/Global.Options.html#Global_Options_setupDropdown_Dropdown_List_System_String__
+  commentId: M:Global.Options.setupDropdown(Dropdown,List{System.String})
+  name.vb: setupDropdown(Dropdown, List(Of String))
+  fullName: Options.setupDropdown(Dropdown, List<System.String>)
+  fullName.vb: Options.setupDropdown(Dropdown, List(Of System.String))
+  nameWithType: Options.setupDropdown(Dropdown, List<String>)
+  nameWithType.vb: Options.setupDropdown(Dropdown, List(Of String))
+- uid: Global.Options.setupDropdown*
+  name: setupDropdown
+  href: api/Global.Options.html#Global_Options_setupDropdown_
+  commentId: Overload:Global.Options.setupDropdown
+  isSpec: "True"
+  fullName: Options.setupDropdown
+  nameWithType: Options.setupDropdown
+- uid: Global.Options.setupSlider(Slider,InputField,System.Int32,System.Int32)
+  name: setupSlider(Slider, InputField, Int32, Int32)
+  href: api/Global.Options.html#Global_Options_setupSlider_Slider_InputField_System_Int32_System_Int32_
+  commentId: M:Global.Options.setupSlider(Slider,InputField,System.Int32,System.Int32)
+  fullName: Options.setupSlider(Slider, InputField, System.Int32, System.Int32)
+  nameWithType: Options.setupSlider(Slider, InputField, Int32, Int32)
+- uid: Global.Options.setupSlider*
+  name: setupSlider
+  href: api/Global.Options.html#Global_Options_setupSlider_
+  commentId: Overload:Global.Options.setupSlider
+  isSpec: "True"
+  fullName: Options.setupSlider
+  nameWithType: Options.setupSlider
+- uid: Global.Options.setupToggle(Toggle,GameObject)
+  name: setupToggle(Toggle, GameObject)
+  href: api/Global.Options.html#Global_Options_setupToggle_Toggle_GameObject_
+  commentId: M:Global.Options.setupToggle(Toggle,GameObject)
+  fullName: Options.setupToggle(Toggle, GameObject)
+  nameWithType: Options.setupToggle(Toggle, GameObject)
+- uid: Global.Options.setupToggle*
+  name: setupToggle
+  href: api/Global.Options.html#Global_Options_setupToggle_
+  commentId: Overload:Global.Options.setupToggle
+  isSpec: "True"
+  fullName: Options.setupToggle
+  nameWithType: Options.setupToggle
+- uid: Global.Options.sliders
+  name: sliders
+  href: api/Global.Options.html#Global_Options_sliders
+  commentId: F:Global.Options.sliders
+  fullName: Options.sliders
+  nameWithType: Options.sliders
+- uid: Global.Options.terrainType
+  name: terrainType
+  href: api/Global.Options.html#Global_Options_terrainType
+  commentId: F:Global.Options.terrainType
+  fullName: Options.terrainType
+  nameWithType: Options.terrainType
+- uid: Global.Options.toggleOption(Toggle,GameObject)
+  name: toggleOption(Toggle, GameObject)
+  href: api/Global.Options.html#Global_Options_toggleOption_Toggle_GameObject_
+  commentId: M:Global.Options.toggleOption(Toggle,GameObject)
+  fullName: Options.toggleOption(Toggle, GameObject)
+  nameWithType: Options.toggleOption(Toggle, GameObject)
+- uid: Global.Options.toggleOption*
+  name: toggleOption
+  href: api/Global.Options.html#Global_Options_toggleOption_
+  commentId: Overload:Global.Options.toggleOption
+  isSpec: "True"
+  fullName: Options.toggleOption
+  nameWithType: Options.toggleOption
+- uid: Global.Options.toggleOptions
+  name: toggleOptions
+  href: api/Global.Options.html#Global_Options_toggleOptions
+  commentId: F:Global.Options.toggleOptions
+  fullName: Options.toggleOptions
+  nameWithType: Options.toggleOptions
+- uid: Global.Options.toggles
+  name: toggles
+  href: api/Global.Options.html#Global_Options_toggles
+  commentId: F:Global.Options.toggles
+  fullName: Options.toggles
+  nameWithType: Options.toggles
+- uid: Global.Options.updateInputField(Slider,InputField)
+  name: updateInputField(Slider, InputField)
+  href: api/Global.Options.html#Global_Options_updateInputField_Slider_InputField_
+  commentId: M:Global.Options.updateInputField(Slider,InputField)
+  fullName: Options.updateInputField(Slider, InputField)
+  nameWithType: Options.updateInputField(Slider, InputField)
+- uid: Global.Options.updateInputField*
+  name: updateInputField
+  href: api/Global.Options.html#Global_Options_updateInputField_
+  commentId: Overload:Global.Options.updateInputField
+  isSpec: "True"
+  fullName: Options.updateInputField
+  nameWithType: Options.updateInputField
+- uid: Global.Options.updateSlider(InputField,Slider,System.Int32,System.Int32)
+  name: updateSlider(InputField, Slider, Int32, Int32)
+  href: api/Global.Options.html#Global_Options_updateSlider_InputField_Slider_System_Int32_System_Int32_
+  commentId: M:Global.Options.updateSlider(InputField,Slider,System.Int32,System.Int32)
+  fullName: Options.updateSlider(InputField, Slider, System.Int32, System.Int32)
+  nameWithType: Options.updateSlider(InputField, Slider, Int32, Int32)
+- uid: Global.Options.updateSlider*
+  name: updateSlider
+  href: api/Global.Options.html#Global_Options_updateSlider_
+  commentId: Overload:Global.Options.updateSlider
+  isSpec: "True"
+  fullName: Options.updateSlider
+  nameWithType: Options.updateSlider
+- uid: Global.PathGenerator
+  name: PathGenerator
+  href: api/Global.PathGenerator.html
+  commentId: T:Global.PathGenerator
+  fullName: PathGenerator
+  nameWithType: PathGenerator
+- uid: Global.PathGenerator.findAStarPath(Map,Cell,Cell,Cell.CellStatus,System.Boolean)
+  name: findAStarPath(Map, Cell, Cell, Cell.CellStatus, Boolean)
+  href: api/Global.PathGenerator.html#Global_PathGenerator_findAStarPath_Map_Cell_Cell_Cell_CellStatus_System_Boolean_
+  commentId: M:Global.PathGenerator.findAStarPath(Map,Cell,Cell,Cell.CellStatus,System.Boolean)
+  fullName: PathGenerator.findAStarPath(Map, Cell, Cell, Cell.CellStatus, System.Boolean)
+  nameWithType: PathGenerator.findAStarPath(Map, Cell, Cell, Cell.CellStatus, Boolean)
+- uid: Global.PathGenerator.findAStarPath*
+  name: findAStarPath
+  href: api/Global.PathGenerator.html#Global_PathGenerator_findAStarPath_
+  commentId: Overload:Global.PathGenerator.findAStarPath
+  isSpec: "True"
+  fullName: PathGenerator.findAStarPath
+  nameWithType: PathGenerator.findAStarPath
+- uid: Global.PathGenerator.getReachableCells(Map,List{Vector2Int},Heap{CellPair},System.Boolean)
+  name: getReachableCells(Map, List<Vector2Int>, Heap<CellPair>, Boolean)
+  href: api/Global.PathGenerator.html#Global_PathGenerator_getReachableCells_Map_List_Vector2Int__Heap_CellPair__System_Boolean_
+  commentId: M:Global.PathGenerator.getReachableCells(Map,List{Vector2Int},Heap{CellPair},System.Boolean)
+  name.vb: getReachableCells(Map, List(Of Vector2Int), Heap(Of CellPair), Boolean)
+  fullName: PathGenerator.getReachableCells(Map, List<Vector2Int>, Heap<CellPair>, System.Boolean)
+  fullName.vb: PathGenerator.getReachableCells(Map, List(Of Vector2Int), Heap(Of CellPair), System.Boolean)
+  nameWithType: PathGenerator.getReachableCells(Map, List<Vector2Int>, Heap<CellPair>, Boolean)
+  nameWithType.vb: PathGenerator.getReachableCells(Map, List(Of Vector2Int), Heap(Of CellPair), Boolean)
+- uid: Global.PathGenerator.getReachableCells*
+  name: getReachableCells
+  href: api/Global.PathGenerator.html#Global_PathGenerator_getReachableCells_
+  commentId: Overload:Global.PathGenerator.getReachableCells
+  isSpec: "True"
+  fullName: PathGenerator.getReachableCells
+  nameWithType: PathGenerator.getReachableCells
+- uid: Global.PathGenerator.statusToCheck
+  name: statusToCheck
+  href: api/Global.PathGenerator.html#Global_PathGenerator_statusToCheck
+  commentId: F:Global.PathGenerator.statusToCheck
+  fullName: PathGenerator.statusToCheck
+  nameWithType: PathGenerator.statusToCheck
 - uid: Global.PlayerController
   name: PlayerController
   href: api/Global.PlayerController.html
   commentId: T:Global.PlayerController
   fullName: PlayerController
   nameWithType: PlayerController
-- uid: Global.PlayerController.getMovement
-  name: getMovement()
-  href: api/Global.PlayerController.html#Global_PlayerController_getMovement
-  commentId: M:Global.PlayerController.getMovement
-  fullName: PlayerController.getMovement()
-  nameWithType: PlayerController.getMovement()
-- uid: Global.PlayerController.getMovement*
-  name: getMovement
-  href: api/Global.PlayerController.html#Global_PlayerController_getMovement_
-  commentId: Overload:Global.PlayerController.getMovement
+- uid: Global.PlayerController.clearDoMovement
+  name: clearDoMovement()
+  href: api/Global.PlayerController.html#Global_PlayerController_clearDoMovement
+  commentId: M:Global.PlayerController.clearDoMovement
+  fullName: PlayerController.clearDoMovement()
+  nameWithType: PlayerController.clearDoMovement()
+- uid: Global.PlayerController.clearDoMovement*
+  name: clearDoMovement
+  href: api/Global.PlayerController.html#Global_PlayerController_clearDoMovement_
+  commentId: Overload:Global.PlayerController.clearDoMovement
   isSpec: "True"
-  fullName: PlayerController.getMovement
-  nameWithType: PlayerController.getMovement
-- uid: Global.PlayerController.getPosition
-  name: getPosition()
-  href: api/Global.PlayerController.html#Global_PlayerController_getPosition
-  commentId: M:Global.PlayerController.getPosition
-  fullName: PlayerController.getPosition()
-  nameWithType: PlayerController.getPosition()
-- uid: Global.PlayerController.getPosition*
-  name: getPosition
-  href: api/Global.PlayerController.html#Global_PlayerController_getPosition_
-  commentId: Overload:Global.PlayerController.getPosition
+  fullName: PlayerController.clearDoMovement
+  nameWithType: PlayerController.clearDoMovement
+- uid: Global.PlayerController.setDoMovement(System.Boolean)
+  name: setDoMovement(Boolean)
+  href: api/Global.PlayerController.html#Global_PlayerController_setDoMovement_System_Boolean_
+  commentId: M:Global.PlayerController.setDoMovement(System.Boolean)
+  fullName: PlayerController.setDoMovement(System.Boolean)
+  nameWithType: PlayerController.setDoMovement(Boolean)
+- uid: Global.PlayerController.setDoMovement*
+  name: setDoMovement
+  href: api/Global.PlayerController.html#Global_PlayerController_setDoMovement_
+  commentId: Overload:Global.PlayerController.setDoMovement
   isSpec: "True"
-  fullName: PlayerController.getPosition
-  nameWithType: PlayerController.getPosition
-- uid: Global.PlayerController.MoveCharacter
-  name: MoveCharacter()
-  href: api/Global.PlayerController.html#Global_PlayerController_MoveCharacter
-  commentId: M:Global.PlayerController.MoveCharacter
-  fullName: PlayerController.MoveCharacter()
-  nameWithType: PlayerController.MoveCharacter()
-- uid: Global.PlayerController.MoveCharacter(System.Single)
-  name: MoveCharacter(Single)
-  href: api/Global.PlayerController.html#Global_PlayerController_MoveCharacter_System_Single_
-  commentId: M:Global.PlayerController.MoveCharacter(System.Single)
-  fullName: PlayerController.MoveCharacter(System.Single)
-  nameWithType: PlayerController.MoveCharacter(Single)
-- uid: Global.PlayerController.MoveCharacter*
-  name: MoveCharacter
-  href: api/Global.PlayerController.html#Global_PlayerController_MoveCharacter_
-  commentId: Overload:Global.PlayerController.MoveCharacter
+  fullName: PlayerController.setDoMovement
+  nameWithType: PlayerController.setDoMovement
+- uid: Global.PlayerController.setLevelManager(LevelManager)
+  name: setLevelManager(LevelManager)
+  href: api/Global.PlayerController.html#Global_PlayerController_setLevelManager_LevelManager_
+  commentId: M:Global.PlayerController.setLevelManager(LevelManager)
+  fullName: PlayerController.setLevelManager(LevelManager)
+  nameWithType: PlayerController.setLevelManager(LevelManager)
+- uid: Global.PlayerController.setLevelManager*
+  name: setLevelManager
+  href: api/Global.PlayerController.html#Global_PlayerController_setLevelManager_
+  commentId: Overload:Global.PlayerController.setLevelManager
   isSpec: "True"
-  fullName: PlayerController.MoveCharacter
-  nameWithType: PlayerController.MoveCharacter
-- uid: Global.PlayerController.setPosition(Vector2,System.Single)
-  name: setPosition(Vector2, Single)
-  href: api/Global.PlayerController.html#Global_PlayerController_setPosition_Vector2_System_Single_
-  commentId: M:Global.PlayerController.setPosition(Vector2,System.Single)
-  fullName: PlayerController.setPosition(Vector2, System.Single)
-  nameWithType: PlayerController.setPosition(Vector2, Single)
-- uid: Global.PlayerController.setPosition(Vector3)
-  name: setPosition(Vector3)
-  href: api/Global.PlayerController.html#Global_PlayerController_setPosition_Vector3_
-  commentId: M:Global.PlayerController.setPosition(Vector3)
-  fullName: PlayerController.setPosition(Vector3)
-  nameWithType: PlayerController.setPosition(Vector3)
-- uid: Global.PlayerController.setPosition*
-  name: setPosition
-  href: api/Global.PlayerController.html#Global_PlayerController_setPosition_
-  commentId: Overload:Global.PlayerController.setPosition
+  fullName: PlayerController.setLevelManager
+  nameWithType: PlayerController.setLevelManager
+- uid: Global.PlayerController.setWorldPosition(Vector2)
+  name: setWorldPosition(Vector2)
+  href: api/Global.PlayerController.html#Global_PlayerController_setWorldPosition_Vector2_
+  commentId: M:Global.PlayerController.setWorldPosition(Vector2)
+  fullName: PlayerController.setWorldPosition(Vector2)
+  nameWithType: PlayerController.setWorldPosition(Vector2)
+- uid: Global.PlayerController.setWorldPosition*
+  name: setWorldPosition
+  href: api/Global.PlayerController.html#Global_PlayerController_setWorldPosition_
+  commentId: Overload:Global.PlayerController.setWorldPosition
   isSpec: "True"
-  fullName: PlayerController.setPosition
-  nameWithType: PlayerController.setPosition
+  fullName: PlayerController.setWorldPosition
+  nameWithType: PlayerController.setWorldPosition
+- uid: Global.PlayerController.updatePlayerPosition(System.Int32)
+  name: updatePlayerPosition(Int32)
+  href: api/Global.PlayerController.html#Global_PlayerController_updatePlayerPosition_System_Int32_
+  commentId: M:Global.PlayerController.updatePlayerPosition(System.Int32)
+  fullName: PlayerController.updatePlayerPosition(System.Int32)
+  nameWithType: PlayerController.updatePlayerPosition(Int32)
+- uid: Global.PlayerController.updatePlayerPosition*
+  name: updatePlayerPosition
+  href: api/Global.PlayerController.html#Global_PlayerController_updatePlayerPosition_
+  commentId: Overload:Global.PlayerController.updatePlayerPosition
+  isSpec: "True"
+  fullName: PlayerController.updatePlayerPosition
+  nameWithType: PlayerController.updatePlayerPosition
 - uid: Global.PopupManager
   name: PopupManager
   href: api/Global.PopupManager.html
@@ -638,12 +1498,15 @@ references:
   commentId: T:Global.RiverGenerator
   fullName: RiverGenerator
   nameWithType: RiverGenerator
-- uid: Global.RiverGenerator.#ctor(Grid,SpriteAtlas)
-  name: RiverGenerator(Grid, SpriteAtlas)
-  href: api/Global.RiverGenerator.html#Global_RiverGenerator__ctor_Grid_SpriteAtlas_
-  commentId: M:Global.RiverGenerator.#ctor(Grid,SpriteAtlas)
-  fullName: RiverGenerator.RiverGenerator(Grid, SpriteAtlas)
-  nameWithType: RiverGenerator.RiverGenerator(Grid, SpriteAtlas)
+- uid: Global.RiverGenerator.#ctor(SpriteAtlas,List{System.String})
+  name: RiverGenerator(SpriteAtlas, List<String>)
+  href: api/Global.RiverGenerator.html#Global_RiverGenerator__ctor_SpriteAtlas_List_System_String__
+  commentId: M:Global.RiverGenerator.#ctor(SpriteAtlas,List{System.String})
+  name.vb: RiverGenerator(SpriteAtlas, List(Of String))
+  fullName: RiverGenerator.RiverGenerator(SpriteAtlas, List<System.String>)
+  fullName.vb: RiverGenerator.RiverGenerator(SpriteAtlas, List(Of System.String))
+  nameWithType: RiverGenerator.RiverGenerator(SpriteAtlas, List<String>)
+  nameWithType.vb: RiverGenerator.RiverGenerator(SpriteAtlas, List(Of String))
 - uid: Global.RiverGenerator.#ctor*
   name: RiverGenerator
   href: api/Global.RiverGenerator.html#Global_RiverGenerator__ctor_
@@ -651,68 +1514,55 @@ references:
   isSpec: "True"
   fullName: RiverGenerator.RiverGenerator
   nameWithType: RiverGenerator.RiverGenerator
-- uid: Global.RiverGenerator.clearTilemap
-  name: clearTilemap()
-  href: api/Global.RiverGenerator.html#Global_RiverGenerator_clearTilemap
-  commentId: M:Global.RiverGenerator.clearTilemap
-  fullName: RiverGenerator.clearTilemap()
-  nameWithType: RiverGenerator.clearTilemap()
-- uid: Global.RiverGenerator.clearTilemap*
-  name: clearTilemap
-  href: api/Global.RiverGenerator.html#Global_RiverGenerator_clearTilemap_
-  commentId: Overload:Global.RiverGenerator.clearTilemap
+- uid: Global.RiverGenerator.getTile
+  name: getTile()
+  href: api/Global.RiverGenerator.html#Global_RiverGenerator_getTile
+  commentId: M:Global.RiverGenerator.getTile
+  fullName: RiverGenerator.getTile()
+  nameWithType: RiverGenerator.getTile()
+- uid: Global.RiverGenerator.getTile*
+  name: getTile
+  href: api/Global.RiverGenerator.html#Global_RiverGenerator_getTile_
+  commentId: Overload:Global.RiverGenerator.getTile
   isSpec: "True"
-  fullName: RiverGenerator.clearTilemap
-  nameWithType: RiverGenerator.clearTilemap
-- uid: Global.RiverGenerator.generate(LevelManager.levelCellStatus[0:,0:,0:])
-  name: generate(LevelManager.levelCellStatus[,,])
-  href: api/Global.RiverGenerator.html#Global_RiverGenerator_generate_LevelManager_levelCellStatus_0__0__0___
-  commentId: M:Global.RiverGenerator.generate(LevelManager.levelCellStatus[0:,0:,0:])
-  name.vb: generate(LevelManager.levelCellStatus(,,))
-  fullName: RiverGenerator.generate(LevelManager.levelCellStatus[,,])
-  fullName.vb: RiverGenerator.generate(LevelManager.levelCellStatus(,,))
-  nameWithType: RiverGenerator.generate(LevelManager.levelCellStatus[,,])
-  nameWithType.vb: RiverGenerator.generate(LevelManager.levelCellStatus(,,))
-- uid: Global.RiverGenerator.generate*
-  name: generate
-  href: api/Global.RiverGenerator.html#Global_RiverGenerator_generate_
-  commentId: Overload:Global.RiverGenerator.generate
-  isSpec: "True"
-  fullName: RiverGenerator.generate
-  nameWithType: RiverGenerator.generate
-- uid: Global.RiverGenerator.numRivers
-  name: RiverGenerator.numRivers
-  href: api/Global.RiverGenerator.numRivers.html
-  commentId: T:Global.RiverGenerator.numRivers
-  fullName: RiverGenerator.numRivers
-  nameWithType: RiverGenerator.numRivers
-- uid: Global.RiverGenerator.numRivers.High
+  fullName: RiverGenerator.getTile
+  nameWithType: RiverGenerator.getTile
+- uid: Global.RiverGenerator.NumberOfRivers
+  name: RiverGenerator.NumberOfRivers
+  href: api/Global.RiverGenerator.NumberOfRivers.html
+  commentId: T:Global.RiverGenerator.NumberOfRivers
+  fullName: RiverGenerator.NumberOfRivers
+  nameWithType: RiverGenerator.NumberOfRivers
+- uid: Global.RiverGenerator.NumberOfRivers.High
   name: High
-  href: api/Global.RiverGenerator.numRivers.html#Global_RiverGenerator_numRivers_High
-  commentId: F:Global.RiverGenerator.numRivers.High
-  fullName: RiverGenerator.numRivers.High
-  nameWithType: RiverGenerator.numRivers.High
-- uid: Global.RiverGenerator.numRivers.Low
+  href: api/Global.RiverGenerator.NumberOfRivers.html#Global_RiverGenerator_NumberOfRivers_High
+  commentId: F:Global.RiverGenerator.NumberOfRivers.High
+  fullName: RiverGenerator.NumberOfRivers.High
+  nameWithType: RiverGenerator.NumberOfRivers.High
+- uid: Global.RiverGenerator.NumberOfRivers.Low
   name: Low
-  href: api/Global.RiverGenerator.numRivers.html#Global_RiverGenerator_numRivers_Low
-  commentId: F:Global.RiverGenerator.numRivers.Low
-  fullName: RiverGenerator.numRivers.Low
-  nameWithType: RiverGenerator.numRivers.Low
-- uid: Global.RiverGenerator.numRivers.Medium
+  href: api/Global.RiverGenerator.NumberOfRivers.html#Global_RiverGenerator_NumberOfRivers_Low
+  commentId: F:Global.RiverGenerator.NumberOfRivers.Low
+  fullName: RiverGenerator.NumberOfRivers.Low
+  nameWithType: RiverGenerator.NumberOfRivers.Low
+- uid: Global.RiverGenerator.NumberOfRivers.Medium
   name: Medium
-  href: api/Global.RiverGenerator.numRivers.html#Global_RiverGenerator_numRivers_Medium
-  commentId: F:Global.RiverGenerator.numRivers.Medium
-  fullName: RiverGenerator.numRivers.Medium
-  nameWithType: RiverGenerator.numRivers.Medium
-- uid: Global.RiverGenerator.populateCells(RiverGenerator.RiverUserSettings,LevelManager.levelCellStatus[0:,0:,0:],System.Collections.Generic.List{Vector3Int},System.Collections.Generic.List{Vector2Int})
-  name: populateCells(RiverGenerator.RiverUserSettings, LevelManager.levelCellStatus[,,], List<Vector3Int>, List<Vector2Int>)
-  href: api/Global.RiverGenerator.html#Global_RiverGenerator_populateCells_RiverGenerator_RiverUserSettings_LevelManager_levelCellStatus_0__0__0___System_Collections_Generic_List_Vector3Int__System_Collections_Generic_List_Vector2Int__
-  commentId: M:Global.RiverGenerator.populateCells(RiverGenerator.RiverUserSettings,LevelManager.levelCellStatus[0:,0:,0:],System.Collections.Generic.List{Vector3Int},System.Collections.Generic.List{Vector2Int})
-  name.vb: populateCells(RiverGenerator.RiverUserSettings, LevelManager.levelCellStatus(,,), List(Of Vector3Int), List(Of Vector2Int))
-  fullName: RiverGenerator.populateCells(RiverGenerator.RiverUserSettings, LevelManager.levelCellStatus[,,], System.Collections.Generic.List<Vector3Int>, System.Collections.Generic.List<Vector2Int>)
-  fullName.vb: RiverGenerator.populateCells(RiverGenerator.RiverUserSettings, LevelManager.levelCellStatus(,,), System.Collections.Generic.List(Of Vector3Int), System.Collections.Generic.List(Of Vector2Int))
-  nameWithType: RiverGenerator.populateCells(RiverGenerator.RiverUserSettings, LevelManager.levelCellStatus[,,], List<Vector3Int>, List<Vector2Int>)
-  nameWithType.vb: RiverGenerator.populateCells(RiverGenerator.RiverUserSettings, LevelManager.levelCellStatus(,,), List(Of Vector3Int), List(Of Vector2Int))
+  href: api/Global.RiverGenerator.NumberOfRivers.html#Global_RiverGenerator_NumberOfRivers_Medium
+  commentId: F:Global.RiverGenerator.NumberOfRivers.Medium
+  fullName: RiverGenerator.NumberOfRivers.Medium
+  nameWithType: RiverGenerator.NumberOfRivers.Medium
+- uid: Global.RiverGenerator.numberOfRiversCount
+  name: numberOfRiversCount
+  href: api/Global.RiverGenerator.html#Global_RiverGenerator_numberOfRiversCount
+  commentId: F:Global.RiverGenerator.numberOfRiversCount
+  fullName: RiverGenerator.numberOfRiversCount
+  nameWithType: RiverGenerator.numberOfRiversCount
+- uid: Global.RiverGenerator.populateCells(Map)
+  name: populateCells(Map)
+  href: api/Global.RiverGenerator.html#Global_RiverGenerator_populateCells_Map_
+  commentId: M:Global.RiverGenerator.populateCells(Map)
+  fullName: RiverGenerator.populateCells(Map)
+  nameWithType: RiverGenerator.populateCells(Map)
 - uid: Global.RiverGenerator.populateCells*
   name: populateCells
   href: api/Global.RiverGenerator.html#Global_RiverGenerator_populateCells_
@@ -720,92 +1570,128 @@ references:
   isSpec: "True"
   fullName: RiverGenerator.populateCells
   nameWithType: RiverGenerator.populateCells
-- uid: Global.RiverGenerator.randomlyGenerate
-  name: randomlyGenerate()
-  href: api/Global.RiverGenerator.html#Global_RiverGenerator_randomlyGenerate
-  commentId: M:Global.RiverGenerator.randomlyGenerate
-  fullName: RiverGenerator.randomlyGenerate()
-  nameWithType: RiverGenerator.randomlyGenerate()
-- uid: Global.RiverGenerator.randomlyGenerate*
-  name: randomlyGenerate
-  href: api/Global.RiverGenerator.html#Global_RiverGenerator_randomlyGenerate_
-  commentId: Overload:Global.RiverGenerator.randomlyGenerate
+- uid: Global.RiverGenerator.setRiverSettings(RiverSettings)
+  name: setRiverSettings(RiverSettings)
+  href: api/Global.RiverGenerator.html#Global_RiverGenerator_setRiverSettings_RiverSettings_
+  commentId: M:Global.RiverGenerator.setRiverSettings(RiverSettings)
+  fullName: RiverGenerator.setRiverSettings(RiverSettings)
+  nameWithType: RiverGenerator.setRiverSettings(RiverSettings)
+- uid: Global.RiverGenerator.setRiverSettings*
+  name: setRiverSettings
+  href: api/Global.RiverGenerator.html#Global_RiverGenerator_setRiverSettings_
+  commentId: Overload:Global.RiverGenerator.setRiverSettings
   isSpec: "True"
-  fullName: RiverGenerator.randomlyGenerate
-  nameWithType: RiverGenerator.randomlyGenerate
-- uid: Global.RiverGenerator.RiverUserSettings
-  name: RiverGenerator.RiverUserSettings
-  href: api/Global.RiverGenerator.RiverUserSettings.html
-  commentId: T:Global.RiverGenerator.RiverUserSettings
-  fullName: RiverGenerator.RiverUserSettings
-  nameWithType: RiverGenerator.RiverUserSettings
-- uid: Global.RiverGenerator.RiverUserSettings.#ctor(TerrainGenerator.terrainType,System.Boolean,RiverGenerator.numRivers,System.Boolean,System.Boolean)
-  name: RiverUserSettings(TerrainGenerator.terrainType, Boolean, RiverGenerator.numRivers, Boolean, Boolean)
-  href: api/Global.RiverGenerator.RiverUserSettings.html#Global_RiverGenerator_RiverUserSettings__ctor_TerrainGenerator_terrainType_System_Boolean_RiverGenerator_numRivers_System_Boolean_System_Boolean_
-  commentId: M:Global.RiverGenerator.RiverUserSettings.#ctor(TerrainGenerator.terrainType,System.Boolean,RiverGenerator.numRivers,System.Boolean,System.Boolean)
-  fullName: RiverGenerator.RiverUserSettings.RiverUserSettings(TerrainGenerator.terrainType, System.Boolean, RiverGenerator.numRivers, System.Boolean, System.Boolean)
-  nameWithType: RiverGenerator.RiverUserSettings.RiverUserSettings(TerrainGenerator.terrainType, Boolean, RiverGenerator.numRivers, Boolean, Boolean)
-- uid: Global.RiverGenerator.RiverUserSettings.#ctor*
-  name: RiverUserSettings
-  href: api/Global.RiverGenerator.RiverUserSettings.html#Global_RiverGenerator_RiverUserSettings__ctor_
-  commentId: Overload:Global.RiverGenerator.RiverUserSettings.#ctor
+  fullName: RiverGenerator.setRiverSettings
+  nameWithType: RiverGenerator.setRiverSettings
+- uid: Global.RiverOptions
+  name: RiverOptions
+  href: api/Global.RiverOptions.html
+  commentId: T:Global.RiverOptions
+  fullName: RiverOptions
+  nameWithType: RiverOptions
+- uid: Global.RiverOptions.createUserSettingsFromOptions
+  name: createUserSettingsFromOptions()
+  href: api/Global.RiverOptions.html#Global_RiverOptions_createUserSettingsFromOptions
+  commentId: M:Global.RiverOptions.createUserSettingsFromOptions
+  fullName: RiverOptions.createUserSettingsFromOptions()
+  nameWithType: RiverOptions.createUserSettingsFromOptions()
+- uid: Global.RiverOptions.createUserSettingsFromOptions*
+  name: createUserSettingsFromOptions
+  href: api/Global.RiverOptions.html#Global_RiverOptions_createUserSettingsFromOptions_
+  commentId: Overload:Global.RiverOptions.createUserSettingsFromOptions
   isSpec: "True"
-  fullName: RiverGenerator.RiverUserSettings.RiverUserSettings
-  nameWithType: RiverGenerator.RiverUserSettings.RiverUserSettings
-- uid: Global.RiverGenerator.RiverUserSettings.bridgesEnabled
-  name: bridgesEnabled
-  href: api/Global.RiverGenerator.RiverUserSettings.html#Global_RiverGenerator_RiverUserSettings_bridgesEnabled
-  commentId: F:Global.RiverGenerator.RiverUserSettings.bridgesEnabled
-  fullName: RiverGenerator.RiverUserSettings.bridgesEnabled
-  nameWithType: RiverGenerator.RiverUserSettings.bridgesEnabled
-- uid: Global.RiverGenerator.RiverUserSettings.generationEnabled
-  name: generationEnabled
-  href: api/Global.RiverGenerator.RiverUserSettings.html#Global_RiverGenerator_RiverUserSettings_generationEnabled
-  commentId: F:Global.RiverGenerator.RiverUserSettings.generationEnabled
-  fullName: RiverGenerator.RiverUserSettings.generationEnabled
-  nameWithType: RiverGenerator.RiverUserSettings.generationEnabled
-- uid: Global.RiverGenerator.RiverUserSettings.intersectionsEnabled
+  fullName: RiverOptions.createUserSettingsFromOptions
+  nameWithType: RiverOptions.createUserSettingsFromOptions
+- uid: Global.RiverOptions.setupUIElements
+  name: setupUIElements()
+  href: api/Global.RiverOptions.html#Global_RiverOptions_setupUIElements
+  commentId: M:Global.RiverOptions.setupUIElements
+  fullName: RiverOptions.setupUIElements()
+  nameWithType: RiverOptions.setupUIElements()
+- uid: Global.RiverOptions.setupUIElements*
+  name: setupUIElements
+  href: api/Global.RiverOptions.html#Global_RiverOptions_setupUIElements_
+  commentId: Overload:Global.RiverOptions.setupUIElements
+  isSpec: "True"
+  fullName: RiverOptions.setupUIElements
+  nameWithType: RiverOptions.setupUIElements
+- uid: Global.RiverOptions.updateFields(RiverSettings)
+  name: updateFields(RiverSettings)
+  href: api/Global.RiverOptions.html#Global_RiverOptions_updateFields_RiverSettings_
+  commentId: M:Global.RiverOptions.updateFields(RiverSettings)
+  fullName: RiverOptions.updateFields(RiverSettings)
+  nameWithType: RiverOptions.updateFields(RiverSettings)
+- uid: Global.RiverOptions.updateFields*
+  name: updateFields
+  href: api/Global.RiverOptions.html#Global_RiverOptions_updateFields_
+  commentId: Overload:Global.RiverOptions.updateFields
+  isSpec: "True"
+  fullName: RiverOptions.updateFields
+  nameWithType: RiverOptions.updateFields
+- uid: Global.RiverSettings
+  name: RiverSettings
+  href: api/Global.RiverSettings.html
+  commentId: T:Global.RiverSettings
+  fullName: RiverSettings
+  nameWithType: RiverSettings
+- uid: Global.RiverSettings.#ctor(TerrainGenerator.TerrainType)
+  name: RiverSettings(TerrainGenerator.TerrainType)
+  href: api/Global.RiverSettings.html#Global_RiverSettings__ctor_TerrainGenerator_TerrainType_
+  commentId: M:Global.RiverSettings.#ctor(TerrainGenerator.TerrainType)
+  fullName: RiverSettings.RiverSettings(TerrainGenerator.TerrainType)
+  nameWithType: RiverSettings.RiverSettings(TerrainGenerator.TerrainType)
+- uid: Global.RiverSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,RiverGenerator.NumberOfRivers,System.Boolean)
+  name: RiverSettings(TerrainGenerator.TerrainType, Boolean, RiverGenerator.NumberOfRivers, Boolean)
+  href: api/Global.RiverSettings.html#Global_RiverSettings__ctor_TerrainGenerator_TerrainType_System_Boolean_RiverGenerator_NumberOfRivers_System_Boolean_
+  commentId: M:Global.RiverSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,RiverGenerator.NumberOfRivers,System.Boolean)
+  fullName: RiverSettings.RiverSettings(TerrainGenerator.TerrainType, System.Boolean, RiverGenerator.NumberOfRivers, System.Boolean)
+  nameWithType: RiverSettings.RiverSettings(TerrainGenerator.TerrainType, Boolean, RiverGenerator.NumberOfRivers, Boolean)
+- uid: Global.RiverSettings.#ctor*
+  name: RiverSettings
+  href: api/Global.RiverSettings.html#Global_RiverSettings__ctor_
+  commentId: Overload:Global.RiverSettings.#ctor
+  isSpec: "True"
+  fullName: RiverSettings.RiverSettings
+  nameWithType: RiverSettings.RiverSettings
+- uid: Global.RiverSettings.intersectionsEnabled
   name: intersectionsEnabled
-  href: api/Global.RiverGenerator.RiverUserSettings.html#Global_RiverGenerator_RiverUserSettings_intersectionsEnabled
-  commentId: F:Global.RiverGenerator.RiverUserSettings.intersectionsEnabled
-  fullName: RiverGenerator.RiverUserSettings.intersectionsEnabled
-  nameWithType: RiverGenerator.RiverUserSettings.intersectionsEnabled
-- uid: Global.RiverGenerator.RiverUserSettings.rNum
+  href: api/Global.RiverSettings.html#Global_RiverSettings_intersectionsEnabled
+  commentId: F:Global.RiverSettings.intersectionsEnabled
+  fullName: RiverSettings.intersectionsEnabled
+  nameWithType: RiverSettings.intersectionsEnabled
+- uid: Global.RiverSettings.rGenerationEnabled
+  name: rGenerationEnabled
+  href: api/Global.RiverSettings.html#Global_RiverSettings_rGenerationEnabled
+  commentId: F:Global.RiverSettings.rGenerationEnabled
+  fullName: RiverSettings.rGenerationEnabled
+  nameWithType: RiverSettings.rGenerationEnabled
+- uid: Global.RiverSettings.rNum
   name: rNum
-  href: api/Global.RiverGenerator.RiverUserSettings.html#Global_RiverGenerator_RiverUserSettings_rNum
-  commentId: F:Global.RiverGenerator.RiverUserSettings.rNum
-  fullName: RiverGenerator.RiverUserSettings.rNum
-  nameWithType: RiverGenerator.RiverUserSettings.rNum
-- uid: Global.RiverGenerator.RiverUserSettings.tType
+  href: api/Global.RiverSettings.html#Global_RiverSettings_rNum
+  commentId: F:Global.RiverSettings.rNum
+  fullName: RiverSettings.rNum
+  nameWithType: RiverSettings.rNum
+- uid: Global.RiverSettings.tType
   name: tType
-  href: api/Global.RiverGenerator.RiverUserSettings.html#Global_RiverGenerator_RiverUserSettings_tType
-  commentId: F:Global.RiverGenerator.RiverUserSettings.tType
-  fullName: RiverGenerator.RiverUserSettings.tType
-  nameWithType: RiverGenerator.RiverUserSettings.tType
-- uid: Global.Simple_Char_Move
-  name: Simple_Char_Move
-  href: api/Global.Simple_Char_Move.html
-  commentId: T:Global.Simple_Char_Move
-  fullName: Simple_Char_Move
-  nameWithType: Simple_Char_Move
-- uid: Global.Simple_Door_Interaction
-  name: Simple_Door_Interaction
-  href: api/Global.Simple_Door_Interaction.html
-  commentId: T:Global.Simple_Door_Interaction
-  fullName: Simple_Door_Interaction
-  nameWithType: Simple_Door_Interaction
+  href: api/Global.RiverSettings.html#Global_RiverSettings_tType
+  commentId: F:Global.RiverSettings.tType
+  fullName: RiverSettings.tType
+  nameWithType: RiverSettings.tType
 - uid: Global.TerrainGenerator
   name: TerrainGenerator
   href: api/Global.TerrainGenerator.html
   commentId: T:Global.TerrainGenerator
   fullName: TerrainGenerator
   nameWithType: TerrainGenerator
-- uid: Global.TerrainGenerator.#ctor(Grid,SpriteAtlas)
-  name: TerrainGenerator(Grid, SpriteAtlas)
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator__ctor_Grid_SpriteAtlas_
-  commentId: M:Global.TerrainGenerator.#ctor(Grid,SpriteAtlas)
-  fullName: TerrainGenerator.TerrainGenerator(Grid, SpriteAtlas)
-  nameWithType: TerrainGenerator.TerrainGenerator(Grid, SpriteAtlas)
+- uid: Global.TerrainGenerator.#ctor(SpriteAtlas,List{System.String})
+  name: TerrainGenerator(SpriteAtlas, List<String>)
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator__ctor_SpriteAtlas_List_System_String__
+  commentId: M:Global.TerrainGenerator.#ctor(SpriteAtlas,List{System.String})
+  name.vb: TerrainGenerator(SpriteAtlas, List(Of String))
+  fullName: TerrainGenerator.TerrainGenerator(SpriteAtlas, List<System.String>)
+  fullName.vb: TerrainGenerator.TerrainGenerator(SpriteAtlas, List(Of System.String))
+  nameWithType: TerrainGenerator.TerrainGenerator(SpriteAtlas, List<String>)
+  nameWithType.vb: TerrainGenerator.TerrainGenerator(SpriteAtlas, List(Of String))
 - uid: Global.TerrainGenerator.#ctor*
   name: TerrainGenerator
   href: api/Global.TerrainGenerator.html#Global_TerrainGenerator__ctor_
@@ -813,76 +1699,64 @@ references:
   isSpec: "True"
   fullName: TerrainGenerator.TerrainGenerator
   nameWithType: TerrainGenerator.TerrainGenerator
-- uid: Global.TerrainGenerator.boundaryCellList
-  name: boundaryCellList
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_boundaryCellList
-  commentId: F:Global.TerrainGenerator.boundaryCellList
-  fullName: TerrainGenerator.boundaryCellList
-  nameWithType: TerrainGenerator.boundaryCellList
-- uid: Global.TerrainGenerator.clearTilemap
-  name: clearTilemap()
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_clearTilemap
-  commentId: M:Global.TerrainGenerator.clearTilemap
-  fullName: TerrainGenerator.clearTilemap()
-  nameWithType: TerrainGenerator.clearTilemap()
-- uid: Global.TerrainGenerator.clearTilemap*
-  name: clearTilemap
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_clearTilemap_
-  commentId: Overload:Global.TerrainGenerator.clearTilemap
+- uid: Global.TerrainGenerator.createMap
+  name: createMap()
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_createMap
+  commentId: M:Global.TerrainGenerator.createMap
+  fullName: TerrainGenerator.createMap()
+  nameWithType: TerrainGenerator.createMap()
+- uid: Global.TerrainGenerator.createMap*
+  name: createMap
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_createMap_
+  commentId: Overload:Global.TerrainGenerator.createMap
   isSpec: "True"
-  fullName: TerrainGenerator.clearTilemap
-  nameWithType: TerrainGenerator.clearTilemap
-- uid: Global.TerrainGenerator.createLevelCells(TerrainGenerator.TerrainUserSettings)
-  name: createLevelCells(TerrainGenerator.TerrainUserSettings)
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_createLevelCells_TerrainGenerator_TerrainUserSettings_
-  commentId: M:Global.TerrainGenerator.createLevelCells(TerrainGenerator.TerrainUserSettings)
-  fullName: TerrainGenerator.createLevelCells(TerrainGenerator.TerrainUserSettings)
-  nameWithType: TerrainGenerator.createLevelCells(TerrainGenerator.TerrainUserSettings)
-- uid: Global.TerrainGenerator.createLevelCells*
-  name: createLevelCells
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_createLevelCells_
-  commentId: Overload:Global.TerrainGenerator.createLevelCells
+  fullName: TerrainGenerator.createMap
+  nameWithType: TerrainGenerator.createMap
+- uid: Global.TerrainGenerator.getAccessoryTiles
+  name: getAccessoryTiles()
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_getAccessoryTiles
+  commentId: M:Global.TerrainGenerator.getAccessoryTiles
+  fullName: TerrainGenerator.getAccessoryTiles()
+  nameWithType: TerrainGenerator.getAccessoryTiles()
+- uid: Global.TerrainGenerator.getAccessoryTiles*
+  name: getAccessoryTiles
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_getAccessoryTiles_
+  commentId: Overload:Global.TerrainGenerator.getAccessoryTiles
   isSpec: "True"
-  fullName: TerrainGenerator.createLevelCells
-  nameWithType: TerrainGenerator.createLevelCells
-- uid: Global.TerrainGenerator.generate(LevelManager.levelCellStatus[0:,0:,0:])
-  name: generate(LevelManager.levelCellStatus[,,])
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_generate_LevelManager_levelCellStatus_0__0__0___
-  commentId: M:Global.TerrainGenerator.generate(LevelManager.levelCellStatus[0:,0:,0:])
-  name.vb: generate(LevelManager.levelCellStatus(,,))
-  fullName: TerrainGenerator.generate(LevelManager.levelCellStatus[,,])
-  fullName.vb: TerrainGenerator.generate(LevelManager.levelCellStatus(,,))
-  nameWithType: TerrainGenerator.generate(LevelManager.levelCellStatus[,,])
-  nameWithType.vb: TerrainGenerator.generate(LevelManager.levelCellStatus(,,))
-- uid: Global.TerrainGenerator.generate*
-  name: generate
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_generate_
-  commentId: Overload:Global.TerrainGenerator.generate
+  fullName: TerrainGenerator.getAccessoryTiles
+  nameWithType: TerrainGenerator.getAccessoryTiles
+- uid: Global.TerrainGenerator.getGroundTiles
+  name: getGroundTiles()
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_getGroundTiles
+  commentId: M:Global.TerrainGenerator.getGroundTiles
+  fullName: TerrainGenerator.getGroundTiles()
+  nameWithType: TerrainGenerator.getGroundTiles()
+- uid: Global.TerrainGenerator.getGroundTiles*
+  name: getGroundTiles
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_getGroundTiles_
+  commentId: Overload:Global.TerrainGenerator.getGroundTiles
   isSpec: "True"
-  fullName: TerrainGenerator.generate
-  nameWithType: TerrainGenerator.generate
-- uid: Global.TerrainGenerator.getTilemapBounds
-  name: getTilemapBounds()
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_getTilemapBounds
-  commentId: M:Global.TerrainGenerator.getTilemapBounds
-  fullName: TerrainGenerator.getTilemapBounds()
-  nameWithType: TerrainGenerator.getTilemapBounds()
-- uid: Global.TerrainGenerator.getTilemapBounds*
-  name: getTilemapBounds
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_getTilemapBounds_
-  commentId: Overload:Global.TerrainGenerator.getTilemapBounds
+  fullName: TerrainGenerator.getGroundTiles
+  nameWithType: TerrainGenerator.getGroundTiles
+- uid: Global.TerrainGenerator.getLowerGroundTile
+  name: getLowerGroundTile()
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_getLowerGroundTile
+  commentId: M:Global.TerrainGenerator.getLowerGroundTile
+  fullName: TerrainGenerator.getLowerGroundTile()
+  nameWithType: TerrainGenerator.getLowerGroundTile()
+- uid: Global.TerrainGenerator.getLowerGroundTile*
+  name: getLowerGroundTile
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_getLowerGroundTile_
+  commentId: Overload:Global.TerrainGenerator.getLowerGroundTile
   isSpec: "True"
-  fullName: TerrainGenerator.getTilemapBounds
-  nameWithType: TerrainGenerator.getTilemapBounds
-- uid: Global.TerrainGenerator.populateCells(TerrainGenerator.TerrainUserSettings,LevelManager.levelCellStatus[0:,0:,0:])
-  name: populateCells(TerrainGenerator.TerrainUserSettings, LevelManager.levelCellStatus[,,])
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_populateCells_TerrainGenerator_TerrainUserSettings_LevelManager_levelCellStatus_0__0__0___
-  commentId: M:Global.TerrainGenerator.populateCells(TerrainGenerator.TerrainUserSettings,LevelManager.levelCellStatus[0:,0:,0:])
-  name.vb: populateCells(TerrainGenerator.TerrainUserSettings, LevelManager.levelCellStatus(,,))
-  fullName: TerrainGenerator.populateCells(TerrainGenerator.TerrainUserSettings, LevelManager.levelCellStatus[,,])
-  fullName.vb: TerrainGenerator.populateCells(TerrainGenerator.TerrainUserSettings, LevelManager.levelCellStatus(,,))
-  nameWithType: TerrainGenerator.populateCells(TerrainGenerator.TerrainUserSettings, LevelManager.levelCellStatus[,,])
-  nameWithType.vb: TerrainGenerator.populateCells(TerrainGenerator.TerrainUserSettings, LevelManager.levelCellStatus(,,))
+  fullName: TerrainGenerator.getLowerGroundTile
+  nameWithType: TerrainGenerator.getLowerGroundTile
+- uid: Global.TerrainGenerator.populateCells(Map)
+  name: populateCells(Map)
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_populateCells_Map_
+  commentId: M:Global.TerrainGenerator.populateCells(Map)
+  fullName: TerrainGenerator.populateCells(Map)
+  nameWithType: TerrainGenerator.populateCells(Map)
 - uid: Global.TerrainGenerator.populateCells*
   name: populateCells
   href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_populateCells_
@@ -890,25 +1764,35 @@ references:
   isSpec: "True"
   fullName: TerrainGenerator.populateCells
   nameWithType: TerrainGenerator.populateCells
-- uid: Global.TerrainGenerator.randomlyGenerate
-  name: randomlyGenerate()
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_randomlyGenerate
-  commentId: M:Global.TerrainGenerator.randomlyGenerate
-  fullName: TerrainGenerator.randomlyGenerate()
-  nameWithType: TerrainGenerator.randomlyGenerate()
-- uid: Global.TerrainGenerator.randomlyGenerate*
-  name: randomlyGenerate
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_randomlyGenerate_
-  commentId: Overload:Global.TerrainGenerator.randomlyGenerate
+- uid: Global.TerrainGenerator.setOuterBounds(Map,List{Vector3Int}@,List{TileBase}@,List{Vector3Int}@,List{TileBase}@)
+  name: setOuterBounds(Map, ref List<Vector3Int>, ref List<TileBase>, ref List<Vector3Int>, ref List<TileBase>)
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_setOuterBounds_Map_List_Vector3Int___List_TileBase___List_Vector3Int___List_TileBase___
+  commentId: M:Global.TerrainGenerator.setOuterBounds(Map,List{Vector3Int}@,List{TileBase}@,List{Vector3Int}@,List{TileBase}@)
+  name.vb: setOuterBounds(Map, ByRef List(Of Vector3Int), ByRef List(Of TileBase), ByRef List(Of Vector3Int), ByRef List(Of TileBase))
+  fullName: TerrainGenerator.setOuterBounds(Map, ref List<Vector3Int>, ref List<TileBase>, ref List<Vector3Int>, ref List<TileBase>)
+  fullName.vb: TerrainGenerator.setOuterBounds(Map, ByRef List(Of Vector3Int), ByRef List(Of TileBase), ByRef List(Of Vector3Int), ByRef List(Of TileBase))
+  nameWithType: TerrainGenerator.setOuterBounds(Map, ref List<Vector3Int>, ref List<TileBase>, ref List<Vector3Int>, ref List<TileBase>)
+  nameWithType.vb: TerrainGenerator.setOuterBounds(Map, ByRef List(Of Vector3Int), ByRef List(Of TileBase), ByRef List(Of Vector3Int), ByRef List(Of TileBase))
+- uid: Global.TerrainGenerator.setOuterBounds*
+  name: setOuterBounds
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_setOuterBounds_
+  commentId: Overload:Global.TerrainGenerator.setOuterBounds
   isSpec: "True"
-  fullName: TerrainGenerator.randomlyGenerate
-  nameWithType: TerrainGenerator.randomlyGenerate
-- uid: Global.TerrainGenerator.terrainCellList
-  name: terrainCellList
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_terrainCellList
-  commentId: F:Global.TerrainGenerator.terrainCellList
-  fullName: TerrainGenerator.terrainCellList
-  nameWithType: TerrainGenerator.terrainCellList
+  fullName: TerrainGenerator.setOuterBounds
+  nameWithType: TerrainGenerator.setOuterBounds
+- uid: Global.TerrainGenerator.setTerrainSettings(TerrainSettings)
+  name: setTerrainSettings(TerrainSettings)
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_setTerrainSettings_TerrainSettings_
+  commentId: M:Global.TerrainGenerator.setTerrainSettings(TerrainSettings)
+  fullName: TerrainGenerator.setTerrainSettings(TerrainSettings)
+  nameWithType: TerrainGenerator.setTerrainSettings(TerrainSettings)
+- uid: Global.TerrainGenerator.setTerrainSettings*
+  name: setTerrainSettings
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_setTerrainSettings_
+  commentId: Overload:Global.TerrainGenerator.setTerrainSettings
+  isSpec: "True"
+  fullName: TerrainGenerator.setTerrainSettings
+  nameWithType: TerrainGenerator.setTerrainSettings
 - uid: Global.TerrainGenerator.terrainMaxHeight
   name: terrainMaxHeight
   href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_terrainMaxHeight
@@ -933,140 +1817,242 @@ references:
   commentId: F:Global.TerrainGenerator.terrainMinSize
   fullName: TerrainGenerator.terrainMinSize
   nameWithType: TerrainGenerator.terrainMinSize
-- uid: Global.TerrainGenerator.terrainShape
-  name: TerrainGenerator.terrainShape
-  href: api/Global.TerrainGenerator.terrainShape.html
-  commentId: T:Global.TerrainGenerator.terrainShape
-  fullName: TerrainGenerator.terrainShape
-  nameWithType: TerrainGenerator.terrainShape
-- uid: Global.TerrainGenerator.terrainShape.Random
+- uid: Global.TerrainGenerator.TerrainShape
+  name: TerrainGenerator.TerrainShape
+  href: api/Global.TerrainGenerator.TerrainShape.html
+  commentId: T:Global.TerrainGenerator.TerrainShape
+  fullName: TerrainGenerator.TerrainShape
+  nameWithType: TerrainGenerator.TerrainShape
+- uid: Global.TerrainGenerator.TerrainShape.Random
   name: Random
-  href: api/Global.TerrainGenerator.terrainShape.html#Global_TerrainGenerator_terrainShape_Random
-  commentId: F:Global.TerrainGenerator.terrainShape.Random
-  fullName: TerrainGenerator.terrainShape.Random
-  nameWithType: TerrainGenerator.terrainShape.Random
-- uid: Global.TerrainGenerator.terrainShape.Rectangle
+  href: api/Global.TerrainGenerator.TerrainShape.html#Global_TerrainGenerator_TerrainShape_Random
+  commentId: F:Global.TerrainGenerator.TerrainShape.Random
+  fullName: TerrainGenerator.TerrainShape.Random
+  nameWithType: TerrainGenerator.TerrainShape.Random
+- uid: Global.TerrainGenerator.TerrainShape.Rectangle
   name: Rectangle
-  href: api/Global.TerrainGenerator.terrainShape.html#Global_TerrainGenerator_terrainShape_Rectangle
-  commentId: F:Global.TerrainGenerator.terrainShape.Rectangle
-  fullName: TerrainGenerator.terrainShape.Rectangle
-  nameWithType: TerrainGenerator.terrainShape.Rectangle
-- uid: Global.TerrainGenerator.terrainShape.Square
+  href: api/Global.TerrainGenerator.TerrainShape.html#Global_TerrainGenerator_TerrainShape_Rectangle
+  commentId: F:Global.TerrainGenerator.TerrainShape.Rectangle
+  fullName: TerrainGenerator.TerrainShape.Rectangle
+  nameWithType: TerrainGenerator.TerrainShape.Rectangle
+- uid: Global.TerrainGenerator.TerrainShape.Square
   name: Square
-  href: api/Global.TerrainGenerator.terrainShape.html#Global_TerrainGenerator_terrainShape_Square
-  commentId: F:Global.TerrainGenerator.terrainShape.Square
-  fullName: TerrainGenerator.terrainShape.Square
-  nameWithType: TerrainGenerator.terrainShape.Square
-- uid: Global.TerrainGenerator.terrainType
-  name: TerrainGenerator.terrainType
-  href: api/Global.TerrainGenerator.terrainType.html
-  commentId: T:Global.TerrainGenerator.terrainType
-  fullName: TerrainGenerator.terrainType
-  nameWithType: TerrainGenerator.terrainType
-- uid: Global.TerrainGenerator.terrainType.Dessert
+  href: api/Global.TerrainGenerator.TerrainShape.html#Global_TerrainGenerator_TerrainShape_Square
+  commentId: F:Global.TerrainGenerator.TerrainShape.Square
+  fullName: TerrainGenerator.TerrainShape.Square
+  nameWithType: TerrainGenerator.TerrainShape.Square
+- uid: Global.TerrainGenerator.terrainShapeCount
+  name: terrainShapeCount
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_terrainShapeCount
+  commentId: F:Global.TerrainGenerator.terrainShapeCount
+  fullName: TerrainGenerator.terrainShapeCount
+  nameWithType: TerrainGenerator.terrainShapeCount
+- uid: Global.TerrainGenerator.TerrainType
+  name: TerrainGenerator.TerrainType
+  href: api/Global.TerrainGenerator.TerrainType.html
+  commentId: T:Global.TerrainGenerator.TerrainType
+  fullName: TerrainGenerator.TerrainType
+  nameWithType: TerrainGenerator.TerrainType
+- uid: Global.TerrainGenerator.TerrainType.Dessert
   name: Dessert
-  href: api/Global.TerrainGenerator.terrainType.html#Global_TerrainGenerator_terrainType_Dessert
-  commentId: F:Global.TerrainGenerator.terrainType.Dessert
-  fullName: TerrainGenerator.terrainType.Dessert
-  nameWithType: TerrainGenerator.terrainType.Dessert
-- uid: Global.TerrainGenerator.terrainType.Greenery
+  href: api/Global.TerrainGenerator.TerrainType.html#Global_TerrainGenerator_TerrainType_Dessert
+  commentId: F:Global.TerrainGenerator.TerrainType.Dessert
+  fullName: TerrainGenerator.TerrainType.Dessert
+  nameWithType: TerrainGenerator.TerrainType.Dessert
+- uid: Global.TerrainGenerator.TerrainType.Greenery
   name: Greenery
-  href: api/Global.TerrainGenerator.terrainType.html#Global_TerrainGenerator_terrainType_Greenery
-  commentId: F:Global.TerrainGenerator.terrainType.Greenery
-  fullName: TerrainGenerator.terrainType.Greenery
-  nameWithType: TerrainGenerator.terrainType.Greenery
-- uid: Global.TerrainGenerator.terrainType.Lava
+  href: api/Global.TerrainGenerator.TerrainType.html#Global_TerrainGenerator_TerrainType_Greenery
+  commentId: F:Global.TerrainGenerator.TerrainType.Greenery
+  fullName: TerrainGenerator.TerrainType.Greenery
+  nameWithType: TerrainGenerator.TerrainType.Greenery
+- uid: Global.TerrainGenerator.TerrainType.Lava
   name: Lava
-  href: api/Global.TerrainGenerator.terrainType.html#Global_TerrainGenerator_terrainType_Lava
-  commentId: F:Global.TerrainGenerator.terrainType.Lava
-  fullName: TerrainGenerator.terrainType.Lava
-  nameWithType: TerrainGenerator.terrainType.Lava
-- uid: Global.TerrainGenerator.terrainType.Snow
+  href: api/Global.TerrainGenerator.TerrainType.html#Global_TerrainGenerator_TerrainType_Lava
+  commentId: F:Global.TerrainGenerator.TerrainType.Lava
+  fullName: TerrainGenerator.TerrainType.Lava
+  nameWithType: TerrainGenerator.TerrainType.Lava
+- uid: Global.TerrainGenerator.TerrainType.Skin
+  name: Skin
+  href: api/Global.TerrainGenerator.TerrainType.html#Global_TerrainGenerator_TerrainType_Skin
+  commentId: F:Global.TerrainGenerator.TerrainType.Skin
+  fullName: TerrainGenerator.TerrainType.Skin
+  nameWithType: TerrainGenerator.TerrainType.Skin
+- uid: Global.TerrainGenerator.TerrainType.Snow
   name: Snow
-  href: api/Global.TerrainGenerator.terrainType.html#Global_TerrainGenerator_terrainType_Snow
-  commentId: F:Global.TerrainGenerator.terrainType.Snow
-  fullName: TerrainGenerator.terrainType.Snow
-  nameWithType: TerrainGenerator.terrainType.Snow
-- uid: Global.TerrainGenerator.TerrainUserSettings
-  name: TerrainGenerator.TerrainUserSettings
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html
-  commentId: T:Global.TerrainGenerator.TerrainUserSettings
-  fullName: TerrainGenerator.TerrainUserSettings
-  nameWithType: TerrainGenerator.TerrainUserSettings
-- uid: Global.TerrainGenerator.TerrainUserSettings.#ctor(System.Int32,TerrainGenerator.terrainType,System.Int32,System.Int32,TerrainGenerator.terrainShape)
-  name: TerrainUserSettings(Int32, TerrainGenerator.terrainType, Int32, Int32, TerrainGenerator.terrainShape)
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings__ctor_System_Int32_TerrainGenerator_terrainType_System_Int32_System_Int32_TerrainGenerator_terrainShape_
-  commentId: M:Global.TerrainGenerator.TerrainUserSettings.#ctor(System.Int32,TerrainGenerator.terrainType,System.Int32,System.Int32,TerrainGenerator.terrainShape)
-  fullName: TerrainGenerator.TerrainUserSettings.TerrainUserSettings(System.Int32, TerrainGenerator.terrainType, System.Int32, System.Int32, TerrainGenerator.terrainShape)
-  nameWithType: TerrainGenerator.TerrainUserSettings.TerrainUserSettings(Int32, TerrainGenerator.terrainType, Int32, Int32, TerrainGenerator.terrainShape)
-- uid: Global.TerrainGenerator.TerrainUserSettings.#ctor(System.Int32,TerrainGenerator.terrainType,System.Int32,TerrainGenerator.terrainShape)
-  name: TerrainUserSettings(Int32, TerrainGenerator.terrainType, Int32, TerrainGenerator.terrainShape)
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings__ctor_System_Int32_TerrainGenerator_terrainType_System_Int32_TerrainGenerator_terrainShape_
-  commentId: M:Global.TerrainGenerator.TerrainUserSettings.#ctor(System.Int32,TerrainGenerator.terrainType,System.Int32,TerrainGenerator.terrainShape)
-  fullName: TerrainGenerator.TerrainUserSettings.TerrainUserSettings(System.Int32, TerrainGenerator.terrainType, System.Int32, TerrainGenerator.terrainShape)
-  nameWithType: TerrainGenerator.TerrainUserSettings.TerrainUserSettings(Int32, TerrainGenerator.terrainType, Int32, TerrainGenerator.terrainShape)
-- uid: Global.TerrainGenerator.TerrainUserSettings.#ctor*
-  name: TerrainUserSettings
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings__ctor_
-  commentId: Overload:Global.TerrainGenerator.TerrainUserSettings.#ctor
+  href: api/Global.TerrainGenerator.TerrainType.html#Global_TerrainGenerator_TerrainType_Snow
+  commentId: F:Global.TerrainGenerator.TerrainType.Snow
+  fullName: TerrainGenerator.TerrainType.Snow
+  nameWithType: TerrainGenerator.TerrainType.Snow
+- uid: Global.TerrainGenerator.terrainTypeCount
+  name: terrainTypeCount
+  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_terrainTypeCount
+  commentId: F:Global.TerrainGenerator.terrainTypeCount
+  fullName: TerrainGenerator.terrainTypeCount
+  nameWithType: TerrainGenerator.terrainTypeCount
+- uid: Global.TerrainOptions
+  name: TerrainOptions
+  href: api/Global.TerrainOptions.html
+  commentId: T:Global.TerrainOptions
+  fullName: TerrainOptions
+  nameWithType: TerrainOptions
+- uid: Global.TerrainOptions.createUserSettingsFromOptions
+  name: createUserSettingsFromOptions()
+  href: api/Global.TerrainOptions.html#Global_TerrainOptions_createUserSettingsFromOptions
+  commentId: M:Global.TerrainOptions.createUserSettingsFromOptions
+  fullName: TerrainOptions.createUserSettingsFromOptions()
+  nameWithType: TerrainOptions.createUserSettingsFromOptions()
+- uid: Global.TerrainOptions.createUserSettingsFromOptions*
+  name: createUserSettingsFromOptions
+  href: api/Global.TerrainOptions.html#Global_TerrainOptions_createUserSettingsFromOptions_
+  commentId: Overload:Global.TerrainOptions.createUserSettingsFromOptions
   isSpec: "True"
-  fullName: TerrainGenerator.TerrainUserSettings.TerrainUserSettings
-  nameWithType: TerrainGenerator.TerrainUserSettings.TerrainUserSettings
-- uid: Global.TerrainGenerator.TerrainUserSettings.tExactHeight
+  fullName: TerrainOptions.createUserSettingsFromOptions
+  nameWithType: TerrainOptions.createUserSettingsFromOptions
+- uid: Global.TerrainOptions.setupUIElements
+  name: setupUIElements()
+  href: api/Global.TerrainOptions.html#Global_TerrainOptions_setupUIElements
+  commentId: M:Global.TerrainOptions.setupUIElements
+  fullName: TerrainOptions.setupUIElements()
+  nameWithType: TerrainOptions.setupUIElements()
+- uid: Global.TerrainOptions.setupUIElements*
+  name: setupUIElements
+  href: api/Global.TerrainOptions.html#Global_TerrainOptions_setupUIElements_
+  commentId: Overload:Global.TerrainOptions.setupUIElements
+  isSpec: "True"
+  fullName: TerrainOptions.setupUIElements
+  nameWithType: TerrainOptions.setupUIElements
+- uid: Global.TerrainOptions.updateFields(TerrainSettings)
+  name: updateFields(TerrainSettings)
+  href: api/Global.TerrainOptions.html#Global_TerrainOptions_updateFields_TerrainSettings_
+  commentId: M:Global.TerrainOptions.updateFields(TerrainSettings)
+  fullName: TerrainOptions.updateFields(TerrainSettings)
+  nameWithType: TerrainOptions.updateFields(TerrainSettings)
+- uid: Global.TerrainOptions.updateFields*
+  name: updateFields
+  href: api/Global.TerrainOptions.html#Global_TerrainOptions_updateFields_
+  commentId: Overload:Global.TerrainOptions.updateFields
+  isSpec: "True"
+  fullName: TerrainOptions.updateFields
+  nameWithType: TerrainOptions.updateFields
+- uid: Global.TerrainOptions.updateTerrainSizeField(System.Int32)
+  name: updateTerrainSizeField(Int32)
+  href: api/Global.TerrainOptions.html#Global_TerrainOptions_updateTerrainSizeField_System_Int32_
+  commentId: M:Global.TerrainOptions.updateTerrainSizeField(System.Int32)
+  fullName: TerrainOptions.updateTerrainSizeField(System.Int32)
+  nameWithType: TerrainOptions.updateTerrainSizeField(Int32)
+- uid: Global.TerrainOptions.updateTerrainSizeField*
+  name: updateTerrainSizeField
+  href: api/Global.TerrainOptions.html#Global_TerrainOptions_updateTerrainSizeField_
+  commentId: Overload:Global.TerrainOptions.updateTerrainSizeField
+  isSpec: "True"
+  fullName: TerrainOptions.updateTerrainSizeField
+  nameWithType: TerrainOptions.updateTerrainSizeField
+- uid: Global.TerrainSettings
+  name: TerrainSettings
+  href: api/Global.TerrainSettings.html
+  commentId: T:Global.TerrainSettings
+  fullName: TerrainSettings
+  nameWithType: TerrainSettings
+- uid: Global.TerrainSettings.#ctor
+  name: TerrainSettings()
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings__ctor
+  commentId: M:Global.TerrainSettings.#ctor
+  fullName: TerrainSettings.TerrainSettings()
+  nameWithType: TerrainSettings.TerrainSettings()
+- uid: Global.TerrainSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,System.Int32,TerrainGenerator.TerrainShape,System.Int32,System.Int32,System.Int32)
+  name: TerrainSettings(TerrainGenerator.TerrainType, Boolean, Int32, TerrainGenerator.TerrainShape, Int32, Int32, Int32)
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings__ctor_TerrainGenerator_TerrainType_System_Boolean_System_Int32_TerrainGenerator_TerrainShape_System_Int32_System_Int32_System_Int32_
+  commentId: M:Global.TerrainSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,System.Int32,TerrainGenerator.TerrainShape,System.Int32,System.Int32,System.Int32)
+  fullName: TerrainSettings.TerrainSettings(TerrainGenerator.TerrainType, System.Boolean, System.Int32, TerrainGenerator.TerrainShape, System.Int32, System.Int32, System.Int32)
+  nameWithType: TerrainSettings.TerrainSettings(TerrainGenerator.TerrainType, Boolean, Int32, TerrainGenerator.TerrainShape, Int32, Int32, Int32)
+- uid: Global.TerrainSettings.#ctor*
+  name: TerrainSettings
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings__ctor_
+  commentId: Overload:Global.TerrainSettings.#ctor
+  isSpec: "True"
+  fullName: TerrainSettings.TerrainSettings
+  nameWithType: TerrainSettings.TerrainSettings
+- uid: Global.TerrainSettings.heightRangeEnabled
+  name: heightRangeEnabled
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_heightRangeEnabled
+  commentId: F:Global.TerrainSettings.heightRangeEnabled
+  fullName: TerrainSettings.heightRangeEnabled
+  nameWithType: TerrainSettings.heightRangeEnabled
+- uid: Global.TerrainSettings.heightRangeIsOnAndInvalid
+  name: heightRangeIsOnAndInvalid()
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_heightRangeIsOnAndInvalid
+  commentId: M:Global.TerrainSettings.heightRangeIsOnAndInvalid
+  fullName: TerrainSettings.heightRangeIsOnAndInvalid()
+  nameWithType: TerrainSettings.heightRangeIsOnAndInvalid()
+- uid: Global.TerrainSettings.heightRangeIsOnAndInvalid*
+  name: heightRangeIsOnAndInvalid
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_heightRangeIsOnAndInvalid_
+  commentId: Overload:Global.TerrainSettings.heightRangeIsOnAndInvalid
+  isSpec: "True"
+  fullName: TerrainSettings.heightRangeIsOnAndInvalid
+  nameWithType: TerrainSettings.heightRangeIsOnAndInvalid
+- uid: Global.TerrainSettings.tExactHeight
   name: tExactHeight
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings_tExactHeight
-  commentId: F:Global.TerrainGenerator.TerrainUserSettings.tExactHeight
-  fullName: TerrainGenerator.TerrainUserSettings.tExactHeight
-  nameWithType: TerrainGenerator.TerrainUserSettings.tExactHeight
-- uid: Global.TerrainGenerator.TerrainUserSettings.tMaxHeight
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_tExactHeight
+  commentId: F:Global.TerrainSettings.tExactHeight
+  fullName: TerrainSettings.tExactHeight
+  nameWithType: TerrainSettings.tExactHeight
+- uid: Global.TerrainSettings.tMaxHeight
   name: tMaxHeight
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings_tMaxHeight
-  commentId: F:Global.TerrainGenerator.TerrainUserSettings.tMaxHeight
-  fullName: TerrainGenerator.TerrainUserSettings.tMaxHeight
-  nameWithType: TerrainGenerator.TerrainUserSettings.tMaxHeight
-- uid: Global.TerrainGenerator.TerrainUserSettings.tMinHeight
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_tMaxHeight
+  commentId: F:Global.TerrainSettings.tMaxHeight
+  fullName: TerrainSettings.tMaxHeight
+  nameWithType: TerrainSettings.tMaxHeight
+- uid: Global.TerrainSettings.tMinHeight
   name: tMinHeight
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings_tMinHeight
-  commentId: F:Global.TerrainGenerator.TerrainUserSettings.tMinHeight
-  fullName: TerrainGenerator.TerrainUserSettings.tMinHeight
-  nameWithType: TerrainGenerator.TerrainUserSettings.tMinHeight
-- uid: Global.TerrainGenerator.TerrainUserSettings.tShape
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_tMinHeight
+  commentId: F:Global.TerrainSettings.tMinHeight
+  fullName: TerrainSettings.tMinHeight
+  nameWithType: TerrainSettings.tMinHeight
+- uid: Global.TerrainSettings.tShape
   name: tShape
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings_tShape
-  commentId: F:Global.TerrainGenerator.TerrainUserSettings.tShape
-  fullName: TerrainGenerator.TerrainUserSettings.tShape
-  nameWithType: TerrainGenerator.TerrainUserSettings.tShape
-- uid: Global.TerrainGenerator.TerrainUserSettings.tSize
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_tShape
+  commentId: F:Global.TerrainSettings.tShape
+  fullName: TerrainSettings.tShape
+  nameWithType: TerrainSettings.tShape
+- uid: Global.TerrainSettings.tSize
   name: tSize
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings_tSize
-  commentId: F:Global.TerrainGenerator.TerrainUserSettings.tSize
-  fullName: TerrainGenerator.TerrainUserSettings.tSize
-  nameWithType: TerrainGenerator.TerrainUserSettings.tSize
-- uid: Global.TerrainGenerator.TerrainUserSettings.tType
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_tSize
+  commentId: P:Global.TerrainSettings.tSize
+  fullName: TerrainSettings.tSize
+  nameWithType: TerrainSettings.tSize
+- uid: Global.TerrainSettings.tSize*
+  name: tSize
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_tSize_
+  commentId: Overload:Global.TerrainSettings.tSize
+  isSpec: "True"
+  fullName: TerrainSettings.tSize
+  nameWithType: TerrainSettings.tSize
+- uid: Global.TerrainSettings.tType
   name: tType
-  href: api/Global.TerrainGenerator.TerrainUserSettings.html#Global_TerrainGenerator_TerrainUserSettings_tType
-  commentId: F:Global.TerrainGenerator.TerrainUserSettings.tType
-  fullName: TerrainGenerator.TerrainUserSettings.tType
-  nameWithType: TerrainGenerator.TerrainUserSettings.tType
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_tType
+  commentId: F:Global.TerrainSettings.tType
+  fullName: TerrainSettings.tType
+  nameWithType: TerrainSettings.tType
+- uid: Global.TerrainSettings.updateTerrainSize(System.Int32)
+  name: updateTerrainSize(Int32)
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_updateTerrainSize_System_Int32_
+  commentId: M:Global.TerrainSettings.updateTerrainSize(System.Int32)
+  fullName: TerrainSettings.updateTerrainSize(System.Int32)
+  nameWithType: TerrainSettings.updateTerrainSize(Int32)
+- uid: Global.TerrainSettings.updateTerrainSize*
+  name: updateTerrainSize
+  href: api/Global.TerrainSettings.html#Global_TerrainSettings_updateTerrainSize_
+  commentId: Overload:Global.TerrainSettings.updateTerrainSize
+  isSpec: "True"
+  fullName: TerrainSettings.updateTerrainSize
+  nameWithType: TerrainSettings.updateTerrainSize
 - uid: Global.UIManager
   name: UIManager
   href: api/Global.UIManager.html
   commentId: T:Global.UIManager
   fullName: UIManager
   nameWithType: UIManager
-- uid: Global.UIManager.checkInputField(InputField,Slider,System.Int32,System.Int32)
-  name: checkInputField(InputField, Slider, Int32, Int32)
-  href: api/Global.UIManager.html#Global_UIManager_checkInputField_InputField_Slider_System_Int32_System_Int32_
-  commentId: M:Global.UIManager.checkInputField(InputField,Slider,System.Int32,System.Int32)
-  fullName: UIManager.checkInputField(InputField, Slider, System.Int32, System.Int32)
-  nameWithType: UIManager.checkInputField(InputField, Slider, Int32, Int32)
-- uid: Global.UIManager.checkInputField*
-  name: checkInputField
-  href: api/Global.UIManager.html#Global_UIManager_checkInputField_
-  commentId: Overload:Global.UIManager.checkInputField
-  isSpec: "True"
-  fullName: UIManager.checkInputField
-  nameWithType: UIManager.checkInputField
 - uid: Global.UIManager.closePopup
   name: closePopup()
   href: api/Global.UIManager.html#Global_UIManager_closePopup
@@ -1119,19 +2105,19 @@ references:
   isSpec: "True"
   fullName: UIManager.generateLevel
   nameWithType: UIManager.generateLevel
-- uid: Global.UIManager.randomlyGenerateLevel
-  name: randomlyGenerateLevel()
-  href: api/Global.UIManager.html#Global_UIManager_randomlyGenerateLevel
-  commentId: M:Global.UIManager.randomlyGenerateLevel
-  fullName: UIManager.randomlyGenerateLevel()
-  nameWithType: UIManager.randomlyGenerateLevel()
-- uid: Global.UIManager.randomlyGenerateLevel*
-  name: randomlyGenerateLevel
-  href: api/Global.UIManager.html#Global_UIManager_randomlyGenerateLevel_
-  commentId: Overload:Global.UIManager.randomlyGenerateLevel
+- uid: Global.UIManager.generateRandomLevel
+  name: generateRandomLevel()
+  href: api/Global.UIManager.html#Global_UIManager_generateRandomLevel
+  commentId: M:Global.UIManager.generateRandomLevel
+  fullName: UIManager.generateRandomLevel()
+  nameWithType: UIManager.generateRandomLevel()
+- uid: Global.UIManager.generateRandomLevel*
+  name: generateRandomLevel
+  href: api/Global.UIManager.html#Global_UIManager_generateRandomLevel_
+  commentId: Overload:Global.UIManager.generateRandomLevel
   isSpec: "True"
-  fullName: UIManager.randomlyGenerateLevel
-  nameWithType: UIManager.randomlyGenerateLevel
+  fullName: UIManager.generateRandomLevel
+  nameWithType: UIManager.generateRandomLevel
 - uid: Global.UIManager.recenterCamera
   name: recenterCamera()
   href: api/Global.UIManager.html#Global_UIManager_recenterCamera
@@ -1145,32 +2131,19 @@ references:
   isSpec: "True"
   fullName: UIManager.recenterCamera
   nameWithType: UIManager.recenterCamera
-- uid: Global.UIManager.toggleOption(Toggle,GameObject)
-  name: toggleOption(Toggle, GameObject)
-  href: api/Global.UIManager.html#Global_UIManager_toggleOption_Toggle_GameObject_
-  commentId: M:Global.UIManager.toggleOption(Toggle,GameObject)
-  fullName: UIManager.toggleOption(Toggle, GameObject)
-  nameWithType: UIManager.toggleOption(Toggle, GameObject)
-- uid: Global.UIManager.toggleOption*
-  name: toggleOption
-  href: api/Global.UIManager.html#Global_UIManager_toggleOption_
-  commentId: Overload:Global.UIManager.toggleOption
+- uid: Global.UIManager.showLevelInfo
+  name: showLevelInfo()
+  href: api/Global.UIManager.html#Global_UIManager_showLevelInfo
+  commentId: M:Global.UIManager.showLevelInfo
+  fullName: UIManager.showLevelInfo()
+  nameWithType: UIManager.showLevelInfo()
+- uid: Global.UIManager.showLevelInfo*
+  name: showLevelInfo
+  href: api/Global.UIManager.html#Global_UIManager_showLevelInfo_
+  commentId: Overload:Global.UIManager.showLevelInfo
   isSpec: "True"
-  fullName: UIManager.toggleOption
-  nameWithType: UIManager.toggleOption
-- uid: Global.UIManager.updateSliderField(Slider,InputField)
-  name: updateSliderField(Slider, InputField)
-  href: api/Global.UIManager.html#Global_UIManager_updateSliderField_Slider_InputField_
-  commentId: M:Global.UIManager.updateSliderField(Slider,InputField)
-  fullName: UIManager.updateSliderField(Slider, InputField)
-  nameWithType: UIManager.updateSliderField(Slider, InputField)
-- uid: Global.UIManager.updateSliderField*
-  name: updateSliderField
-  href: api/Global.UIManager.html#Global_UIManager_updateSliderField_
-  commentId: Overload:Global.UIManager.updateSliderField
-  isSpec: "True"
-  fullName: UIManager.updateSliderField
-  nameWithType: UIManager.updateSliderField
+  fullName: UIManager.showLevelInfo
+  nameWithType: UIManager.showLevelInfo
 - uid: Global.UIManager.zoomIn
   name: zoomIn()
   href: api/Global.UIManager.html#Global_UIManager_zoomIn
@@ -1197,3 +2170,188 @@ references:
   isSpec: "True"
   fullName: UIManager.zoomOut
   nameWithType: UIManager.zoomOut
+- uid: Global.WalkpathGenerator
+  name: WalkpathGenerator
+  href: api/Global.WalkpathGenerator.html
+  commentId: T:Global.WalkpathGenerator
+  fullName: WalkpathGenerator
+  nameWithType: WalkpathGenerator
+- uid: Global.WalkpathGenerator.#ctor(SpriteAtlas,List{System.String})
+  name: WalkpathGenerator(SpriteAtlas, List<String>)
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator__ctor_SpriteAtlas_List_System_String__
+  commentId: M:Global.WalkpathGenerator.#ctor(SpriteAtlas,List{System.String})
+  name.vb: WalkpathGenerator(SpriteAtlas, List(Of String))
+  fullName: WalkpathGenerator.WalkpathGenerator(SpriteAtlas, List<System.String>)
+  fullName.vb: WalkpathGenerator.WalkpathGenerator(SpriteAtlas, List(Of System.String))
+  nameWithType: WalkpathGenerator.WalkpathGenerator(SpriteAtlas, List<String>)
+  nameWithType.vb: WalkpathGenerator.WalkpathGenerator(SpriteAtlas, List(Of String))
+- uid: Global.WalkpathGenerator.#ctor*
+  name: WalkpathGenerator
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator__ctor_
+  commentId: Overload:Global.WalkpathGenerator.#ctor
+  isSpec: "True"
+  fullName: WalkpathGenerator.WalkpathGenerator
+  nameWithType: WalkpathGenerator.WalkpathGenerator
+- uid: Global.WalkpathGenerator.getTile
+  name: getTile()
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator_getTile
+  commentId: M:Global.WalkpathGenerator.getTile
+  fullName: WalkpathGenerator.getTile()
+  nameWithType: WalkpathGenerator.getTile()
+- uid: Global.WalkpathGenerator.getTile*
+  name: getTile
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator_getTile_
+  commentId: Overload:Global.WalkpathGenerator.getTile
+  isSpec: "True"
+  fullName: WalkpathGenerator.getTile
+  nameWithType: WalkpathGenerator.getTile
+- uid: Global.WalkpathGenerator.NumberOfWalkpaths
+  name: WalkpathGenerator.NumberOfWalkpaths
+  href: api/Global.WalkpathGenerator.NumberOfWalkpaths.html
+  commentId: T:Global.WalkpathGenerator.NumberOfWalkpaths
+  fullName: WalkpathGenerator.NumberOfWalkpaths
+  nameWithType: WalkpathGenerator.NumberOfWalkpaths
+- uid: Global.WalkpathGenerator.NumberOfWalkpaths.High
+  name: High
+  href: api/Global.WalkpathGenerator.NumberOfWalkpaths.html#Global_WalkpathGenerator_NumberOfWalkpaths_High
+  commentId: F:Global.WalkpathGenerator.NumberOfWalkpaths.High
+  fullName: WalkpathGenerator.NumberOfWalkpaths.High
+  nameWithType: WalkpathGenerator.NumberOfWalkpaths.High
+- uid: Global.WalkpathGenerator.NumberOfWalkpaths.Low
+  name: Low
+  href: api/Global.WalkpathGenerator.NumberOfWalkpaths.html#Global_WalkpathGenerator_NumberOfWalkpaths_Low
+  commentId: F:Global.WalkpathGenerator.NumberOfWalkpaths.Low
+  fullName: WalkpathGenerator.NumberOfWalkpaths.Low
+  nameWithType: WalkpathGenerator.NumberOfWalkpaths.Low
+- uid: Global.WalkpathGenerator.NumberOfWalkpaths.Medium
+  name: Medium
+  href: api/Global.WalkpathGenerator.NumberOfWalkpaths.html#Global_WalkpathGenerator_NumberOfWalkpaths_Medium
+  commentId: F:Global.WalkpathGenerator.NumberOfWalkpaths.Medium
+  fullName: WalkpathGenerator.NumberOfWalkpaths.Medium
+  nameWithType: WalkpathGenerator.NumberOfWalkpaths.Medium
+- uid: Global.WalkpathGenerator.numberOfWalkpathsCount
+  name: numberOfWalkpathsCount
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator_numberOfWalkpathsCount
+  commentId: F:Global.WalkpathGenerator.numberOfWalkpathsCount
+  fullName: WalkpathGenerator.numberOfWalkpathsCount
+  nameWithType: WalkpathGenerator.numberOfWalkpathsCount
+- uid: Global.WalkpathGenerator.populateCells(Map)
+  name: populateCells(Map)
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator_populateCells_Map_
+  commentId: M:Global.WalkpathGenerator.populateCells(Map)
+  fullName: WalkpathGenerator.populateCells(Map)
+  nameWithType: WalkpathGenerator.populateCells(Map)
+- uid: Global.WalkpathGenerator.populateCells*
+  name: populateCells
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator_populateCells_
+  commentId: Overload:Global.WalkpathGenerator.populateCells
+  isSpec: "True"
+  fullName: WalkpathGenerator.populateCells
+  nameWithType: WalkpathGenerator.populateCells
+- uid: Global.WalkpathGenerator.setWalkpathSettings(WalkpathSettings)
+  name: setWalkpathSettings(WalkpathSettings)
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator_setWalkpathSettings_WalkpathSettings_
+  commentId: M:Global.WalkpathGenerator.setWalkpathSettings(WalkpathSettings)
+  fullName: WalkpathGenerator.setWalkpathSettings(WalkpathSettings)
+  nameWithType: WalkpathGenerator.setWalkpathSettings(WalkpathSettings)
+- uid: Global.WalkpathGenerator.setWalkpathSettings*
+  name: setWalkpathSettings
+  href: api/Global.WalkpathGenerator.html#Global_WalkpathGenerator_setWalkpathSettings_
+  commentId: Overload:Global.WalkpathGenerator.setWalkpathSettings
+  isSpec: "True"
+  fullName: WalkpathGenerator.setWalkpathSettings
+  nameWithType: WalkpathGenerator.setWalkpathSettings
+- uid: Global.WalkpathPathOptions
+  name: WalkpathPathOptions
+  href: api/Global.WalkpathPathOptions.html
+  commentId: T:Global.WalkpathPathOptions
+  fullName: WalkpathPathOptions
+  nameWithType: WalkpathPathOptions
+- uid: Global.WalkpathPathOptions.createUserSettingsFromOptions
+  name: createUserSettingsFromOptions()
+  href: api/Global.WalkpathPathOptions.html#Global_WalkpathPathOptions_createUserSettingsFromOptions
+  commentId: M:Global.WalkpathPathOptions.createUserSettingsFromOptions
+  fullName: WalkpathPathOptions.createUserSettingsFromOptions()
+  nameWithType: WalkpathPathOptions.createUserSettingsFromOptions()
+- uid: Global.WalkpathPathOptions.createUserSettingsFromOptions*
+  name: createUserSettingsFromOptions
+  href: api/Global.WalkpathPathOptions.html#Global_WalkpathPathOptions_createUserSettingsFromOptions_
+  commentId: Overload:Global.WalkpathPathOptions.createUserSettingsFromOptions
+  isSpec: "True"
+  fullName: WalkpathPathOptions.createUserSettingsFromOptions
+  nameWithType: WalkpathPathOptions.createUserSettingsFromOptions
+- uid: Global.WalkpathPathOptions.setupUIElements
+  name: setupUIElements()
+  href: api/Global.WalkpathPathOptions.html#Global_WalkpathPathOptions_setupUIElements
+  commentId: M:Global.WalkpathPathOptions.setupUIElements
+  fullName: WalkpathPathOptions.setupUIElements()
+  nameWithType: WalkpathPathOptions.setupUIElements()
+- uid: Global.WalkpathPathOptions.setupUIElements*
+  name: setupUIElements
+  href: api/Global.WalkpathPathOptions.html#Global_WalkpathPathOptions_setupUIElements_
+  commentId: Overload:Global.WalkpathPathOptions.setupUIElements
+  isSpec: "True"
+  fullName: WalkpathPathOptions.setupUIElements
+  nameWithType: WalkpathPathOptions.setupUIElements
+- uid: Global.WalkpathPathOptions.updateFields(WalkpathSettings)
+  name: updateFields(WalkpathSettings)
+  href: api/Global.WalkpathPathOptions.html#Global_WalkpathPathOptions_updateFields_WalkpathSettings_
+  commentId: M:Global.WalkpathPathOptions.updateFields(WalkpathSettings)
+  fullName: WalkpathPathOptions.updateFields(WalkpathSettings)
+  nameWithType: WalkpathPathOptions.updateFields(WalkpathSettings)
+- uid: Global.WalkpathPathOptions.updateFields*
+  name: updateFields
+  href: api/Global.WalkpathPathOptions.html#Global_WalkpathPathOptions_updateFields_
+  commentId: Overload:Global.WalkpathPathOptions.updateFields
+  isSpec: "True"
+  fullName: WalkpathPathOptions.updateFields
+  nameWithType: WalkpathPathOptions.updateFields
+- uid: Global.WalkpathSettings
+  name: WalkpathSettings
+  href: api/Global.WalkpathSettings.html
+  commentId: T:Global.WalkpathSettings
+  fullName: WalkpathSettings
+  nameWithType: WalkpathSettings
+- uid: Global.WalkpathSettings.#ctor(TerrainGenerator.TerrainType)
+  name: WalkpathSettings(TerrainGenerator.TerrainType)
+  href: api/Global.WalkpathSettings.html#Global_WalkpathSettings__ctor_TerrainGenerator_TerrainType_
+  commentId: M:Global.WalkpathSettings.#ctor(TerrainGenerator.TerrainType)
+  fullName: WalkpathSettings.WalkpathSettings(TerrainGenerator.TerrainType)
+  nameWithType: WalkpathSettings.WalkpathSettings(TerrainGenerator.TerrainType)
+- uid: Global.WalkpathSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,WalkpathGenerator.NumberOfWalkpaths,System.Boolean)
+  name: WalkpathSettings(TerrainGenerator.TerrainType, Boolean, WalkpathGenerator.NumberOfWalkpaths, Boolean)
+  href: api/Global.WalkpathSettings.html#Global_WalkpathSettings__ctor_TerrainGenerator_TerrainType_System_Boolean_WalkpathGenerator_NumberOfWalkpaths_System_Boolean_
+  commentId: M:Global.WalkpathSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,WalkpathGenerator.NumberOfWalkpaths,System.Boolean)
+  fullName: WalkpathSettings.WalkpathSettings(TerrainGenerator.TerrainType, System.Boolean, WalkpathGenerator.NumberOfWalkpaths, System.Boolean)
+  nameWithType: WalkpathSettings.WalkpathSettings(TerrainGenerator.TerrainType, Boolean, WalkpathGenerator.NumberOfWalkpaths, Boolean)
+- uid: Global.WalkpathSettings.#ctor*
+  name: WalkpathSettings
+  href: api/Global.WalkpathSettings.html#Global_WalkpathSettings__ctor_
+  commentId: Overload:Global.WalkpathSettings.#ctor
+  isSpec: "True"
+  fullName: WalkpathSettings.WalkpathSettings
+  nameWithType: WalkpathSettings.WalkpathSettings
+- uid: Global.WalkpathSettings.intersectionsEnabled
+  name: intersectionsEnabled
+  href: api/Global.WalkpathSettings.html#Global_WalkpathSettings_intersectionsEnabled
+  commentId: F:Global.WalkpathSettings.intersectionsEnabled
+  fullName: WalkpathSettings.intersectionsEnabled
+  nameWithType: WalkpathSettings.intersectionsEnabled
+- uid: Global.WalkpathSettings.tType
+  name: tType
+  href: api/Global.WalkpathSettings.html#Global_WalkpathSettings_tType
+  commentId: F:Global.WalkpathSettings.tType
+  fullName: WalkpathSettings.tType
+  nameWithType: WalkpathSettings.tType
+- uid: Global.WalkpathSettings.wGenerationEnabled
+  name: wGenerationEnabled
+  href: api/Global.WalkpathSettings.html#Global_WalkpathSettings_wGenerationEnabled
+  commentId: F:Global.WalkpathSettings.wGenerationEnabled
+  fullName: WalkpathSettings.wGenerationEnabled
+  nameWithType: WalkpathSettings.wGenerationEnabled
+- uid: Global.WalkpathSettings.wNum
+  name: wNum
+  href: api/Global.WalkpathSettings.html#Global_WalkpathSettings_wNum
+  commentId: F:Global.WalkpathSettings.wNum
+  fullName: WalkpathSettings.wNum
+  nameWithType: WalkpathSettings.wNum

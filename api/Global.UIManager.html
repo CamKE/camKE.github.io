@@ -101,50 +101,6 @@
   </h3>
   
   
-  <a id="Global_UIManager_checkInputField_" data-uid="Global.UIManager.checkInputField*"></a>
-  <h4 id="Global_UIManager_checkInputField_InputField_Slider_System_Int32_System_Int32_" data-uid="Global.UIManager.checkInputField(InputField,Slider,System.Int32,System.Int32)">checkInputField(InputField, Slider, Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Called anytime an input field has been edited to ensure the input is valid and the 
-slider is updated to reflect the input field.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void checkInputField(InputField input, Slider slider, int minValue, int maxValue)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">InputField</span></td>
-        <td><span class="parametername">input</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Slider</span></td>
-        <td><span class="parametername">slider</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">minValue</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td><span class="parametername">maxValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Global_UIManager_closePopup_" data-uid="Global.UIManager.closePopup*"></a>
   <h4 id="Global_UIManager_closePopup" data-uid="Global.UIManager.closePopup">closePopup()</h4>
   <div class="markdown level1 summary"><p>Closes an opened popup. Used by the close button on the popup panel</p>
@@ -189,14 +145,14 @@ slider is updated to reflect the input field.</p>
   </div>
   
   
-  <a id="Global_UIManager_randomlyGenerateLevel_" data-uid="Global.UIManager.randomlyGenerateLevel*"></a>
-  <h4 id="Global_UIManager_randomlyGenerateLevel" data-uid="Global.UIManager.randomlyGenerateLevel">randomlyGenerateLevel()</h4>
+  <a id="Global_UIManager_generateRandomLevel_" data-uid="Global.UIManager.generateRandomLevel*"></a>
+  <h4 id="Global_UIManager_generateRandomLevel" data-uid="Global.UIManager.generateRandomLevel">generateRandomLevel()</h4>
   <div class="markdown level1 summary"><p>Tell the level manager to generate the level with randomised settings.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void randomlyGenerateLevel()</code></pre>
+    <pre><code class="lang-csharp hljs">public void generateRandomLevel()</code></pre>
   </div>
   
   
@@ -211,69 +167,14 @@ slider is updated to reflect the input field.</p>
   </div>
   
   
-  <a id="Global_UIManager_toggleOption_" data-uid="Global.UIManager.toggleOption*"></a>
-  <h4 id="Global_UIManager_toggleOption_Toggle_GameObject_" data-uid="Global.UIManager.toggleOption(Toggle,GameObject)">toggleOption(Toggle, GameObject)</h4>
+  <a id="Global_UIManager_showLevelInfo_" data-uid="Global.UIManager.showLevelInfo*"></a>
+  <h4 id="Global_UIManager_showLevelInfo" data-uid="Global.UIManager.showLevelInfo">showLevelInfo()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void toggleOption(Toggle toggle, GameObject option)</code></pre>
+    <pre><code class="lang-csharp hljs">public void showLevelInfo()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Toggle</span></td>
-        <td><span class="parametername">toggle</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">GameObject</span></td>
-        <td><span class="parametername">option</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_UIManager_updateSliderField_" data-uid="Global.UIManager.updateSliderField*"></a>
-  <h4 id="Global_UIManager_updateSliderField_Slider_InputField_" data-uid="Global.UIManager.updateSliderField(Slider,InputField)">updateSliderField(Slider, InputField)</h4>
-  <div class="markdown level1 summary"><p>Called anytime a slider changes to update the input field with the slider value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void updateSliderField(Slider slider, InputField input)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Slider</span></td>
-        <td><span class="parametername">slider</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">InputField</span></td>
-        <td><span class="parametername">input</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Global_UIManager_zoomIn_" data-uid="Global.UIManager.zoomIn*"></a>

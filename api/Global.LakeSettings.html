@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct RiverGenerator.RiverUserSettings
+    <title>Struct LakeSettings
    | Project documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct RiverGenerator.RiverUserSettings
+    <meta name="title" content="Struct LakeSettings
    | Project documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,30 +78,30 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.RiverGenerator.RiverUserSettings">
+            <article class="content wrap" id="_content" data-uid="Global.LakeSettings">
   
   
-  <h1 id="Global_RiverGenerator_RiverUserSettings" data-uid="Global.RiverGenerator.RiverUserSettings" class="text-break">Struct RiverGenerator.RiverUserSettings
+  <h1 id="Global_LakeSettings" data-uid="Global.LakeSettings" class="text-break">Struct LakeSettings
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_RiverGenerator_RiverUserSettings_syntax">Syntax</h5>
+  <h5 id="Global_LakeSettings_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct RiverUserSettings</code></pre>
+    <pre><code class="lang-csharp hljs">public struct LakeSettings</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Global_RiverGenerator_RiverUserSettings__ctor_" data-uid="Global.RiverGenerator.RiverUserSettings.#ctor*"></a>
-  <h4 id="Global_RiverGenerator_RiverUserSettings__ctor_TerrainGenerator_terrainType_System_Boolean_RiverGenerator_numRivers_System_Boolean_System_Boolean_" data-uid="Global.RiverGenerator.RiverUserSettings.#ctor(TerrainGenerator.terrainType,System.Boolean,RiverGenerator.numRivers,System.Boolean,System.Boolean)">RiverUserSettings(TerrainGenerator.terrainType, Boolean, RiverGenerator.numRivers, Boolean, Boolean)</h4>
+  <a id="Global_LakeSettings__ctor_" data-uid="Global.LakeSettings.#ctor*"></a>
+  <h4 id="Global_LakeSettings__ctor_TerrainGenerator_TerrainType_" data-uid="Global.LakeSettings.#ctor(TerrainGenerator.TerrainType)">LakeSettings(TerrainGenerator.TerrainType)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RiverUserSettings(TerrainGenerator.terrainType tType, bool generationEnabled, RiverGenerator.numRivers rNum, bool intersectionsEnabled, bool bridgesEnabled)</code></pre>
+    <pre><code class="lang-csharp hljs">public LakeSettings(TerrainGenerator.TerrainType tType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,28 +114,50 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.terrainType.html">TerrainGenerator.terrainType</a></td>
+        <td><a class="xref" href="Global.TerrainGenerator.TerrainType.html">TerrainGenerator.TerrainType</a></td>
+        <td><span class="parametername">tType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LakeSettings__ctor_" data-uid="Global.LakeSettings.#ctor*"></a>
+  <h4 id="Global_LakeSettings__ctor_TerrainGenerator_TerrainType_System_Boolean_LakeGenerator_NumberOfLakes_LakeGenerator_MaxLakeSize_" data-uid="Global.LakeSettings.#ctor(TerrainGenerator.TerrainType,System.Boolean,LakeGenerator.NumberOfLakes,LakeGenerator.MaxLakeSize)">LakeSettings(TerrainGenerator.TerrainType, Boolean, LakeGenerator.NumberOfLakes, LakeGenerator.MaxLakeSize)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LakeSettings(TerrainGenerator.TerrainType tType, bool lGenerationEnabled, LakeGenerator.NumberOfLakes lNum, LakeGenerator.MaxLakeSize lMaxSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.TerrainGenerator.TerrainType.html">TerrainGenerator.TerrainType</a></td>
         <td><span class="parametername">tType</span></td>
         <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">generationEnabled</span></td>
+        <td><span class="parametername">lGenerationEnabled</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Global.RiverGenerator.numRivers.html">RiverGenerator.numRivers</a></td>
-        <td><span class="parametername">rNum</span></td>
+        <td><a class="xref" href="Global.LakeGenerator.NumberOfLakes.html">LakeGenerator.NumberOfLakes</a></td>
+        <td><span class="parametername">lNum</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">intersectionsEnabled</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">bridgesEnabled</span></td>
+        <td><a class="xref" href="Global.LakeGenerator.MaxLakeSize.html">LakeGenerator.MaxLakeSize</a></td>
+        <td><span class="parametername">lMaxSize</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -144,12 +166,12 @@
   </h3>
   
   
-  <h4 id="Global_RiverGenerator_RiverUserSettings_bridgesEnabled" data-uid="Global.RiverGenerator.RiverUserSettings.bridgesEnabled">bridgesEnabled</h4>
+  <h4 id="Global_LakeSettings_lGenerationEnabled" data-uid="Global.LakeSettings.lGenerationEnabled">lGenerationEnabled</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly bool bridgesEnabled</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool lGenerationEnabled</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,12 +190,12 @@
   </table>
   
   
-  <h4 id="Global_RiverGenerator_RiverUserSettings_generationEnabled" data-uid="Global.RiverGenerator.RiverUserSettings.generationEnabled">generationEnabled</h4>
+  <h4 id="Global_LakeSettings_lMaxSize" data-uid="Global.LakeSettings.lMaxSize">lMaxSize</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly bool generationEnabled</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly LakeGenerator.MaxLakeSize lMaxSize</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -185,19 +207,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="Global.LakeGenerator.MaxLakeSize.html">LakeGenerator.MaxLakeSize</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_RiverGenerator_RiverUserSettings_intersectionsEnabled" data-uid="Global.RiverGenerator.RiverUserSettings.intersectionsEnabled">intersectionsEnabled</h4>
+  <h4 id="Global_LakeSettings_lNum" data-uid="Global.LakeSettings.lNum">lNum</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly bool intersectionsEnabled</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly LakeGenerator.NumberOfLakes lNum</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,19 +231,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="Global.LakeGenerator.NumberOfLakes.html">LakeGenerator.NumberOfLakes</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_RiverGenerator_RiverUserSettings_rNum" data-uid="Global.RiverGenerator.RiverUserSettings.rNum">rNum</h4>
+  <h4 id="Global_LakeSettings_tType" data-uid="Global.LakeSettings.tType">tType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly RiverGenerator.numRivers rNum</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly TerrainGenerator.TerrainType tType</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -233,31 +255,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.RiverGenerator.numRivers.html">RiverGenerator.numRivers</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_RiverGenerator_RiverUserSettings_tType" data-uid="Global.RiverGenerator.RiverUserSettings.tType">tType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly TerrainGenerator.terrainType tType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.TerrainGenerator.terrainType.html">TerrainGenerator.terrainType</a></td>
+        <td><a class="xref" href="Global.TerrainGenerator.TerrainType.html">TerrainGenerator.TerrainType</a></td>
         <td></td>
       </tr>
     </tbody>

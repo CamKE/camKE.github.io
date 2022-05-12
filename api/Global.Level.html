@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RiverGenerator
+    <title>Class Level
    | Project documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RiverGenerator
+    <meta name="title" content="Class Level
    | Project documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,48 +78,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.RiverGenerator">
+            <article class="content wrap" id="_content" data-uid="Global.Level">
   
   
-  <h1 id="Global_RiverGenerator" data-uid="Global.RiverGenerator" class="text-break">Class RiverGenerator
+  <h1 id="Global_Level" data-uid="Global.Level" class="text-break">Class Level
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Global.PathGenerator.html">PathGenerator</a></div>
-    <div class="level2"><span class="xref">RiverGenerator</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_statusToCheck">PathGenerator.statusToCheck</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_getReachableCells_Map_List_Vector2Int__Heap_CellPair__System_Boolean_">PathGenerator.getReachableCells(Map, List&lt;Vector2Int&gt;, Heap&lt;CellPair&gt;, Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_findAStarPath_Map_Cell_Cell_Cell_CellStatus_System_Boolean_">PathGenerator.findAStarPath(Map, Cell, Cell, Cell.CellStatus, Boolean)</a>
-    </div>
+    <div class="level1"><span class="xref">Level</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_RiverGenerator_syntax">Syntax</h5>
+  <h5 id="Global_Level_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RiverGenerator : PathGenerator</code></pre>
+    <pre><code class="lang-csharp hljs">public class Level : MonoBehaviour</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Global_RiverGenerator__ctor_" data-uid="Global.RiverGenerator.#ctor*"></a>
-  <h4 id="Global_RiverGenerator__ctor_SpriteAtlas_List_System_String__" data-uid="Global.RiverGenerator.#ctor(SpriteAtlas,List{System.String})">RiverGenerator(SpriteAtlas, List&lt;String&gt;)</h4>
+  <a id="Global_Level_isGenerated_" data-uid="Global.Level.isGenerated*"></a>
+  <h4 id="Global_Level_isGenerated" data-uid="Global.Level.isGenerated">isGenerated</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RiverGenerator(SpriteAtlas atlas, List&lt;string&gt; generationInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isGenerated { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_Level_generate_" data-uid="Global.Level.generate*"></a>
+  <h4 id="Global_Level_generate_TerrainSettings_RiverSettings_LakeSettings_WalkpathSettings_" data-uid="Global.Level.generate(TerrainSettings,RiverSettings,LakeSettings,WalkpathSettings)">generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void generate(TerrainSettings terrainSettings, RiverSettings riverSettings, LakeSettings lakeSettings, WalkpathSettings walkpathSettings)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -132,29 +146,55 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">SpriteAtlas</span></td>
-        <td><span class="parametername">atlas</span></td>
+        <td><a class="xref" href="Global.TerrainSettings.html">TerrainSettings</a></td>
+        <td><span class="parametername">terrainSettings</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td><span class="parametername">generationInfo</span></td>
+        <td><a class="xref" href="Global.RiverSettings.html">RiverSettings</a></td>
+        <td><span class="parametername">riverSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.LakeSettings.html">LakeSettings</a></td>
+        <td><span class="parametername">lakeSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.WalkpathSettings.html">WalkpathSettings</a></td>
+        <td><span class="parametername">walkpathSettings</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="fields">Fields
-  </h3>
   
   
-  <h4 id="Global_RiverGenerator_numberOfRiversCount" data-uid="Global.RiverGenerator.numberOfRiversCount">numberOfRiversCount</h4>
+  <a id="Global_Level_getCellZPosition_" data-uid="Global.Level.getCellZPosition*"></a>
+  <h4 id="Global_Level_getCellZPosition_Vector2_" data-uid="Global.Level.getCellZPosition(Vector2)">getCellZPosition(Vector2)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int numberOfRiversCount</code></pre>
+    <pre><code class="lang-csharp hljs">public int getCellZPosition(Vector2 worldPos)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">worldPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -169,17 +209,15 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Global_RiverGenerator_getTile_" data-uid="Global.RiverGenerator.getTile*"></a>
-  <h4 id="Global_RiverGenerator_getTile" data-uid="Global.RiverGenerator.getTile">getTile()</h4>
+  <a id="Global_Level_getGenerationInfo_" data-uid="Global.Level.getGenerationInfo*"></a>
+  <h4 id="Global_Level_getGenerationInfo" data-uid="Global.Level.getGenerationInfo">getGenerationInfo()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tile getTile()</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; getGenerationInfo()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,20 +229,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Tile</span></td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_RiverGenerator_populateCells_" data-uid="Global.RiverGenerator.populateCells*"></a>
-  <h4 id="Global_RiverGenerator_populateCells_Map_" data-uid="Global.RiverGenerator.populateCells(Map)">populateCells(Map)</h4>
+  <a id="Global_Level_getGridPosition_" data-uid="Global.Level.getGridPosition*"></a>
+  <h4 id="Global_Level_getGridPosition_Vector2Int_" data-uid="Global.Level.getGridPosition(Vector2Int)">getGridPosition(Vector2Int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void populateCells(Map map)</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector2 getGridPosition(Vector2Int cellPosition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,21 +255,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Map.html">Map</a></td>
-        <td><span class="parametername">map</span></td>
+        <td><span class="xref">Vector2Int</span></td>
+        <td><span class="parametername">cellPosition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_RiverGenerator_setRiverSettings_" data-uid="Global.RiverGenerator.setRiverSettings*"></a>
-  <h4 id="Global_RiverGenerator_setRiverSettings_RiverSettings_" data-uid="Global.RiverGenerator.setRiverSettings(RiverSettings)">setRiverSettings(RiverSettings)</h4>
+  <a id="Global_Level_getRandomCell_" data-uid="Global.Level.getRandomCell*"></a>
+  <h4 id="Global_Level_getRandomCell" data-uid="Global.Level.getRandomCell">getRandomCell()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setRiverSettings(RiverSettings riverSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3Int getRandomCell()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3Int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_setCameraActive_" data-uid="Global.Level.setCameraActive*"></a>
+  <h4 id="Global_Level_setCameraActive_System_Boolean_" data-uid="Global.Level.setCameraActive(System.Boolean)">setCameraActive(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setCameraActive(bool value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -244,8 +322,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.RiverSettings.html">RiverSettings</a></td>
-        <td><span class="parametername">riverSettings</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_setup_" data-uid="Global.Level.setup*"></a>
+  <h4 id="Global_Level_setup_System_Boolean_" data-uid="Global.Level.setup(System.Boolean)">setup(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setup(bool fromInspector = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">fromInspector</span></td>
         <td></td>
       </tr>
     </tbody>

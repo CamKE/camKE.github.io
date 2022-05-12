@@ -87,6 +87,13 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="Global.Cell.html">Cell</a></h4>
+      <section><p>Represents a single space on the map for a tile to be potentially placed.</p>
+</section>
+      <h4><a class="xref" href="Global.CellPair.html">CellPair</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Heap-1.html">Heap&lt;T&gt;</a></h4>
+      <section></section>
       <h4><a class="xref" href="Global.HoverTip.html">HoverTip</a></h4>
       <section><p>Enables game objects to have text displayed providing useful information when hovered over.</p>
 </section>
@@ -96,16 +103,24 @@
 </section>
       <h4><a class="xref" href="Global.LakeGenerator.html">LakeGenerator</a></h4>
       <section></section>
+      <h4><a class="xref" href="Global.LakeOptions.html">LakeOptions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Level.html">Level</a></h4>
+      <section></section>
       <h4><a class="xref" href="Global.LevelCameraController.html">LevelCameraController</a></h4>
       <section><p>Controls the level camera&apos;s functionality that is used in the user interface.</p>
 </section>
       <h4><a class="xref" href="Global.LevelEditor.html">LevelEditor</a></h4>
-      <section><p>Responsible for customising the inspector window to allow for easy level generation via the inspector.</p>
+      <section><p>Responsible for customising the LevelManager inspector window to allow level generation via the inspector.</p>
 </section>
       <h4><a class="xref" href="Global.LevelManager.html">LevelManager</a></h4>
       <section><p>Responsible for all operations to do with creating, managing and destroying the level and elements within it.</p>
 </section>
-      <h4><a class="xref" href="Global.Node.html">Node</a></h4>
+      <h4><a class="xref" href="Global.Map.html">Map</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Options.html">Options</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PathGenerator.html">PathGenerator</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.PlayerController.html">PlayerController</a></h4>
       <section><p>This class is responsible for controlling the player character on the level.</p>
@@ -115,40 +130,52 @@
 </section>
       <h4><a class="xref" href="Global.RiverGenerator.html">RiverGenerator</a></h4>
       <section></section>
-      <h4><a class="xref" href="Global.Simple_Char_Move.html">Simple_Char_Move</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Global.Simple_Door_Interaction.html">Simple_Door_Interaction</a></h4>
+      <h4><a class="xref" href="Global.RiverOptions.html">RiverOptions</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.TerrainGenerator.html">TerrainGenerator</a></h4>
       <section><p>Responsible for generating the terrain. Used by the Level Manager.</p>
 </section>
+      <h4><a class="xref" href="Global.TerrainOptions.html">TerrainOptions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TerrainSettings.html">TerrainSettings</a></h4>
+      <section></section>
       <h4><a class="xref" href="Global.UIManager.html">UIManager</a></h4>
       <section><p>This class is responsible for managing all operations to do with the user interface.</p>
 </section>
+      <h4><a class="xref" href="Global.WalkpathGenerator.html">WalkpathGenerator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.WalkpathPathOptions.html">WalkpathPathOptions</a></h4>
+      <section></section>
     <h3 id="structs">Structs
   </h3>
-      <h4><a class="xref" href="Global.LakeGenerator.LakeUserSettings.html">LakeGenerator.LakeUserSettings</a></h4>
+      <h4><a class="xref" href="Global.LakeSettings.html">LakeSettings</a></h4>
       <section></section>
-      <h4><a class="xref" href="Global.RiverGenerator.RiverUserSettings.html">RiverGenerator.RiverUserSettings</a></h4>
+      <h4><a class="xref" href="Global.RiverSettings.html">RiverSettings</a></h4>
       <section></section>
-      <h4><a class="xref" href="Global.TerrainGenerator.TerrainUserSettings.html">TerrainGenerator.TerrainUserSettings</a></h4>
+      <h4><a class="xref" href="Global.WalkpathSettings.html">WalkpathSettings</a></h4>
+      <section></section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Global.IHeapItem-1.html">IHeapItem&lt;T&gt;</a></h4>
       <section></section>
     <h3 id="enums">Enums
   </h3>
-      <h4><a class="xref" href="Global.LakeGenerator.maxLakeSize.html">LakeGenerator.maxLakeSize</a></h4>
+      <h4><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></h4>
       <section></section>
-      <h4><a class="xref" href="Global.LakeGenerator.numLakes.html">LakeGenerator.numLakes</a></h4>
+      <h4><a class="xref" href="Global.LakeGenerator.MaxLakeSize.html">LakeGenerator.MaxLakeSize</a></h4>
       <section></section>
-      <h4><a class="xref" href="Global.LevelManager.levelCellStatus.html">LevelManager.levelCellStatus</a></h4>
+      <h4><a class="xref" href="Global.LakeGenerator.NumberOfLakes.html">LakeGenerator.NumberOfLakes</a></h4>
       <section></section>
-      <h4><a class="xref" href="Global.RiverGenerator.numRivers.html">RiverGenerator.numRivers</a></h4>
+      <h4><a class="xref" href="Global.RiverGenerator.NumberOfRivers.html">RiverGenerator.NumberOfRivers</a></h4>
       <section></section>
-      <h4><a class="xref" href="Global.TerrainGenerator.terrainShape.html">TerrainGenerator.terrainShape</a></h4>
+      <h4><a class="xref" href="Global.TerrainGenerator.TerrainShape.html">TerrainGenerator.TerrainShape</a></h4>
       <section><p>The terrain shape options.</p>
 </section>
-      <h4><a class="xref" href="Global.TerrainGenerator.terrainType.html">TerrainGenerator.terrainType</a></h4>
+      <h4><a class="xref" href="Global.TerrainGenerator.TerrainType.html">TerrainGenerator.TerrainType</a></h4>
       <section><p>The terrain type options.</p>
 </section>
+      <h4><a class="xref" href="Global.WalkpathGenerator.NumberOfWalkpaths.html">WalkpathGenerator.NumberOfWalkpaths</a></h4>
+      <section></section>
 </article>
           </div>
           

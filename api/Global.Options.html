@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TerrainGenerator
+    <title>Class Options
    | Project documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TerrainGenerator
+    <meta name="title" content="Class Options
    | Project documentation ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,69 +78,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.TerrainGenerator">
+            <article class="content wrap" id="_content" data-uid="Global.Options">
   
   
-  <h1 id="Global_TerrainGenerator" data-uid="Global.TerrainGenerator" class="text-break">Class TerrainGenerator
+  <h1 id="Global_Options" data-uid="Global.Options" class="text-break">Class Options
   </h1>
-  <div class="markdown level0 summary"><p>Responsible for generating the terrain. Used by the Level Manager.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">TerrainGenerator</span></div>
+    <div class="level1"><span class="xref">Options</span></div>
+      <div class="level2"><a class="xref" href="Global.LakeOptions.html">LakeOptions</a></div>
+      <div class="level2"><a class="xref" href="Global.RiverOptions.html">RiverOptions</a></div>
+      <div class="level2"><a class="xref" href="Global.TerrainOptions.html">TerrainOptions</a></div>
+      <div class="level2"><a class="xref" href="Global.WalkpathPathOptions.html">WalkpathPathOptions</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_TerrainGenerator_syntax">Syntax</h5>
+  <h5 id="Global_Options_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TerrainGenerator</code></pre>
+    <pre><code class="lang-csharp hljs">public class Options</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="Global_TerrainGenerator__ctor_" data-uid="Global.TerrainGenerator.#ctor*"></a>
-  <h4 id="Global_TerrainGenerator__ctor_SpriteAtlas_List_System_String__" data-uid="Global.TerrainGenerator.#ctor(SpriteAtlas,List{System.String})">TerrainGenerator(SpriteAtlas, List&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TerrainGenerator(SpriteAtlas atlas, List&lt;string&gt; generationInfo)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SpriteAtlas</span></td>
-        <td><span class="parametername">atlas</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td><span class="parametername">generationInfo</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_TerrainGenerator_terrainMaxHeight" data-uid="Global.TerrainGenerator.terrainMaxHeight">terrainMaxHeight</h4>
+  <h4 id="Global_Options_dropdowns" data-uid="Global.Options.dropdowns">dropdowns</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int terrainMaxHeight = 5</code></pre>
+    <pre><code class="lang-csharp hljs">protected List&lt;Dropdown&gt; dropdowns</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,44 +121,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">List</span>&lt;<span class="xref">Dropdown</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_TerrainGenerator_terrainMaxSize" data-uid="Global.TerrainGenerator.terrainMaxSize">terrainMaxSize</h4>
-  <div class="markdown level1 summary"><p>The maximum size of a level specified by tile count.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int terrainMaxSize = 1500</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_TerrainGenerator_terrainMinHeight" data-uid="Global.TerrainGenerator.terrainMinHeight">terrainMinHeight</h4>
+  <h4 id="Global_Options_inputFields" data-uid="Global.Options.inputFields">inputFields</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int terrainMinHeight = 0</code></pre>
+    <pre><code class="lang-csharp hljs">protected List&lt;InputField&gt; inputFields</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,44 +145,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">List</span>&lt;<span class="xref">InputField</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_TerrainGenerator_terrainMinSize" data-uid="Global.TerrainGenerator.terrainMinSize">terrainMinSize</h4>
-  <div class="markdown level1 summary"><p>The minimum size of a level specified by tile count.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int terrainMinSize = 50</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_TerrainGenerator_terrainShapeCount" data-uid="Global.TerrainGenerator.terrainShapeCount">terrainShapeCount</h4>
+  <h4 id="Global_Options_sliders" data-uid="Global.Options.sliders">sliders</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int terrainShapeCount</code></pre>
+    <pre><code class="lang-csharp hljs">protected List&lt;Slider&gt; sliders</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -250,19 +169,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="xref">List</span>&lt;<span class="xref">Slider</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_TerrainGenerator_terrainTypeCount" data-uid="Global.TerrainGenerator.terrainTypeCount">terrainTypeCount</h4>
+  <h4 id="Global_Options_terrainType" data-uid="Global.Options.terrainType">terrainType</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int terrainTypeCount</code></pre>
+    <pre><code class="lang-csharp hljs">protected static TerrainGenerator.TerrainType terrainType</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -274,7 +193,55 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><a class="xref" href="Global.TerrainGenerator.TerrainType.html">TerrainGenerator.TerrainType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Options_toggleOptions" data-uid="Global.Options.toggleOptions">toggleOptions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;GameObject&gt; toggleOptions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">GameObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Options_toggles" data-uid="Global.Options.toggles">toggles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;Toggle&gt; toggles</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Toggle</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -283,113 +250,13 @@
   </h3>
   
   
-  <a id="Global_TerrainGenerator_createMap_" data-uid="Global.TerrainGenerator.createMap*"></a>
-  <h4 id="Global_TerrainGenerator_createMap" data-uid="Global.TerrainGenerator.createMap">createMap()</h4>
+  <a id="Global_Options_setupDropdown_" data-uid="Global.Options.setupDropdown*"></a>
+  <h4 id="Global_Options_setupDropdown_Dropdown_List_System_String__" data-uid="Global.Options.setupDropdown(Dropdown,List{System.String})">setupDropdown(Dropdown, List&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Map createMap()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Map.html">Map</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_TerrainGenerator_getAccessoryTiles_" data-uid="Global.TerrainGenerator.getAccessoryTiles*"></a>
-  <h4 id="Global_TerrainGenerator_getAccessoryTiles" data-uid="Global.TerrainGenerator.getAccessoryTiles">getAccessoryTiles()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tile[] getAccessoryTiles()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Tile</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_TerrainGenerator_getGroundTiles_" data-uid="Global.TerrainGenerator.getGroundTiles*"></a>
-  <h4 id="Global_TerrainGenerator_getGroundTiles" data-uid="Global.TerrainGenerator.getGroundTiles">getGroundTiles()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tile[] getGroundTiles()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Tile</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_TerrainGenerator_getLowerGroundTile_" data-uid="Global.TerrainGenerator.getLowerGroundTile*"></a>
-  <h4 id="Global_TerrainGenerator_getLowerGroundTile" data-uid="Global.TerrainGenerator.getLowerGroundTile">getLowerGroundTile()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tile getLowerGroundTile()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Tile</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_TerrainGenerator_populateCells_" data-uid="Global.TerrainGenerator.populateCells*"></a>
-  <h4 id="Global_TerrainGenerator_populateCells_Map_" data-uid="Global.TerrainGenerator.populateCells(Map)">populateCells(Map)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void populateCells(Map map)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void setupDropdown(Dropdown dropdown, List&lt;string&gt; options)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -402,21 +269,26 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Map.html">Map</a></td>
-        <td><span class="parametername">map</span></td>
+        <td><span class="xref">Dropdown</span></td>
+        <td><span class="parametername">dropdown</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="parametername">options</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_TerrainGenerator_setOuterBounds_" data-uid="Global.TerrainGenerator.setOuterBounds*"></a>
-  <h4 id="Global_TerrainGenerator_setOuterBounds_Map_List_Vector3Int___List_TileBase___List_Vector3Int___List_TileBase___" data-uid="Global.TerrainGenerator.setOuterBounds(Map,List{Vector3Int}@,List{TileBase}@,List{Vector3Int}@,List{TileBase}@)">setOuterBounds(Map, ref List&lt;Vector3Int&gt;, ref List&lt;TileBase&gt;, ref List&lt;Vector3Int&gt;, ref List&lt;TileBase&gt;)</h4>
+  <a id="Global_Options_setupSlider_" data-uid="Global.Options.setupSlider*"></a>
+  <h4 id="Global_Options_setupSlider_Slider_InputField_System_Int32_System_Int32_" data-uid="Global.Options.setupSlider(Slider,InputField,System.Int32,System.Int32)">setupSlider(Slider, InputField, Int32, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setOuterBounds(Map map, ref List&lt;Vector3Int&gt; positions, ref List&lt;TileBase&gt; tiles, ref List&lt;Vector3Int&gt; positions2, ref List&lt;TileBase&gt; tiles2)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void setupSlider(Slider slider, InputField input, int minValue, int maxValue)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -429,41 +301,36 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Map.html">Map</a></td>
-        <td><span class="parametername">map</span></td>
+        <td><span class="xref">Slider</span></td>
+        <td><span class="parametername">slider</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">Vector3Int</span>&gt;</td>
-        <td><span class="parametername">positions</span></td>
+        <td><span class="xref">InputField</span></td>
+        <td><span class="parametername">input</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">TileBase</span>&gt;</td>
-        <td><span class="parametername">tiles</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">minValue</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">Vector3Int</span>&gt;</td>
-        <td><span class="parametername">positions2</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">TileBase</span>&gt;</td>
-        <td><span class="parametername">tiles2</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxValue</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_TerrainGenerator_setTerrainSettings_" data-uid="Global.TerrainGenerator.setTerrainSettings*"></a>
-  <h4 id="Global_TerrainGenerator_setTerrainSettings_TerrainSettings_" data-uid="Global.TerrainGenerator.setTerrainSettings(TerrainSettings)">setTerrainSettings(TerrainSettings)</h4>
+  <a id="Global_Options_setupToggle_" data-uid="Global.Options.setupToggle*"></a>
+  <h4 id="Global_Options_setupToggle_Toggle_GameObject_" data-uid="Global.Options.setupToggle(Toggle,GameObject)">setupToggle(Toggle, GameObject)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setTerrainSettings(TerrainSettings terrainSettings)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void setupToggle(Toggle toggle, GameObject option)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -476,8 +343,121 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.TerrainSettings.html">TerrainSettings</a></td>
-        <td><span class="parametername">terrainSettings</span></td>
+        <td><span class="xref">Toggle</span></td>
+        <td><span class="parametername">toggle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">option</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Options_toggleOption_" data-uid="Global.Options.toggleOption*"></a>
+  <h4 id="Global_Options_toggleOption_Toggle_GameObject_" data-uid="Global.Options.toggleOption(Toggle,GameObject)">toggleOption(Toggle, GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void toggleOption(Toggle toggle, GameObject option)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Toggle</span></td>
+        <td><span class="parametername">toggle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">option</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Options_updateInputField_" data-uid="Global.Options.updateInputField*"></a>
+  <h4 id="Global_Options_updateInputField_Slider_InputField_" data-uid="Global.Options.updateInputField(Slider,InputField)">updateInputField(Slider, InputField)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateInputField(Slider slider, InputField input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Slider</span></td>
+        <td><span class="parametername">slider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">InputField</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Options_updateSlider_" data-uid="Global.Options.updateSlider*"></a>
+  <h4 id="Global_Options_updateSlider_InputField_Slider_System_Int32_System_Int32_" data-uid="Global.Options.updateSlider(InputField,Slider,System.Int32,System.Int32)">updateSlider(InputField, Slider, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Called anytime an input field has been edited to ensure the input is valid and the 
+slider is updated to reflect the input field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateSlider(InputField input, Slider slider, int minValue, int maxValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputField</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Slider</span></td>
+        <td><span class="parametername">slider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">minValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxValue</span></td>
         <td></td>
       </tr>
     </tbody>
