@@ -176,12 +176,6 @@ references:
   commentId: T:Global.CellPair
   fullName: CellPair
   nameWithType: CellPair
-- uid: Global.CellPair.#ctor(Cell,Cell)
-  name: CellPair(Cell, Cell)
-  href: api/Global.CellPair.html#Global_CellPair__ctor_Cell_Cell_
-  commentId: M:Global.CellPair.#ctor(Cell,Cell)
-  fullName: CellPair.CellPair(Cell, Cell)
-  nameWithType: CellPair.CellPair(Cell, Cell)
 - uid: Global.CellPair.#ctor(Cell,Cell,System.Int32)
   name: CellPair(Cell, Cell, Int32)
   href: api/Global.CellPair.html#Global_CellPair__ctor_Cell_Cell_System_Int32_
