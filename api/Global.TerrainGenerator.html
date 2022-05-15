@@ -83,7 +83,7 @@
   
   <h1 id="Global_TerrainGenerator" data-uid="Global.TerrainGenerator" class="text-break">Class TerrainGenerator
   </h1>
-  <div class="markdown level0 summary"><p>Responsible for generating the terrain. Used by the Level Manager.</p>
+  <div class="markdown level0 summary"><p>Responsible for generating the terrain.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -103,7 +103,9 @@
   
   <a id="Global_TerrainGenerator__ctor_" data-uid="Global.TerrainGenerator.#ctor*"></a>
   <h4 id="Global_TerrainGenerator__ctor_SpriteAtlas_List_System_String__" data-uid="Global.TerrainGenerator.#ctor(SpriteAtlas,List{System.String})">TerrainGenerator(SpriteAtlas, List&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The constructor for the TerrainGenerator. Sets all the tiles according to their types, and set the
+reference to the level generation info.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -122,12 +124,14 @@
       <tr>
         <td><span class="xref">SpriteAtlas</span></td>
         <td><span class="parametername">atlas</span></td>
-        <td></td>
+        <td><p>A SpriteAtlas, holding all the sprites for the project.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">generationInfo</span></td>
-        <td></td>
+        <td><p>A reference to the level generation information for the level.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -136,7 +140,8 @@
   
   
   <h4 id="Global_TerrainGenerator_terrainMaxHeight" data-uid="Global.TerrainGenerator.terrainMaxHeight">terrainMaxHeight</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The maximum possible height of the terrain.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -160,12 +165,12 @@
   
   
   <h4 id="Global_TerrainGenerator_terrainMaxSize" data-uid="Global.TerrainGenerator.terrainMaxSize">terrainMaxSize</h4>
-  <div class="markdown level1 summary"><p>The maximum size of a level specified by tile count.</p>
+  <div class="markdown level1 summary"><p>The maximum possible size of a level specified by tile count.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int terrainMaxSize = 1500</code></pre>
+    <pre><code class="lang-csharp hljs">public const int terrainMaxSize = 2000</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -185,7 +190,8 @@
   
   
   <h4 id="Global_TerrainGenerator_terrainMinHeight" data-uid="Global.TerrainGenerator.terrainMinHeight">terrainMinHeight</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The minimum possible height of the terrain.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -209,12 +215,12 @@
   
   
   <h4 id="Global_TerrainGenerator_terrainMinSize" data-uid="Global.TerrainGenerator.terrainMinSize">terrainMinSize</h4>
-  <div class="markdown level1 summary"><p>The minimum size of a level specified by tile count.</p>
+  <div class="markdown level1 summary"><p>The minimum possible size of a level specified by tile count.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const int terrainMinSize = 50</code></pre>
+    <pre><code class="lang-csharp hljs">public const int terrainMinSize = 150</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,7 +240,8 @@
   
   
   <h4 id="Global_TerrainGenerator_terrainShapeCount" data-uid="Global.TerrainGenerator.terrainShapeCount">terrainShapeCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of options in the TerrainShape enumeration.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -258,7 +265,8 @@
   
   
   <h4 id="Global_TerrainGenerator_terrainTypeCount" data-uid="Global.TerrainGenerator.terrainTypeCount">terrainTypeCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of options in the TerrainType enumeration.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -285,7 +293,8 @@
   
   <a id="Global_TerrainGenerator_createMap_" data-uid="Global.TerrainGenerator.createMap*"></a>
   <h4 id="Global_TerrainGenerator_createMap" data-uid="Global.TerrainGenerator.createMap">createMap()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create the level map based on the terrain shape selected.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -302,7 +311,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Global.Map.html">Map</a></td>
-        <td></td>
+        <td><p>The level map.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -310,7 +320,8 @@
   
   <a id="Global_TerrainGenerator_getAccessoryTiles_" data-uid="Global.TerrainGenerator.getAccessoryTiles*"></a>
   <h4 id="Global_TerrainGenerator_getAccessoryTiles" data-uid="Global.TerrainGenerator.getAccessoryTiles">getAccessoryTiles()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the accessory tiles for the terrain type selected.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -327,7 +338,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Tile</span>[]</td>
-        <td></td>
+        <td><p>The terrains accessory tiles.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -335,7 +347,8 @@
   
   <a id="Global_TerrainGenerator_getGroundTiles_" data-uid="Global.TerrainGenerator.getGroundTiles*"></a>
   <h4 id="Global_TerrainGenerator_getGroundTiles" data-uid="Global.TerrainGenerator.getGroundTiles">getGroundTiles()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the ground tiles for the terrain type selected.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -352,7 +365,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Tile</span>[]</td>
-        <td></td>
+        <td><p>The terrains ground tiles.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -360,7 +374,8 @@
   
   <a id="Global_TerrainGenerator_getLowerGroundTile_" data-uid="Global.TerrainGenerator.getLowerGroundTile*"></a>
   <h4 id="Global_TerrainGenerator_getLowerGroundTile" data-uid="Global.TerrainGenerator.getLowerGroundTile">getLowerGroundTile()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the lower ground tile for the terrain type selected.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -377,7 +392,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Tile</span></td>
-        <td></td>
+        <td><p>The terrains lower ground tile.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -385,7 +401,8 @@
   
   <a id="Global_TerrainGenerator_populateCells_" data-uid="Global.TerrainGenerator.populateCells*"></a>
   <h4 id="Global_TerrainGenerator_populateCells_Map_" data-uid="Global.TerrainGenerator.populateCells(Map)">populateCells(Map)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Update the map by adding the terrain cells.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -404,19 +421,22 @@
       <tr>
         <td><a class="xref" href="Global.Map.html">Map</a></td>
         <td><span class="parametername">map</span></td>
-        <td></td>
+        <td><p>A reference to the Map object, which represents the state of all cells in the level.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="Global_TerrainGenerator_setOuterBounds_" data-uid="Global.TerrainGenerator.setOuterBounds*"></a>
-  <h4 id="Global_TerrainGenerator_setOuterBounds_Map_List_Vector3Int___List_TileBase___List_Vector3Int___List_TileBase___" data-uid="Global.TerrainGenerator.setOuterBounds(Map,List{Vector3Int}@,List{TileBase}@,List{Vector3Int}@,List{TileBase}@)">setOuterBounds(Map, ref List&lt;Vector3Int&gt;, ref List&lt;TileBase&gt;, ref List&lt;Vector3Int&gt;, ref List&lt;TileBase&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_TerrainGenerator_setOuterBounds_Map_List_Vector3Int__List_TileBase__List_Vector3Int__List_TileBase__" data-uid="Global.TerrainGenerator.setOuterBounds(Map,List{Vector3Int},List{TileBase},List{Vector3Int},List{TileBase})">setOuterBounds(Map, List&lt;Vector3Int&gt;, List&lt;TileBase&gt;, List&lt;Vector3Int&gt;, List&lt;TileBase&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds all the outer boundarys of the terrain. Used to limit player movement to only be on the
+generated level.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setOuterBounds(Map map, ref List&lt;Vector3Int&gt; positions, ref List&lt;TileBase&gt; tiles, ref List&lt;Vector3Int&gt; positions2, ref List&lt;TileBase&gt; tiles2)</code></pre>
+    <pre><code class="lang-csharp hljs">public void setOuterBounds(Map map, List&lt;Vector3Int&gt; positions, List&lt;TileBase&gt; tiles, List&lt;Vector3Int&gt; positions2, List&lt;TileBase&gt; tiles2)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -431,27 +451,32 @@
       <tr>
         <td><a class="xref" href="Global.Map.html">Map</a></td>
         <td><span class="parametername">map</span></td>
-        <td></td>
+        <td><p>A reference to the Map object, which represents the state of all cells in the level.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">List</span>&lt;<span class="xref">Vector3Int</span>&gt;</td>
         <td><span class="parametername">positions</span></td>
-        <td></td>
+        <td><p>List of outer bound positions for the first outer bounds tilemap.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">List</span>&lt;<span class="xref">TileBase</span>&gt;</td>
         <td><span class="parametername">tiles</span></td>
-        <td></td>
+        <td><p>List of outer bound tiles for the first outer bounds tilemap.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">List</span>&lt;<span class="xref">Vector3Int</span>&gt;</td>
         <td><span class="parametername">positions2</span></td>
-        <td></td>
+        <td><p>List of outer bound positions for the second outer bounds tilemap.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">List</span>&lt;<span class="xref">TileBase</span>&gt;</td>
         <td><span class="parametername">tiles2</span></td>
-        <td></td>
+        <td><p>List of outer bound tiles for the second outer bounds tilemap.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -459,7 +484,8 @@
   
   <a id="Global_TerrainGenerator_setTerrainSettings_" data-uid="Global.TerrainGenerator.setTerrainSettings*"></a>
   <h4 id="Global_TerrainGenerator_setTerrainSettings_TerrainSettings_" data-uid="Global.TerrainGenerator.setTerrainSettings(TerrainSettings)">setTerrainSettings(TerrainSettings)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Set the reference to the terrain settings.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -478,7 +504,8 @@
       <tr>
         <td><a class="xref" href="Global.TerrainSettings.html">TerrainSettings</a></td>
         <td><span class="parametername">terrainSettings</span></td>
-        <td></td>
+        <td><p>The terrain settings to set a reference to.</p>
+</td>
       </tr>
     </tbody>
   </table>

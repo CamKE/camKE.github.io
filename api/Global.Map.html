@@ -83,7 +83,8 @@
   
   <h1 id="Global_Map" data-uid="Global.Map" class="text-break">Class Map
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Describes the layout of the level. Set by the generators, and then used to populate the tilemaps.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -102,7 +103,8 @@
   
   <a id="Global_Map__ctor_" data-uid="Global.Map.#ctor*"></a>
   <h4 id="Global_Map__ctor_System_Int32_System_Int32_TerrainGenerator_TerrainShape_Cell_CellStatus_" data-uid="Global.Map.#ctor(System.Int32,System.Int32,TerrainGenerator.TerrainShape,Cell.CellStatus)">Map(Int32, Int32, TerrainGenerator.TerrainShape, Cell.CellStatus)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Constructor for the Map. Fills the map with new cells with the given status (optional).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -121,22 +123,26 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">mapWidth</span></td>
-        <td></td>
+        <td><p>The width of the map&apos;s 2D array.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">mapHeight</span></td>
-        <td></td>
+        <td><p>The height of the map&apos;s 2D array.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.TerrainGenerator.TerrainShape.html">TerrainGenerator.TerrainShape</a></td>
         <td><span class="parametername">shape</span></td>
-        <td></td>
+        <td><p>The shape of the map&apos;s terrain.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
         <td><span class="parametername">status</span></td>
-        <td></td>
+        <td><p>The status to set all cells to initially.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -145,7 +151,8 @@
   
   
   <h4 id="Global_Map_area" data-uid="Global.Map.area">area</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The maps width multiplied by the maps height.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -169,7 +176,8 @@
   
   
   <h4 id="Global_Map_height" data-uid="Global.Map.height">height</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The height of the map&apos;s 2D array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -193,7 +201,8 @@
   
   
   <h4 id="Global_Map_shape" data-uid="Global.Map.shape">shape</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The shape of the map&apos;s terrain.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -217,7 +226,8 @@
   
   
   <h4 id="Global_Map_width" data-uid="Global.Map.width">width</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The width of the map&apos;s 2D array.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -244,7 +254,8 @@
   
   <a id="Global_Map_terrainCellCount_" data-uid="Global.Map.terrainCellCount*"></a>
   <h4 id="Global_Map_terrainCellCount" data-uid="Global.Map.terrainCellCount">terrainCellCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Getter and setter for the current number of terrain cells on the map.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -269,36 +280,10 @@
   </h3>
   
   
-  <a id="Global_Map_addBoundaryCellPosition_" data-uid="Global.Map.addBoundaryCellPosition*"></a>
-  <h4 id="Global_Map_addBoundaryCellPosition_Vector2Int_" data-uid="Global.Map.addBoundaryCellPosition(Vector2Int)">addBoundaryCellPosition(Vector2Int)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void addBoundaryCellPosition(Vector2Int position)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2Int</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Global_Map_checkForBoundaryCell_" data-uid="Global.Map.checkForBoundaryCell*"></a>
   <h4 id="Global_Map_checkForBoundaryCell_Cell_" data-uid="Global.Map.checkForBoundaryCell(Cell)">checkForBoundaryCell(Cell)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Check if a given cell on a square or rectangular map is a boundary cell.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -317,7 +302,8 @@
       <tr>
         <td><a class="xref" href="Global.Cell.html">Cell</a></td>
         <td><span class="parametername">cell</span></td>
-        <td></td>
+        <td><p>The cell to be checked.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -325,7 +311,8 @@
   
   <a id="Global_Map_checkForBoundaryCellRandom_" data-uid="Global.Map.checkForBoundaryCellRandom*"></a>
   <h4 id="Global_Map_checkForBoundaryCellRandom_Cell_" data-uid="Global.Map.checkForBoundaryCellRandom(Cell)">checkForBoundaryCellRandom(Cell)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Check if a given cell on a randomly shaped map is a boundary cell. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -344,32 +331,8 @@
       <tr>
         <td><a class="xref" href="Global.Cell.html">Cell</a></td>
         <td><span class="parametername">cell</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_Map_getAll_" data-uid="Global.Map.getAll*"></a>
-  <h4 id="Global_Map_getAll" data-uid="Global.Map.getAll">getAll()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Cell[, ] getAll()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Cell.html">Cell</a>[,]</td>
-        <td></td>
+        <td><p>The cell to be checked.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -377,7 +340,8 @@
   
   <a id="Global_Map_getBoundaryCellPositions_" data-uid="Global.Map.getBoundaryCellPositions*"></a>
   <h4 id="Global_Map_getBoundaryCellPositions" data-uid="Global.Map.getBoundaryCellPositions">getBoundaryCellPositions()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the list of boundary cell positions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -394,7 +358,8 @@
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;<span class="xref">Vector2Int</span>&gt;</td>
-        <td></td>
+        <td><p>The list of boundary cell positions.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -402,7 +367,8 @@
   
   <a id="Global_Map_getCell_" data-uid="Global.Map.getCell*"></a>
   <h4 id="Global_Map_getCell_System_Int32_System_Int32_" data-uid="Global.Map.getCell(System.Int32,System.Int32)">getCell(Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get a cell from the map at the given x and y int positions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -421,12 +387,14 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x position of the cell.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y position of the cell.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -449,7 +417,8 @@
   
   <a id="Global_Map_getCell_" data-uid="Global.Map.getCell*"></a>
   <h4 id="Global_Map_getCell_Vector2Int_" data-uid="Global.Map.getCell(Vector2Int)">getCell(Vector2Int)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get a cell from the map at the given Vector2Int position.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -468,7 +437,8 @@
       <tr>
         <td><span class="xref">Vector2Int</span></td>
         <td><span class="parametername">cellPosition</span></td>
-        <td></td>
+        <td><p>The postion of the cell in VectorInt format.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -483,19 +453,21 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Global.Cell.html">Cell</a></td>
-        <td></td>
+        <td><p>The cell at the position.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
   <a id="Global_Map_getMinDepth_" data-uid="Global.Map.getMinDepth*"></a>
-  <h4 id="Global_Map_getMinDepth_Cell_" data-uid="Global.Map.getMinDepth(Cell)">getMinDepth(Cell)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_Map_getMinDepth_Cell_System_Boolean_" data-uid="Global.Map.getMinDepth(Cell,System.Boolean)">getMinDepth(Cell, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Finds the minimum depth (z value) from the cells surrounding the cell given.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int getMinDepth(Cell currentNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public int getMinDepth(Cell currentCell, bool onlyTerrainCells = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -509,8 +481,15 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Global.Cell.html">Cell</a></td>
-        <td><span class="parametername">currentNode</span></td>
-        <td></td>
+        <td><span class="parametername">currentCell</span></td>
+        <td><p>The cell to find the minimum depth for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">onlyTerrainCells</span></td>
+        <td><p>Whether or not only terrain cells should be checked.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -525,7 +504,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
+        <td><p>The minimum depth amongst the cell and its neighbours.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -533,11 +513,13 @@
   
   <a id="Global_Map_getNeighbours_" data-uid="Global.Map.getNeighbours*"></a>
   <h4 id="Global_Map_getNeighbours_Cell_" data-uid="Global.Map.getNeighbours(Cell)">getNeighbours(Cell)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Retrieve the  von Neumann neighborhood neighbours of the cells given at a
+manhattan distance of 1.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;Cell&gt; getNeighbours(Cell currentNode)</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Cell&gt; getNeighbours(Cell currentCell)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -551,8 +533,9 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Global.Cell.html">Cell</a></td>
-        <td><span class="parametername">currentNode</span></td>
-        <td></td>
+        <td><span class="parametername">currentCell</span></td>
+        <td><p>The cell to get the neighbours for.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -567,19 +550,21 @@
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="Global.Cell.html">Cell</a>&gt;</td>
-        <td></td>
+        <td><p>The list of all neighbouring cells.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_Map_getRandomCell_" data-uid="Global.Map.getRandomCell*"></a>
-  <h4 id="Global_Map_getRandomCell" data-uid="Global.Map.getRandomCell">getRandomCell()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_Map_getRandomTerrainCellPosition_" data-uid="Global.Map.getRandomTerrainCellPosition*"></a>
+  <h4 id="Global_Map_getRandomTerrainCellPosition" data-uid="Global.Map.getRandomTerrainCellPosition">getRandomTerrainCellPosition()</h4>
+  <div class="markdown level1 summary"><p>Get a random terrain cells position.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3Int getRandomCell()</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3Int getRandomTerrainCellPosition()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -592,103 +577,21 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector3Int</span></td>
-        <td></td>
+        <td><p>A random terrain cell position.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_Map_getTerrainMinDepth_" data-uid="Global.Map.getTerrainMinDepth*"></a>
-  <h4 id="Global_Map_getTerrainMinDepth_Cell_" data-uid="Global.Map.getTerrainMinDepth(Cell)">getTerrainMinDepth(Cell)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_Map_isValidCellPosition_" data-uid="Global.Map.isValidCellPosition*"></a>
+  <h4 id="Global_Map_isValidCellPosition_Vector2Int_" data-uid="Global.Map.isValidCellPosition(Vector2Int)">isValidCellPosition(Vector2Int)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the given position is a free terrain cell not on any bound.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int getTerrainMinDepth(Cell currentNode)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Cell.html">Cell</a></td>
-        <td><span class="parametername">currentNode</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_Map_isBoundaryCell_" data-uid="Global.Map.isBoundaryCell*"></a>
-  <h4 id="Global_Map_isBoundaryCell_Cell_" data-uid="Global.Map.isBoundaryCell(Cell)">isBoundaryCell(Cell)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isBoundaryCell(Cell cell)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Cell.html">Cell</a></td>
-        <td><span class="parametername">cell</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_Map_isValidCell_" data-uid="Global.Map.isValidCell*"></a>
-  <h4 id="Global_Map_isValidCell_Vector2Int_" data-uid="Global.Map.isValidCell(Vector2Int)">isValidCell(Vector2Int)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isValidCell(Vector2Int cellPosition)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isValidCellPosition(Vector2Int position)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -702,8 +605,9 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector2Int</span></td>
-        <td><span class="parametername">cellPosition</span></td>
-        <td></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position to be checked.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -718,7 +622,37 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
+        <td><p>Whether or not the there is a valid cell at the given position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Map_updateBoundaryCellPositionList_" data-uid="Global.Map.updateBoundaryCellPositionList*"></a>
+  <h4 id="Global_Map_updateBoundaryCellPositionList_List_Vector2Int__" data-uid="Global.Map.updateBoundaryCellPositionList(List{Vector2Int})">updateBoundaryCellPositionList(List&lt;Vector2Int&gt;)</h4>
+  <div class="markdown level1 summary"><p>Update the list of boundary cells with a modified list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateBoundaryCellPositionList(List&lt;Vector2Int&gt; newboundaryCellPositions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">Vector2Int</span>&gt;</td>
+        <td><span class="parametername">newboundaryCellPositions</span></td>
+        <td><p>The new list of boundary cell positions.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -726,7 +660,8 @@
   
   <a id="Global_Map_updateCellStatus_" data-uid="Global.Map.updateCellStatus*"></a>
   <h4 id="Global_Map_updateCellStatus_Cell_Cell_CellStatus_System_Boolean_" data-uid="Global.Map.updateCellStatus(Cell,Cell.CellStatus,System.Boolean)">updateCellStatus(Cell, Cell.CellStatus, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Update the given cells status to a new status, and optinally specify whether intersections are on for cells along paths. </p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -745,17 +680,20 @@
       <tr>
         <td><a class="xref" href="Global.Cell.html">Cell</a></td>
         <td><span class="parametername">currentCell</span></td>
-        <td></td>
+        <td><p>The cell to be updated.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
         <td><span class="parametername">status</span></td>
-        <td></td>
+        <td><p>The new status.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">intersectionsEnabled</span></td>
-        <td></td>
+        <td><p>Whether or not a cell can be intersected. Used for path generation.</p>
+</td>
       </tr>
     </tbody>
   </table>

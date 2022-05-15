@@ -83,7 +83,8 @@
   
   <h1 id="Global_PathGenerator" data-uid="Global.PathGenerator" class="text-break">Class PathGenerator
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Responsible for creating all path related elements in the level.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -128,13 +129,13 @@
   </h3>
   
   
-  <a id="Global_PathGenerator_findAStarPath_" data-uid="Global.PathGenerator.findAStarPath*"></a>
-  <h4 id="Global_PathGenerator_findAStarPath_Map_Cell_Cell_Cell_CellStatus_System_Boolean_" data-uid="Global.PathGenerator.findAStarPath(Map,Cell,Cell,Cell.CellStatus,System.Boolean)">findAStarPath(Map, Cell, Cell, Cell.CellStatus, Boolean)</h4>
+  <a id="Global_PathGenerator_createPaths_" data-uid="Global.PathGenerator.createPaths*"></a>
+  <h4 id="Global_PathGenerator_createPaths_Map_System_Int32_System_Boolean_Cell_CellStatus_" data-uid="Global.PathGenerator.createPaths(Map,System.Int32,System.Boolean,Cell.CellStatus)">createPaths(Map, Int32, Boolean, Cell.CellStatus)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool findAStarPath(Map map, Cell startNode, Cell endNode, Cell.CellStatus status, bool intersectionsEnabled)</code></pre>
+    <pre><code class="lang-csharp hljs">protected int createPaths(Map map, int maxCount, bool intersectionsEnabled, Cell.CellStatus type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,23 +153,18 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Global.Cell.html">Cell</a></td>
-        <td><span class="parametername">startNode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Cell.html">Cell</a></td>
-        <td><span class="parametername">endNode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
-        <td><span class="parametername">status</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxCount</span></td>
         <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">intersectionsEnabled</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
+        <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -183,20 +179,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_PathGenerator_getReachableCells_" data-uid="Global.PathGenerator.getReachableCells*"></a>
-  <h4 id="Global_PathGenerator_getReachableCells_Map_List_Vector2Int__Heap_CellPair__System_Boolean_" data-uid="Global.PathGenerator.getReachableCells(Map,List{Vector2Int},Heap{CellPair},System.Boolean)">getReachableCells(Map, List&lt;Vector2Int&gt;, Heap&lt;CellPair&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_PathGenerator_findAStarPath_" data-uid="Global.PathGenerator.findAStarPath*"></a>
+  <h4 id="Global_PathGenerator_findAStarPath_Map_Cell_Cell_Cell_CellStatus_System_Boolean_" data-uid="Global.PathGenerator.findAStarPath(Map,Cell,Cell,Cell.CellStatus,System.Boolean)">findAStarPath(Map, Cell, Cell, Cell.CellStatus, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Based on the a* algorithm. Used to find a path between a pair of cells.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected CellPair getReachableCells(Map map, List&lt;Vector2Int&gt; boundaryCellList, Heap&lt;CellPair&gt; cellPairs, bool intersectionsEnabled)</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool findAStarPath(Map map, Cell startCell, Cell endCell, Cell.CellStatus status, bool intersectionsEnabled)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,22 +208,90 @@
       <tr>
         <td><a class="xref" href="Global.Map.html">Map</a></td>
         <td><span class="parametername">map</span></td>
-        <td></td>
+        <td><p>The map to find the path on.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">Vector2Int</span>&gt;</td>
-        <td><span class="parametername">boundaryCellList</span></td>
-        <td></td>
+        <td><a class="xref" href="Global.Cell.html">Cell</a></td>
+        <td><span class="parametername">startCell</span></td>
+        <td><p>The start of the path.</p>
+</td>
       </tr>
       <tr>
-        <td><a class="xref" href="Global.Heap-1.html">Heap</a>&lt;<a class="xref" href="Global.CellPair.html">CellPair</a>&gt;</td>
-        <td><span class="parametername">cellPairs</span></td>
-        <td></td>
+        <td><a class="xref" href="Global.Cell.html">Cell</a></td>
+        <td><span class="parametername">endCell</span></td>
+        <td><p>The end goal of the path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.Cell.CellStatus.html">Cell.CellStatus</a></td>
+        <td><span class="parametername">status</span></td>
+        <td><p>Defines the type of path to be generated.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">intersectionsEnabled</span></td>
-        <td></td>
+        <td><p>Whether or not intersections are enabled for the path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>Whether or not the path was generated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_PathGenerator_getReachableCells_" data-uid="Global.PathGenerator.getReachableCells*"></a>
+  <h4 id="Global_PathGenerator_getReachableCells_Map_Heap_CellPair__System_Boolean_" data-uid="Global.PathGenerator.getReachableCells(Map,Heap{CellPair},System.Boolean)">getReachableCells(Map, Heap&lt;CellPair&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a pair of start and end cells for which a path can be generated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CellPair getReachableCells(Map map, Heap&lt;CellPair&gt; existingCellPairs, bool intersectionsEnabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Map.html">Map</a></td>
+        <td><span class="parametername">map</span></td>
+        <td><p>The levels 2D array of cells.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.Heap-1.html">Heap</a>&lt;<a class="xref" href="Global.CellPair.html">CellPair</a>&gt;</td>
+        <td><span class="parametername">existingCellPairs</span></td>
+        <td><p>The current chosen cell pairs. Used to ensure paths do not cross if
+intersections are disabled.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">intersectionsEnabled</span></td>
+        <td><p>Whether or not intersections are enabled.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -241,7 +306,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Global.CellPair.html">CellPair</a></td>
-        <td></td>
+        <td><p>A pair of start and end cells for which a path can be generated.</p>
+</td>
       </tr>
     </tbody>
   </table>

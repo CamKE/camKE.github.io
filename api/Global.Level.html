@@ -83,7 +83,8 @@
   
   <h1 id="Global_Level" data-uid="Global.Level" class="text-break">Class Level
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Handles all aspects to do with the level.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -96,40 +97,25 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Level : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Global_Level_isGenerated_" data-uid="Global.Level.isGenerated*"></a>
-  <h4 id="Global_Level_isGenerated" data-uid="Global.Level.isGenerated">isGenerated</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isGenerated { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
+  <a id="Global_Level_clear_" data-uid="Global.Level.clear*"></a>
+  <h4 id="Global_Level_clear" data-uid="Global.Level.clear">clear()</h4>
+  <div class="markdown level1 summary"><p>Clear the level and its componenets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void clear()</code></pre>
+  </div>
+  
+  
   <a id="Global_Level_generate_" data-uid="Global.Level.generate*"></a>
   <h4 id="Global_Level_generate_TerrainSettings_RiverSettings_LakeSettings_WalkpathSettings_" data-uid="Global.Level.generate(TerrainSettings,RiverSettings,LakeSettings,WalkpathSettings)">generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Responsible for generating the level. It uses the settings to determine how the level is generated.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -148,64 +134,26 @@
       <tr>
         <td><a class="xref" href="Global.TerrainSettings.html">TerrainSettings</a></td>
         <td><span class="parametername">terrainSettings</span></td>
-        <td></td>
+        <td><p>The settings for the terrain generator.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.RiverSettings.html">RiverSettings</a></td>
         <td><span class="parametername">riverSettings</span></td>
-        <td></td>
+        <td><p>The settings for the river generator.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.LakeSettings.html">LakeSettings</a></td>
         <td><span class="parametername">lakeSettings</span></td>
-        <td></td>
+        <td><p>The settings for the lake generator.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.WalkpathSettings.html">WalkpathSettings</a></td>
         <td><span class="parametername">walkpathSettings</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_Level_getCellZPosition_" data-uid="Global.Level.getCellZPosition*"></a>
-  <h4 id="Global_Level_getCellZPosition_Vector2_" data-uid="Global.Level.getCellZPosition(Vector2)">getCellZPosition(Vector2)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int getCellZPosition(Vector2 worldPos)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">worldPos</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
+        <td><p>The settings for the walkpath generator.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -213,7 +161,8 @@
   
   <a id="Global_Level_getGenerationInfo_" data-uid="Global.Level.getGenerationInfo*"></a>
   <h4 id="Global_Level_getGenerationInfo" data-uid="Global.Level.getGenerationInfo">getGenerationInfo()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get all the level generation information.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -230,19 +179,21 @@
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td></td>
+        <td><p>A list of level generation steps.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_Level_getGridPosition_" data-uid="Global.Level.getGridPosition*"></a>
-  <h4 id="Global_Level_getGridPosition_Vector2Int_" data-uid="Global.Level.getGridPosition(Vector2Int)">getGridPosition(Vector2Int)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_Level_getGridWorldPosition_" data-uid="Global.Level.getGridWorldPosition*"></a>
+  <h4 id="Global_Level_getGridWorldPosition_Vector2Int_" data-uid="Global.Level.getGridWorldPosition(Vector2Int)">getGridWorldPosition(Vector2Int)</h4>
+  <div class="markdown level1 summary"><p>Get the world position of a cell on the map.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 getGridPosition(Vector2Int cellPosition)</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector2 getGridWorldPosition(Vector2Int cellPosition)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -257,7 +208,8 @@
       <tr>
         <td><span class="xref">Vector2Int</span></td>
         <td><span class="parametername">cellPosition</span></td>
-        <td></td>
+        <td><p>The cell to get the world position for.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -272,19 +224,66 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector2</span></td>
-        <td></td>
+        <td><p>The world position of the cell.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_Level_getRandomCell_" data-uid="Global.Level.getRandomCell*"></a>
-  <h4 id="Global_Level_getRandomCell" data-uid="Global.Level.getRandomCell">getRandomCell()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_Level_getMapZPosition_" data-uid="Global.Level.getMapZPosition*"></a>
+  <h4 id="Global_Level_getMapZPosition_Vector2_" data-uid="Global.Level.getMapZPosition(Vector2)">getMapZPosition(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Get the z position (depth) at the x,y world position on the map</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3Int getRandomCell()</code></pre>
+    <pre><code class="lang-csharp hljs">public int getMapZPosition(Vector2 worldPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">worldPos</span></td>
+        <td><p>The world position to find the z value for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The z position (depth) of the world position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_getRandomTerrainCellPosition_" data-uid="Global.Level.getRandomTerrainCellPosition*"></a>
+  <h4 id="Global_Level_getRandomTerrainCellPosition" data-uid="Global.Level.getRandomTerrainCellPosition">getRandomTerrainCellPosition()</h4>
+  <div class="markdown level1 summary"><p>Get a random terrain cell position from the map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3Int getRandomTerrainCellPosition()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -297,7 +296,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Vector3Int</span></td>
-        <td></td>
+        <td><p>The position of a terrain cell.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -305,7 +305,8 @@
   
   <a id="Global_Level_setCameraActive_" data-uid="Global.Level.setCameraActive*"></a>
   <h4 id="Global_Level_setCameraActive_System_Boolean_" data-uid="Global.Level.setCameraActive(System.Boolean)">setCameraActive(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Set the active status of the level camera.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -324,7 +325,8 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>The value to set the level cameras active status to.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -332,7 +334,8 @@
   
   <a id="Global_Level_setup_" data-uid="Global.Level.setup*"></a>
   <h4 id="Global_Level_setup_System_Boolean_" data-uid="Global.Level.setup(System.Boolean)">setup(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Used to setup the level and its components.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -351,7 +354,8 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">fromInspector</span></td>
-        <td></td>
+        <td><p>Whether or not a call is from the inspector.</p>
+</td>
       </tr>
     </tbody>
   </table>

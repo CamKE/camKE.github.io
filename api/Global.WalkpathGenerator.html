@@ -83,7 +83,8 @@
   
   <h1 id="Global_WalkpathGenerator" data-uid="Global.WalkpathGenerator" class="text-break">Class WalkpathGenerator
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Responsible for creating the walkpaths in the level.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -97,10 +98,13 @@
       <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_statusToCheck">PathGenerator.statusToCheck</a>
     </div>
     <div>
-      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_getReachableCells_Map_List_Vector2Int__Heap_CellPair__System_Boolean_">PathGenerator.getReachableCells(Map, List&lt;Vector2Int&gt;, Heap&lt;CellPair&gt;, Boolean)</a>
+      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_getReachableCells_Map_Heap_CellPair__System_Boolean_">PathGenerator.getReachableCells(Map, Heap&lt;CellPair&gt;, Boolean)</a>
     </div>
     <div>
       <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_findAStarPath_Map_Cell_Cell_Cell_CellStatus_System_Boolean_">PathGenerator.findAStarPath(Map, Cell, Cell, Cell.CellStatus, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.PathGenerator.html#Global_PathGenerator_createPaths_Map_System_Int32_System_Boolean_Cell_CellStatus_">PathGenerator.createPaths(Map, Int32, Boolean, Cell.CellStatus)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
@@ -115,7 +119,9 @@
   
   <a id="Global_WalkpathGenerator__ctor_" data-uid="Global.WalkpathGenerator.#ctor*"></a>
   <h4 id="Global_WalkpathGenerator__ctor_SpriteAtlas_List_System_String__" data-uid="Global.WalkpathGenerator.#ctor(SpriteAtlas,List{System.String})">WalkpathGenerator(SpriteAtlas, List&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The constructor for the WalkpathGenerator. Sets all the tiles according to their types, and set the
+reference to the level generation info.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -134,12 +140,14 @@
       <tr>
         <td><span class="xref">SpriteAtlas</span></td>
         <td><span class="parametername">atlas</span></td>
-        <td></td>
+        <td><p>A SpriteAtlas, holding all the sprites for the project.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">generationInfo</span></td>
-        <td></td>
+        <td><p>A reference to the level generation information for the level.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -148,7 +156,8 @@
   
   
   <h4 id="Global_WalkpathGenerator_numberOfWalkpathsCount" data-uid="Global.WalkpathGenerator.numberOfWalkpathsCount">numberOfWalkpathsCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of options in the NumberOfWalkpaths enumeration.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -175,7 +184,8 @@
   
   <a id="Global_WalkpathGenerator_getTile_" data-uid="Global.WalkpathGenerator.getTile*"></a>
   <h4 id="Global_WalkpathGenerator_getTile" data-uid="Global.WalkpathGenerator.getTile">getTile()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the walkpath tile to be used based on the type of terrain.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -192,7 +202,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Tile</span></td>
-        <td></td>
+        <td><p>The walkpath tile.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -200,7 +211,8 @@
   
   <a id="Global_WalkpathGenerator_populateCells_" data-uid="Global.WalkpathGenerator.populateCells*"></a>
   <h4 id="Global_WalkpathGenerator_populateCells_Map_" data-uid="Global.WalkpathGenerator.populateCells(Map)">populateCells(Map)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Update the map by adding the walkpaths.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -219,7 +231,8 @@
       <tr>
         <td><a class="xref" href="Global.Map.html">Map</a></td>
         <td><span class="parametername">map</span></td>
-        <td></td>
+        <td><p>A reference to the Map object, which represents the state of all cells in the level.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -227,7 +240,8 @@
   
   <a id="Global_WalkpathGenerator_setWalkpathSettings_" data-uid="Global.WalkpathGenerator.setWalkpathSettings*"></a>
   <h4 id="Global_WalkpathGenerator_setWalkpathSettings_WalkpathSettings_" data-uid="Global.WalkpathGenerator.setWalkpathSettings(WalkpathSettings)">setWalkpathSettings(WalkpathSettings)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Set the reference to the walkpath settings.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -246,7 +260,8 @@
       <tr>
         <td><a class="xref" href="Global.WalkpathSettings.html">WalkpathSettings</a></td>
         <td><span class="parametername">walkpathSettings</span></td>
-        <td></td>
+        <td><p>The walkpath settings to set a reference to.</p>
+</td>
       </tr>
     </tbody>
   </table>

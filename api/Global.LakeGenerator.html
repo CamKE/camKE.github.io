@@ -83,7 +83,8 @@
   
   <h1 id="Global_LakeGenerator" data-uid="Global.LakeGenerator" class="text-break">Class LakeGenerator
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Responsible for creating the lakes in the level.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -102,7 +103,9 @@
   
   <a id="Global_LakeGenerator__ctor_" data-uid="Global.LakeGenerator.#ctor*"></a>
   <h4 id="Global_LakeGenerator__ctor_SpriteAtlas_List_System_String__" data-uid="Global.LakeGenerator.#ctor(SpriteAtlas,List{System.String})">LakeGenerator(SpriteAtlas, List&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The constructor for the LakeGenerator. Sets all the tiles according to their types, and set the
+reference to the level generation info.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -121,12 +124,14 @@
       <tr>
         <td><span class="xref">SpriteAtlas</span></td>
         <td><span class="parametername">atlas</span></td>
-        <td></td>
+        <td><p>A SpriteAtlas, holding all the sprites for the project.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">generationInfo</span></td>
-        <td></td>
+        <td><p>A reference to the level generation information for the level.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -135,7 +140,8 @@
   
   
   <h4 id="Global_LakeGenerator_maxLakeSizeCount" data-uid="Global.LakeGenerator.maxLakeSizeCount">maxLakeSizeCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of options in the MaxLakeSize enumeration.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -159,7 +165,8 @@
   
   
   <h4 id="Global_LakeGenerator_numberOfLakesCount" data-uid="Global.LakeGenerator.numberOfLakesCount">numberOfLakesCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of options in the NumberOfLakes enumeration.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -186,7 +193,8 @@
   
   <a id="Global_LakeGenerator_getTile_" data-uid="Global.LakeGenerator.getTile*"></a>
   <h4 id="Global_LakeGenerator_getTile" data-uid="Global.LakeGenerator.getTile">getTile()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the lake tile to be used based on the type of terrain.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -203,54 +211,8 @@
     <tbody>
       <tr>
         <td><span class="xref">Tile</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_LakeGenerator_isTouchingSide_" data-uid="Global.LakeGenerator.isTouchingSide*"></a>
-  <h4 id="Global_LakeGenerator_isTouchingSide_System_Single_Rect_" data-uid="Global.LakeGenerator.isTouchingSide(System.Single,Rect)">isTouchingSide(Single, Rect)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isTouchingSide(float side, Rect checkLake)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">side</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Rect</span></td>
-        <td><span class="parametername">checkLake</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
+        <td><p>The lake tile.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -258,7 +220,8 @@
   
   <a id="Global_LakeGenerator_populateCells_" data-uid="Global.LakeGenerator.populateCells*"></a>
   <h4 id="Global_LakeGenerator_populateCells_Map_" data-uid="Global.LakeGenerator.populateCells(Map)">populateCells(Map)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Update the map by adding the lakes.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -277,7 +240,8 @@
       <tr>
         <td><a class="xref" href="Global.Map.html">Map</a></td>
         <td><span class="parametername">map</span></td>
-        <td></td>
+        <td><p>A reference to the Map object, which represents the state of all cells in the level.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -285,7 +249,8 @@
   
   <a id="Global_LakeGenerator_setLakeSettings_" data-uid="Global.LakeGenerator.setLakeSettings*"></a>
   <h4 id="Global_LakeGenerator_setLakeSettings_LakeSettings_" data-uid="Global.LakeGenerator.setLakeSettings(LakeSettings)">setLakeSettings(LakeSettings)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Set the reference to the lake settings.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -304,7 +269,8 @@
       <tr>
         <td><a class="xref" href="Global.LakeSettings.html">LakeSettings</a></td>
         <td><span class="parametername">lakeSettings</span></td>
-        <td></td>
+        <td><p>The lake settings to set a reference to.</p>
+</td>
       </tr>
     </tbody>
   </table>

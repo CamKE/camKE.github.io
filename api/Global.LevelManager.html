@@ -83,7 +83,7 @@
   
   <h1 id="Global_LevelManager" data-uid="Global.LevelManager" class="text-break">Class LevelManager
   </h1>
-  <div class="markdown level0 summary"><p>Responsible for all operations to do with creating, managing and destroying the level and elements within it.</p>
+  <div class="markdown level0 summary"><p>Responsible for all operations to do with the level and the player. Used by the UIManager (generation in project build) and the LevelEditor (generation in unity editor).</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -101,9 +101,20 @@
   </h3>
   
   
+  <a id="Global_LevelManager_clearLevel_" data-uid="Global.LevelManager.clearLevel*"></a>
+  <h4 id="Global_LevelManager_clearLevel" data-uid="Global.LevelManager.clearLevel">clearLevel()</h4>
+  <div class="markdown level1 summary"><p>Clear the level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void clearLevel()</code></pre>
+  </div>
+  
+  
   <a id="Global_LevelManager_generate_" data-uid="Global.LevelManager.generate*"></a>
   <h4 id="Global_LevelManager_generate_TerrainSettings_RiverSettings_LakeSettings_WalkpathSettings_" data-uid="Global.LevelManager.generate(TerrainSettings,RiverSettings,LakeSettings,WalkpathSettings)">generate(TerrainSettings, RiverSettings, LakeSettings, WalkpathSettings)</h4>
-  <div class="markdown level1 summary"><p>Generate the level. temporary setup.</p>
+  <div class="markdown level1 summary"><p>Generate the level with the given settings. Passes the settings onto level.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -123,64 +134,26 @@
       <tr>
         <td><a class="xref" href="Global.TerrainSettings.html">TerrainSettings</a></td>
         <td><span class="parametername">terrainSettings</span></td>
-        <td></td>
+        <td><p>The settings for the terrain generator.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.RiverSettings.html">RiverSettings</a></td>
         <td><span class="parametername">riverSettings</span></td>
-        <td></td>
+        <td><p>The settings for the river generator.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.LakeSettings.html">LakeSettings</a></td>
         <td><span class="parametername">lakeSettings</span></td>
-        <td></td>
+        <td><p>The settings for the lake generator.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.WalkpathSettings.html">WalkpathSettings</a></td>
         <td><span class="parametername">walkpathSettings</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_LevelManager_getCellZPosition_" data-uid="Global.LevelManager.getCellZPosition*"></a>
-  <h4 id="Global_LevelManager_getCellZPosition_Vector2_" data-uid="Global.LevelManager.getCellZPosition(Vector2)">getCellZPosition(Vector2)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int getCellZPosition(Vector2 worldPos)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">worldPos</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
+        <td><p>The settings for the walkpath generator</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -188,7 +161,8 @@
   
   <a id="Global_LevelManager_getGenerationInfo_" data-uid="Global.LevelManager.getGenerationInfo*"></a>
   <h4 id="Global_LevelManager_getGenerationInfo" data-uid="Global.LevelManager.getGenerationInfo">getGenerationInfo()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the level generation information from the level.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -205,7 +179,53 @@
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
-        <td></td>
+        <td><p>The level generation steps.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LevelManager_getMapZPosition_" data-uid="Global.LevelManager.getMapZPosition*"></a>
+  <h4 id="Global_LevelManager_getMapZPosition_Vector2_" data-uid="Global.LevelManager.getMapZPosition(Vector2)">getMapZPosition(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Get the z position from the map at the given world position from level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int getMapZPosition(Vector2 worldPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">worldPos</span></td>
+        <td><p>The world position to get the map z value for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The z position at the world position on the map.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -214,7 +234,7 @@
   <a id="Global_LevelManager_setLevelCameraActive_" data-uid="Global.LevelManager.setLevelCameraActive*"></a>
   <h4 id="Global_LevelManager_setLevelCameraActive_System_Boolean_" data-uid="Global.LevelManager.setLevelCameraActive(System.Boolean)">setLevelCameraActive(Boolean)</h4>
   <div class="markdown level1 summary"><p>Used by the UI manager to update the level camera&apos;s active status when swapping between
-level generation and demo user interfaces</p>
+level generation and demo user interfaces.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -244,7 +264,7 @@ level generation and demo user interfaces</p>
   <a id="Global_LevelManager_setPlayerActive_" data-uid="Global.LevelManager.setPlayerActive*"></a>
   <h4 id="Global_LevelManager_setPlayerActive_System_Boolean_" data-uid="Global.LevelManager.setPlayerActive(System.Boolean)">setPlayerActive(Boolean)</h4>
   <div class="markdown level1 summary"><p>Used by the UI manager to update the player&apos;s active status when swapping between
-level generation and demo user interfaces</p>
+level generation and demo user interfaces.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -273,7 +293,8 @@ level generation and demo user interfaces</p>
   
   <a id="Global_LevelManager_setupLevelFromInspector_" data-uid="Global.LevelManager.setupLevelFromInspector*"></a>
   <h4 id="Global_LevelManager_setupLevelFromInspector" data-uid="Global.LevelManager.setupLevelFromInspector">setupLevelFromInspector()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Calls the setup function from the level as the inspector (by setting isFromInspector bool to true).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -283,7 +304,7 @@ level generation and demo user interfaces</p>
   
   <a id="Global_LevelManager_setupPlayer_" data-uid="Global.LevelManager.setupPlayer*"></a>
   <h4 id="Global_LevelManager_setupPlayer" data-uid="Global.LevelManager.setupPlayer">setupPlayer()</h4>
-  <div class="markdown level1 summary"><p>Create the player and put them into the level at the given position.</p>
+  <div class="markdown level1 summary"><p>Instantiate the player (if they are not already) and put them into the level at a random position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
