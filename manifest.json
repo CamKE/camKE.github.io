@@ -479,42 +479,6 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "manual/coniunctis.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/coniunctis.html",
-          "hash": "UuAYy3yoEWE+XlHNslDixzkeoYLqpWD0CA4EOhR02Y4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "manual/etiam.md",
-      "output": {
-        ".html": {
-          "relative_path": "manual/etiam.html",
-          "hash": "8QWr2BgCV5Lpg3du4nLWcJXWZrtqJy7+WW7XsL+c9Xg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "manual/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "manual/toc.html",
-          "hash": "rP+c9KPLMLO+q5u7rC7ci/iMYXqbmZC8g5PeGCEXGU4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Resource",
       "source_relative_path": "resources/ExampleManual.png",
       "output": {
@@ -542,7 +506,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "yJmrE3yX1pNdaVuwjza5/7HGejso5LoAwSufMStobAY="
+          "hash": "rrR0eC1eu3goU4dd7WAIKO6q6rkPOhow6WVtYX2krXI="
         }
       },
       "is_incremental": false,
@@ -563,7 +527,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 1,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
