@@ -467,15 +467,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "DN6W3ThuxHv2NjU5qZ2PypA8dXaRQ+MezDfiXwUKqbk="
+          "hash": "EIaLc2KstQf6g1Cw31Spfi1NtgI7BJ6fes5eYHEtYCg="
         }
       },
       "is_incremental": false,
@@ -483,21 +480,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "resources/ExampleManual.png",
+      "source_relative_path": "resources/PreviewScreenshot.png",
       "output": {
         "resource": {
-          "relative_path": "resources/ExampleManual.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleScriptingApi.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleScriptingApi.png"
+          "relative_path": "resources/PreviewScreenshot.png"
         }
       },
       "is_incremental": false,

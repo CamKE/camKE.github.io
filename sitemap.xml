@@ -2,223 +2,223 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://camke.github.io/api/Global.Cell.CellStatus.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.Cell.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.CellPair.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.Heap-1.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.HoverTip.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.HoverTipManager.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.IHeapItem-1.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.LakeGenerator.MaxLakeSize.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.LakeGenerator.NumberOfLakes.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.LakeGenerator.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.LakeOptions.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.LakeSettings.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.Level.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.LevelCameraController.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.LevelEditor.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.LevelManager.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.Map.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.Options.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.PathGenerator.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.PlayerController.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.PopupManager.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.RiverGenerator.NumberOfRivers.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.RiverGenerator.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.RiverOptions.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.RiverSettings.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.TerrainGenerator.TerrainShape.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.TerrainGenerator.TerrainType.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.TerrainGenerator.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.TerrainOptions.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.TerrainSettings.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.UIManager.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.WalkpathGenerator.NumberOfWalkpaths.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.WalkpathGenerator.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.WalkpathPathOptions.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.WalkpathSettings.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/api/Global.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://camke.github.io/index.html</loc>
-    <lastmod>2022-05-15T05:40:05+00:00</lastmod>
+    <lastmod>2022-05-15T08:52:26+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
