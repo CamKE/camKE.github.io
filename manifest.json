@@ -467,15 +467,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "PmZ5aKd07I3zRRtH+UtPHqIHuFXo5OW9X+WtTH1zLPE="
+          "hash": "aYsjiaqEhjKrC2/wxiY6Ofi9I31fOS9qoI3nleiygCU="
         }
       },
       "is_incremental": false,
