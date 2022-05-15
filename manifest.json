@@ -472,7 +472,18 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "GNPwfQrR0ZP8yWF+x2Ez4Xyrm7jZtIg9mAkXX0Hj8QM="
+          "hash": "MWmBZbpRDjtBMcrzLL37VyBHuPI8j90Czb7fRWlUJKI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ApiDocPreviewScreenshot.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ApiDocPreviewScreenshot.png"
         }
       },
       "is_incremental": false,
