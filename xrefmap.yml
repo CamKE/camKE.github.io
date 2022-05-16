@@ -1354,12 +1354,6 @@ references:
   isSpec: "True"
   fullName: PathGenerator.getReachableCells
   nameWithType: PathGenerator.getReachableCells
-- uid: Global.PathGenerator.statusToCheck
-  name: statusToCheck
-  href: api/Global.PathGenerator.html#Global_PathGenerator_statusToCheck
-  commentId: F:Global.PathGenerator.statusToCheck
-  fullName: PathGenerator.statusToCheck
-  nameWithType: PathGenerator.statusToCheck
 - uid: Global.PlayerController
   name: PlayerController
   href: api/Global.PlayerController.html
